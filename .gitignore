@@ -177,3 +177,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# only for progress report
+data/
+results/
