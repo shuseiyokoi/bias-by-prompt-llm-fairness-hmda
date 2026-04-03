@@ -3,7 +3,6 @@ import local_tool_inference
 from append_results import append_jsonl
 from local_tool_inference import unsloth_inference
 
-
 importlib.reload(local_tool_inference)
 
 with open("../data/summary.txt", "r", encoding="utf-8") as f:
@@ -25,11 +24,18 @@ def call_qwen(prompt=prompt, model=model):
             ],
         }
     ]
-    response = unsloth_inference(
-        messages, temperature=1.0, top_p=0.95, top_k=40, min_p=0.00
-    )
+    try:
+        response = unsloth_inference(
+            messages, temperature=1.0, top_p=0.95, top_k=40, min_p=0.00
+        )
+        append_jsonl(
+            model_name=model, prompt=prompt, response_text=response[1]["content"]
+        )
 
-    append_jsonl(model_name=model, prompt=prompt, response_text=response[1]["content"])
+    except Exception as e:
+        print(
+            f"Error occurred: {e}. Please run the unsloth server on local environment by running `make serve` in local_qwen directory."
+        )
 
 
 if __name__ == "__main__":
