@@ -7,7 +7,27 @@ from call_qwen import call_qwen
 
 load_data()
 summarize_data()
-call_chatGPT()
-call_gemini()
-call_claude()
-call_qwen()
+
+try:
+    call_chatGPT()
+except:
+    print("ChatGPT API call failed. Please check your API key and network connection.")
+    pass
+
+try:
+    call_gemini()
+except:
+    print("Gemini API call failed. Please check your API key and network connection.")
+    pass
+try:
+    call_claude()
+except:
+    print("Claude API call failed. Please check your API key and network connection.")
+    pass
+try:
+    call_qwen()
+except:
+    print(
+        "Qwen API call failed. Please check your local server and network connection."
+    )
+    pass
