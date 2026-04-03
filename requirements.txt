@@ -1,9 +1,7 @@
 numpy
 pandas
 python-dotenv
-json
 datetime
-os
 openai
 anthropic
 google
