@@ -137,6 +137,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# vscode settings
+.vscode
+
 # Kaggle
 kaggle.json
 src/kaggle.json
