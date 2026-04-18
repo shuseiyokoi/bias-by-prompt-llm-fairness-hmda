@@ -8,6 +8,7 @@ from config import (
     CLAUDE_MODEL,
     CONTROL_PROMPT_DATA_EMBEDDED,
     EMOTIONAL_PROMPT_DATA_EMBEDDED,
+    NUM_ITERATIONS
 )
 
 
@@ -16,7 +17,7 @@ def main():
 
     client = anthropic.Anthropic()
 
-    for i in range(300):
+    for i in range(NUM_ITERATIONS):
         message = client.messages.create(
             model=CLAUDE_MODEL,
             max_tokens=1024,
@@ -49,7 +50,7 @@ def main():
 
         print(f"Run {i + 1}: {parsed_response}")
 
-    for i in range(300):
+    for i in range(NUM_ITERATIONS):
         message = client.messages.create(
             model=CLAUDE_MODEL,
             max_tokens=1024,

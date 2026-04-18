@@ -3,7 +3,13 @@ import os
 from openai import OpenAI
 from append_results import append_jsonl
 import json
-from config import PATH_TO_DATA, GPT_MODEL, CONTROL_PROMPT, EMOTIONAL_PROMPT
+from config import (
+    PATH_TO_DATA,
+    GPT_MODEL,
+    CONTROL_PROMPT,
+    EMOTIONAL_PROMPT,
+    NUM_ITERATIONS,
+)
 
 
 def main():
@@ -19,7 +25,7 @@ def main():
         file=open(f"{PATH_TO_DATA}/summary.txt", "rb"), purpose="user_data"
     )
 
-    for i in range(1):
+    for i in range(NUM_ITERATIONS):
         response = client.responses.create(
             model=GPT_MODEL,
             input=[
@@ -39,16 +45,31 @@ def main():
             ],
         )
 
-        result = {"run": i + 1, "response": response.output_text}
+        raw_text = response.output_text.strip()
+
+        if raw_text.startswith("```json"):
+            raw_text = raw_text[len("```json") :].strip()
+
+        if raw_text.startswith("```"):
+            raw_text = raw_text[len("```") :].strip()
+
+        if raw_text.endswith("```"):
+            raw_text = raw_text[:-3].strip()
+
+        parsed = json.loads(raw_text)
+
+        result = {"run": i + 1, "response": parsed}
 
         with open(
-            f"{PATH_TO_DATA}/results_control_prompt.jsonl", "a", encoding="utf-8"
+            f"{PATH_TO_DATA}/results_control_prompt_ChatGPT.jsonl",
+            "a",
+            encoding="utf-8",
         ) as f:
             f.write(json.dumps(result, ensure_ascii=False) + "\n")
 
-        print(f"Run {i + 1}: {response.output_text}")
+        print(f"Run {i + 1}: {parsed}")
 
-    for i in range(1):
+    for i in range(NUM_ITERATIONS):
         response = client.responses.create(
             model=GPT_MODEL,
             input=[
@@ -68,7 +89,20 @@ def main():
             ],
         )
 
-        result = {"run": i + 1, "response": response.output_text}
+        raw_text = response.output_text.strip()
+
+        if raw_text.startswith("```json"):
+            raw_text = raw_text[len("```json") :].strip()
+
+        if raw_text.startswith("```"):
+            raw_text = raw_text[len("```") :].strip()
+
+        if raw_text.endswith("```"):
+            raw_text = raw_text[:-3].strip()
+
+        parsed = json.loads(raw_text)
+
+        result = {"run": i + 1, "response": parsed}
 
         with open(
             f"{PATH_TO_DATA}/results_emotional_prompt_ChatGPT.jsonl",
@@ -77,7 +111,7 @@ def main():
         ) as f:
             f.write(json.dumps(result, ensure_ascii=False) + "\n")
 
-        print(f"Run {i + 1}: {response.output_text}")
+        print(f"Run {i + 1}: {parsed}")
 
 
 if __name__ == "__main__":

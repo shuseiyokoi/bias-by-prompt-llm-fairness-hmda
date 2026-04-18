@@ -9,6 +9,7 @@ from config import (
     GEMINI_MODEL,
     CONTROL_PROMPT_DATA_EMBEDDED,
     EMOTIONAL_PROMPT_DATA_EMBEDDED,
+    NUM_ITERATIONS,
 )
 
 
@@ -17,7 +18,7 @@ def main():
 
     client = genai.Client()
 
-    for i in range(300):
+    for i in range(NUM_ITERATIONS):
         response = client.models.generate_content(
             model=GEMINI_MODEL,
             contents=EMOTIONAL_PROMPT_DATA_EMBEDDED,
@@ -57,7 +58,7 @@ def main():
 
         print(f"Run {i + 1}: {parsed_response}")
 
-    for i in range(300):
+    for i in range(NUM_ITERATIONS):
         response = client.models.generate_content(
             model=GEMINI_MODEL, contents=CONTROL_PROMPT_DATA_EMBEDDED
         )
