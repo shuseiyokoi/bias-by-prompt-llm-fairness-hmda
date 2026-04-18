@@ -16,7 +16,7 @@ def main():
 
     client = anthropic.Anthropic()
 
-    for i in range(1):
+    for i in range(300):
         message = client.messages.create(
             model=CLAUDE_MODEL,
             max_tokens=1024,
@@ -49,7 +49,7 @@ def main():
 
         print(f"Run {i + 1}: {parsed_response}")
 
-    for i in range(1):
+    for i in range(300):
         message = client.messages.create(
             model=CLAUDE_MODEL,
             max_tokens=1024,

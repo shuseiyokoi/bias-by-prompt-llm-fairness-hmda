@@ -184,3 +184,6 @@ cython_debug/
 # only for progress report
 data/
 results/
+local_qwen/
+call_qwen.ipynb
+call_qwen.py
