@@ -47,4 +47,3 @@ This project currently uses multiple LLM APIs, including:
 - OpenAI
 - Gemini
 - Anthropic
-- Qwen
