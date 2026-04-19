@@ -1,4 +1,5 @@
 PATH_TO_DATA = "../data/"
+PATH_TO_RESULTS = "../results/"
 NUM_ITERATIONS = 300
 
 GPT_MODEL = "gpt-3.5-turbo"
