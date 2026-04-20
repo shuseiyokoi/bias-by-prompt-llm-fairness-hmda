@@ -48,9 +48,53 @@ For categorical variable testing 2 x 2 table for example
 
 ## How to run
 
+### 1. Create data results directories 
+From root repo
+
+```sh
+mkdir data
+mkdir results
+```
+
+### 2. Populate API keys on .env
+From root repo
+
+```sh
+cd src
+touch .env
+````
+Add your own API KEYs
+```.env
+export OPENAI_API_KEY = ""
+export GEMINI_API_KEY = ""
+export ANTHROPIC_API_KEY = ""
+```
+### 3. Run `gather_data.py`
+
+```sh
+python gather_data.py
+```
+
 1. Retrieve HMDA loan application data from the API `load_data.py`
 2. Filter the dataset to selected decision outcomes and summarize the data to `summarize_raw_data.py`
-3. Send the same statistical evidence to multiple LLMs with different framing styles
+3. Create 2 files in data directory
+  - `hmda_CA_2024.csv`
+  - `summary.txt`
 
+### 4. Run `call_models.py`
 
-1. Compare how conclusions change depending on prompt wording
+```sh
+python call_models.py
+```
+
+1. Call LLMs with given prompt in `prompts.py` and `summary.txt`
+2. Save jsonls file under data directory
+
+ 
+### 5. Run `python analyze_results.py`
+
+```sh
+python analyze_results.py
+```
+
+It will save vidualizations under results directry and show statistical tests' results
