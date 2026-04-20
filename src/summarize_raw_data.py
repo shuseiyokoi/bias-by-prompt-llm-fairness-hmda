@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+from config import PATH_TO_DATA
 
 def summarize_data():
     columns_to_keep = [
@@ -21,7 +21,7 @@ def summarize_data():
     ]
 
     master = pd.read_csv(
-        "../data/hmda_CA_2024.csv", na_values=["NA", "None", "Exempt", "", " "]
+        f"{PATH_TO_DATA}hmda_CA_2024.csv", na_values=["NA", "None", "Exempt", "", " "]
     )
 
     master = master[columns_to_keep]
@@ -430,9 +430,9 @@ def summarize_data():
     summary["acceptance_rate"] = summary["accepted"] / summary["total_apps"]
     summary["acceptance_rate_pct"] = summary["acceptance_rate"] * 100
 
-    with open("../data/summary.txt", "w") as f:
+    with open(f"{PATH_TO_DATA}summary.txt", "w") as f:
         f.write(summary.to_string())
-    # summary.to_csv("../data/summary.csv", index=False) For csv file
+    # summary.to_csv(f"{PATH_TO_DATA}summary.csv", index=False) For csv file
 
     print("Summary saved as summary.txt")
 
