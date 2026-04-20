@@ -6,13 +6,12 @@ import json
 from config import (
     PATH_TO_DATA,
     GPT_MODEL,
-    CONTROL_PROMPT,
-    EMOTIONAL_PROMPT,
     NUM_ITERATIONS,
 )
+from prompts import CONTROL_PROMPT, EMOTIONAL_PROMPT
 
 
-def main():
+def call_chatGPT():
     load_dotenv()
 
     api_key = os.getenv("OPENAI_API_KEY")
@@ -115,4 +114,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    call_chatGPT()

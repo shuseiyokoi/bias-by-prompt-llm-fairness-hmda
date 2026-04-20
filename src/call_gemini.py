@@ -1,19 +1,11 @@
-from urllib import response
-from xmlrpc import client
-
 from dotenv import load_dotenv
 from google import genai
 import json
-from config import (
-    PATH_TO_DATA,
-    GEMINI_MODEL,
-    CONTROL_PROMPT_DATA_EMBEDDED,
-    EMOTIONAL_PROMPT_DATA_EMBEDDED,
-    NUM_ITERATIONS,
-)
+from config import PATH_TO_DATA, GEMINI_MODEL, NUM_ITERATIONS
+from prompts import CONTROL_PROMPT_DATA_EMBEDDED, EMOTIONAL_PROMPT_DATA_EMBEDDED
 
 
-def main():
+def call_gemini():
     load_dotenv()
 
     client = genai.Client()
@@ -99,4 +91,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    call_gemini()

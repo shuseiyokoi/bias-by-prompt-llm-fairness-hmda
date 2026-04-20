@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from config import PATH_TO_DATA
 
+
 def summarize_data():
     columns_to_keep = [
         "lei",

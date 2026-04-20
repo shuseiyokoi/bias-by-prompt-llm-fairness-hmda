@@ -3,16 +3,11 @@ from dotenv import load_dotenv
 from anthropic import Anthropic
 from append_results import append_jsonl
 import json
-from config import (
-    PATH_TO_DATA,
-    CLAUDE_MODEL,
-    CONTROL_PROMPT_DATA_EMBEDDED,
-    EMOTIONAL_PROMPT_DATA_EMBEDDED,
-    NUM_ITERATIONS
-)
+from config import PATH_TO_DATA, CLAUDE_MODEL, NUM_ITERATIONS
+from prompts import CONTROL_PROMPT_DATA_EMBEDDED, EMOTIONAL_PROMPT_DATA_EMBEDDED
 
 
-def main():
+def call_claude():
     load_dotenv()
 
     client = anthropic.Anthropic()
@@ -83,4 +78,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    call_claude()
