@@ -41,9 +41,16 @@ For categorical variable testing 2 x 2 table for example
 
 ## Summary of the results 
 
+
 - Haiku 4.5 : Changed answer 180 degree with emotional input
 - Gemini 2.5: Guardrail triggered by “bias” ? → More safer Output
 - GPT 3.5: Same output, but lower confidence level
+
+### Percentages by Model-Prompt (n=300 each)
+<img width="1200" height="600" title = "Percentages by Model-Prompt (n=300 each)" alt="percentages-by-model-and-prompt" src="https://github.com/user-attachments/assets/9e55ce10-3441-42a5-a541-af4a79930a69" />
+
+### Confidence by Model-Prompt (n=300 each)
+<img width="1200" height="600" title = "Confidence by Model-Prompt (n=300 each)" alt="confidence-by-model-and-prompt-small" src="https://github.com/user-attachments/assets/acefc6bb-ca47-4624-8766-8cff8ec86c24" />
 
 
 ## How to run
