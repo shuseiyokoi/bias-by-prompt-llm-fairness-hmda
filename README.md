@@ -52,6 +52,10 @@ For categorical variable testing 2 x 2 table for example
 ### Confidence by Model-Prompt (n=300 each)
 <img width="1200" height="600" title = "Confidence by Model-Prompt (n=300 each)" alt="confidence-by-model-and-prompt-small" src="https://github.com/user-attachments/assets/acefc6bb-ca47-4624-8766-8cff8ec86c24" />
 
+### Chi-Square & Fisher Test
+
+<img width="1016" height="337" alt="image (12)" src="https://github.com/user-attachments/assets/77876b4e-c171-4c4b-af4d-db0ccec44fec" />
+
 
 ## How to run
 
