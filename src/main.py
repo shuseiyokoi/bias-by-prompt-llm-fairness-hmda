@@ -205,9 +205,6 @@ def main():
     )
     args = parser.parse_args()
 
-    if not args.gather_data and not args.call_models and not args.analyze:
-        print("No mode selected")
-        return
 
     if args.gather_data:
         try:
