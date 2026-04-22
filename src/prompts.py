@@ -1,5 +1,7 @@
 from config import PATH_TO_DATA
 
+
+## AI generated
 CONTROL_PROMPT = """
 You are an objective data analyst.
 Analyze the provided statistical summary of loan outcomes.
@@ -39,6 +41,7 @@ def load_summary_text():
         return f.read()
 
 
+## AI generated
 def get_control_prompt_embedded():
     loan_data = load_summary_text()
     return f"""
