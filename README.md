@@ -80,7 +80,7 @@ export OPENAI_API_KEY = ""
 export GEMINI_API_KEY = ""
 export ANTHROPIC_API_KEY = ""
 ```
-### 3. Run `gather_data.py`
+### 3. Gather data from HMDA and summarize
 
 ```sh
 python main.py --gather-data
@@ -96,7 +96,7 @@ python gather_data.py
   - `hmda_CA_2024.csv`
   - `summary.txt`
 
-### 4. Run `call_models.py`
+### 4. Call Large Language Models
 
 ```sh
 python main.py --call-models
@@ -112,7 +112,7 @@ python call_models.py
 2. Save jsonls file under data directory
 
  
-### 5. Run `python analyze_results.py`
+### 5. Analyze Results
 
 ```sh
 python main.py --analyze
@@ -124,7 +124,7 @@ or
 python analyze_results.py
 ```
 
-### 6. Optional Run All
+### 6. Optional Run them All
 
 ```sh
 python main.py
