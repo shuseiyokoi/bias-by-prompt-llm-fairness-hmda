@@ -59,7 +59,7 @@ For categorical variable testing 2 x 2 table for example
 
 ## How to run
 
-### 1. Create data results directories 
+### 1. Create data results directories (Optional) 
 From root repo
 
 ```sh
@@ -83,6 +83,10 @@ export ANTHROPIC_API_KEY = ""
 ### 3. Run `gather_data.py`
 
 ```sh
+python main.py --gather-data
+```
+or
+```sh
 python gather_data.py
 ```
 
@@ -95,6 +99,12 @@ python gather_data.py
 ### 4. Run `call_models.py`
 
 ```sh
+python main.py --call-models
+```
+
+or
+
+```sh
 python call_models.py
 ```
 
@@ -105,7 +115,19 @@ python call_models.py
 ### 5. Run `python analyze_results.py`
 
 ```sh
+    python main.py --analyze
+```
+
+or 
+
+```sh
 python analyze_results.py
+```
+
+### 6. Optional Run All
+
+```sh
+python main.py
 ```
 
 It will save vidualizations under results directry and show statistical tests' results
