@@ -115,7 +115,7 @@ python call_models.py
 ### 5. Run `python analyze_results.py`
 
 ```sh
-    python main.py --analyze
+python main.py --analyze
 ```
 
 or 
