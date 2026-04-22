@@ -18,7 +18,5 @@ def append_jsonl(
     with open(file_path, "a", encoding="utf-8") as f:
         f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
 
-
-# Example usage
 if __name__ == "__main__":
     append_jsonl(model_name="gpt-4o", prompt="Hello", response_text="Hi there")
