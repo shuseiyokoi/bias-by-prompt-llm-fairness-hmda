@@ -12,6 +12,7 @@ ROOT_DIR = os.path.dirname(SRC_DIR)
 # 4. src/analyze_results/   -> results/analyze_results/
 # 5. src/ground_truth/      -> results/ground_truth/
 PATH_TO_DATA = os.path.join(ROOT_DIR, "data", "gather_data") + os.sep
+PATH_TO_SAMPLES = os.path.join(ROOT_DIR, "data", "gather_data", "samples") + os.sep
 PATH_TO_MODEL_RESULTS = os.path.join(ROOT_DIR, "data", "call_models") + os.sep
 PATH_TO_RESULTS = os.path.join(ROOT_DIR, "results", "analyze_results") + os.sep
 PATH_TO_GROUND_TRUTH = os.path.join(ROOT_DIR, "results", "ground_truth") + os.sep
@@ -19,7 +20,17 @@ PATH_TO_GROUND_TRUTH = os.path.join(ROOT_DIR, "results", "ground_truth") + os.se
 # llama.cpp server + GGUF weights for the local models
 LOCAL_QWEN_DIR = os.path.join(SRC_DIR, "local_qwen")
 
-NUM_ITERATIONS = 300
+NUM_ITERATIONS = 300  # legacy: repeated calls on the one full-dataset summary
+
+# --- Sampling design ---
+# N distinct datasets are drawn from the cleaned loan-level data. Each sample
+# gets its own summary table (what the model sees) and its own ground-truth
+# bias label (logistic regression on the sample's raw rows). Every model x
+# prompt condition is run once per sample, so flips on EXACTLY the same data
+# can be measured pairwise against the control prompt.
+N_SAMPLES = 500  # samples per model/prompt setup; scale down via cost estimate
+SAMPLE_SIZE = 2000  # rows (X) per sample; see results/ground_truth/calibration
+SAMPLE_SEED = 42  # base RNG seed; sample i uses SAMPLE_SEED + i
 
 GPT_MODELS = ["gpt-3.5-turbo", "gpt-4o-mini"]
 

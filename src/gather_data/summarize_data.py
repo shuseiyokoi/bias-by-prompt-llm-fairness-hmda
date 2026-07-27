@@ -8,11 +8,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from config import PATH_TO_DATA
 
 
-def summarize_data():
-    master = pd.read_csv(
-        f"{PATH_TO_DATA}preprocessed_data.csv",
-        na_values=["NA", "None", "Exempt", "", " "],
-    )
+def build_summary(master):
+    """Aggregate loan-level rows into the group summary table the models see."""
+    master = master.copy()
     numeric_cols = [
         "loan_amount",
         "loan_to_value_ratio",
@@ -74,6 +72,17 @@ def summarize_data():
 
     summary["acceptance_rate"] = summary["accepted"] / summary["total_apps"]
     summary["acceptance_rate_pct"] = summary["acceptance_rate"] * 100
+
+    return summary
+
+
+def summarize_data():
+    master = pd.read_csv(
+        f"{PATH_TO_DATA}preprocessed_data.csv",
+        na_values=["NA", "None", "Exempt", "", " "],
+    )
+
+    summary = build_summary(master)
 
     with open(f"{PATH_TO_DATA}summary.txt", "w") as f:
         f.write(summary.to_string(index=False))
