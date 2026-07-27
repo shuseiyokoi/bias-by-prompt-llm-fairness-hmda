@@ -192,3 +192,6 @@ src/local_qwen/llama.cpp/
 # EXCEPT the raw HMDA download — 384 MB, over GitHub's 100 MB limit
 !*.csv
 hmda_CA_2024.csv
+
+# Per-sample datasets are reproducible from SAMPLE_SEED (src/gather_data/sample_datasets.py)
+data/gather_data/samples/
