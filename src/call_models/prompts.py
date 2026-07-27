@@ -4,7 +4,7 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import PATH_TO_DATA
+from config import PATH_TO_DATA, PATH_TO_SAMPLES
 
 
 PROMPT_TEMPLATE = """
@@ -69,4 +69,32 @@ def get_embedded_prompt(prompt_type):
 
 Data:
 {loan_data}
+"""
+
+
+# --- Per-sample prompts (sampling design) ---
+
+
+def list_sample_ids():
+    """Sample ids from the manifest written by gather_data/sample_datasets.py."""
+    import csv
+
+    manifest_path = os.path.join(PATH_TO_SAMPLES, "manifest.csv")
+    with open(manifest_path, newline="", encoding="utf-8") as f:
+        return [row["sample_id"] for row in csv.DictReader(f)]
+
+
+def load_sample_summary(sample_id):
+    path = os.path.join(PATH_TO_SAMPLES, f"{sample_id}_summary.txt")
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
+
+
+def get_sample_prompt(prompt_type, sample_id):
+    """Full prompt with the given sample's summary table embedded."""
+    return f"""
+{get_prompt(prompt_type)}
+
+Data:
+{load_sample_summary(sample_id)}
 """

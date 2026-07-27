@@ -91,6 +91,33 @@ The pipeline is split into 5 stages. Each stage lives in its own folder under
 All paths are defined in `src/config.py` and anchored to the repo root, so every
 script can be run from any directory.
 
+## Sampling design (per-sample ground truth)
+
+Instead of sending the same full-dataset summary `NUM_ITERATIONS` times, the
+sampling design draws `N_SAMPLES` distinct datasets of `SAMPLE_SIZE` rows each
+(`src/config.py`), gives every sample its own ground-truth bias label, and runs
+each model x prompt condition once per sample. Because every prompt condition
+sees exactly the same N samples, decision flips caused purely by prompt framing
+can be measured pairwise (McNemar test), and model conclusions can be scored
+against ground truth (accuracy / TPR / FPR).
+
+```sh
+cd src
+python main.py --sample-data      # data/gather_data/samples/sample_*.{csv,txt} + manifest
+python main.py --label-samples    # results/ground_truth/sample_labels.csv
+# run the call scripts in src/call_models/ (outputs: data/call_models/sample_results_*.jsonl)
+python main.py --compare          # results/analyze_results/gt_metrics_*.csv, gt_flips_*.csv
+```
+
+Ground truth per sample is automated: the same logistic regression used on the
+full dataset (`denied ~ race + sex + ethnicity + financial controls`) is fit on
+the sample's raw rows; a sensitive term that is significant and adverse marks
+the sample `BIAS`. General prompts are scored against `bias_any`; the
+female-Latino identity prompts against `bias_latino_female`. `SAMPLE_SIZE=2000`
+was calibrated (`results/ground_truth/calibration_label_rates.csv`) so that
+`bias_any` is true for ~46% of samples — near-maximal label variance — while the
+per-sample summary (~4k tokens) still fits the 8k context of the local models.
+
 ## How to run
 
 ### 1. Set up a virtual environment

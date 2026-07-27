@@ -1,5 +1,4 @@
 import argparse
-import json
 import os
 import subprocess
 import sys
@@ -9,14 +8,9 @@ import urllib.request
 from openai import OpenAI
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import (
-    PATH_TO_MODEL_RESULTS,
-    LOCAL_QWEN_DIR,
-    LOCAL_MODELS,
-    NUM_ITERATIONS,
-    PROMPT_TYPES,
-)
-from prompts import get_embedded_prompt
+from config import PATH_TO_MODEL_RESULTS, LOCAL_QWEN_DIR, LOCAL_MODELS, PROMPT_TYPES
+from prompts import list_sample_ids
+from sample_runner import run_sample_set, completed_sample_ids
 
 LLAMA_SERVER = os.getenv("LLAMA_SERVER", "llama-server")
 PORT = int(os.getenv("QWEN_PORT", "8080"))
@@ -52,30 +46,6 @@ LOCAL_SERVER_CONFIG = {
         "extra_args": [],
     },
 }
-
-
-def parse_json_response(raw_text):
-    raw_text = raw_text.strip()
-
-    if raw_text.startswith("```json"):
-        raw_text = raw_text[len("```json") :].strip()
-    elif raw_text.startswith("```"):
-        raw_text = raw_text[3:].strip()
-
-    if raw_text.endswith("```"):
-        raw_text = raw_text[:-3].strip()
-
-    try:
-        return json.loads(raw_text)
-    except json.JSONDecodeError:
-        # some models (e.g. gemma-2) append prose after the JSON object;
-        # fall back to parsing the first JSON object in the text
-        try:
-            start = raw_text.index("{")
-            obj, _ = json.JSONDecoder().raw_decode(raw_text[start:])
-            return obj
-        except (ValueError, json.JSONDecodeError):
-            return {"raw_text": raw_text}
 
 
 def server_is_up():
@@ -135,58 +105,25 @@ def stop_server(proc):
         proc.kill()
 
 
-def count_existing_runs(output_file):
-    try:
-        with open(output_file, encoding="utf-8") as f:
-            return sum(1 for _ in f)
-    except FileNotFoundError:
-        return 0
-
-
-def run_prompt_set(client, model_name, prompt_text, output_file, prompt_name, num_iterations=NUM_ITERATIONS, start_run=0):
-    for i in range(start_run, num_iterations):
-        try:
-            completion = client.chat.completions.create(
-                model=model_name,
-                max_tokens=1024,
-                messages=[{"role": "user", "content": prompt_text}],
-            )
-
-            raw_text = completion.choices[0].message.content.strip()
-            parsed_response = parse_json_response(raw_text)
-
-        except Exception as e:
-            parsed_response = {"error": str(e)}
-
-        result = {
-            "run": i + 1,
-            "model": model_name,
-            "prompt_type": prompt_name,
-            "response": parsed_response,
-        }
-
-        with open(output_file, "a", encoding="utf-8") as f:
-            f.write(json.dumps(result, ensure_ascii=False) + "\n")
-
-        print(f"{model_name} | {prompt_name} | Run {i + 1}: {parsed_response}")
-
-
-def call_qwen(prompt_types=PROMPT_TYPES, num_iterations=NUM_ITERATIONS, output_prefix="results"):
+def call_qwen(prompt_types=PROMPT_TYPES, sample_ids=None, output_prefix="sample_results"):
     os.makedirs(PATH_TO_MODEL_RESULTS, exist_ok=True)
+
+    if sample_ids is None:
+        sample_ids = list_sample_ids()
 
     client = OpenAI(base_url=BASE_URL, api_key="local")
 
     for model_name in LOCAL_MODELS:
-        # resume support: skip (model, prompt) pairs whose output file is
-        # already complete, and continue partial ones where they left off
+        # resume support: skip (model, prompt) pairs whose output file already
+        # covers every sample; run_sample_set fills in partial ones
         pending = []
         for prompt_type in prompt_types:
             output_file = f"{PATH_TO_MODEL_RESULTS}{output_prefix}_{prompt_type}_{model_name}.jsonl"
-            done = count_existing_runs(output_file)
-            if done >= num_iterations:
-                print(f"Skipping {model_name} | {prompt_type}: {done} runs already recorded")
+            done = completed_sample_ids(output_file)
+            if all(s in done for s in sample_ids):
+                print(f"Skipping {model_name} | {prompt_type}: all samples recorded")
             else:
-                pending.append((prompt_type, output_file, done))
+                pending.append((prompt_type, output_file))
 
         if not pending:
             print(f"Skipping {model_name}: all prompt types complete")
@@ -194,20 +131,25 @@ def call_qwen(prompt_types=PROMPT_TYPES, num_iterations=NUM_ITERATIONS, output_p
 
         proc = start_server(model_name)
 
+        def send_fn(prompt_text):
+            completion = client.chat.completions.create(
+                model=model_name,
+                max_tokens=1024,
+                messages=[{"role": "user", "content": prompt_text}],
+            )
+            return completion.choices[0].message.content
+
         try:
-            for prompt_type, output_file, done in pending:
-                print(f"\nStarting: {model_name} | {prompt_type}" + (f" (resuming from run {done + 1})" if done else ""))
-
-                run_prompt_set(
-                    client=client,
-                    model_name=model_name,
-                    prompt_text=get_embedded_prompt(prompt_type),
-                    output_file=output_file,
-                    prompt_name=prompt_type,
-                    num_iterations=num_iterations,
-                    start_run=done,
+            for prompt_type, output_file in pending:
+                print(f"\nStarting: {model_name} | {prompt_type}")
+                run_sample_set(
+                    send_fn,
+                    model_name,
+                    prompt_type,
+                    output_file,
+                    sample_ids=sample_ids,
+                    sleep_s=0,
                 )
-
                 print(f"Finished: {model_name} | {prompt_type}")
         finally:
             stop_server(proc)
@@ -218,11 +160,15 @@ if __name__ == "__main__":
     parser.add_argument(
         "--smoke",
         action="store_true",
-        help="quick test: control_prompt only, 1 run per model, writes to smoke_*.jsonl",
+        help="quick test: control_prompt only, 1 sample per model, writes to smoke_*.jsonl",
     )
     args = parser.parse_args()
 
     if args.smoke:
-        call_qwen(prompt_types=["control_prompt"], num_iterations=1, output_prefix="smoke")
+        call_qwen(
+            prompt_types=["control_prompt"],
+            sample_ids=list_sample_ids()[:1],
+            output_prefix="smoke",
+        )
     else:
         call_qwen()
