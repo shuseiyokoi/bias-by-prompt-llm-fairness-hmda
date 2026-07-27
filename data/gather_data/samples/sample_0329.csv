@@ -1,0 +1,2001 @@
+loan_purpose,loan_amount,debt_to_income_ratio,property_value,income,occupancy_type,derived_ethnicity,derived_race,derived_sex,applicant_age,loan_to_value_ratio,action_taken
+1,615000.0,49,825000.0,132.0,1,Not Hispanic or Latino,White,Female,55-64,74.621,Loan originated
+1,875000.0,42,1175000.0,350.0,1,Hispanic or Latino,Asian,Male,35-44,74.568,Loan originated
+1,605000.0,30%-<36%,875000.0,193.0,1,Not Hispanic or Latino,Asian,Male,65-74,68.571,Loan originated
+1,85000.0,42,175000.0,70.0,1,Not Hispanic or Latino,White,Male,55-64,52.61,Loan originated
+1,425000.0,30%-<36%,535000.0,120.0,1,Hispanic or Latino,White,Male,35-44,84.673,Loan originated
+1,595000.0,47,625000.0,131.0,1,Not Hispanic or Latino,Black or African American,Male,45-54,95.0,Loan originated
+1,545000.0,49,795000.0,107.0,1,Not Hispanic or Latino,White,Male,25-34,68.623,Loan originated
+1,765000.0,48,1175000.0,174.0,1,Not Hispanic or Latino,White,Female,45-54,65.517,Loan originated
+1,585000.0,43,1475000.0,202.0,1,Not Hispanic or Latino,White,Female,55-64,39.32,Loan originated
+1,665000.0,49,1735000.0,189.0,1,Not Hispanic or Latino,White,Male,35-44,37.997,Loan originated
+1,705000.0,30%-<36%,875000.0,205.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,695000.0,39,865000.0,210.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,615000.0,37,645000.0,184.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,455000.0,41,725000.0,108.0,1,Not Hispanic or Latino,Asian,Female,25-34,63.47,Loan originated
+1,325000.0,20%-<30%,405000.0,118.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,445000.0,47,645000.0,100.0,1,Not Hispanic or Latino,Asian,Male,>74,68.75,Loan originated
+1,365000.0,30%-<36%,945000.0,128.0,1,Not Hispanic or Latino,Asian,Male,35-44,38.624,Loan originated
+1,465000.0,39,625000.0,128.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,505000.0,49,625000.0,94.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,585000.0,39,735000.0,158.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,80.0,Loan originated
+1,645000.0,47,805000.0,600.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,305000.0,39,825000.0,450.0,1,Not Hispanic or Latino,Black or African American,Female,65-74,37.0,Loan originated
+1,1105000.0,39,1385000.0,260.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,755000.0,39,795000.0,266.0,1,Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,645000.0,50%-60%,815000.0,120.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,555000.0,30%-<36%,745000.0,182.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,335000.0,50%-60%,785000.0,74.0,1,Hispanic or Latino,Black or African American,Female,55-64,42.29,Loan originated
+1,115000.0,<20%,445000.0,83.0,1,Not Hispanic or Latino,White,Male,65-74,26.136,Loan originated
+1,845000.0,45,1405000.0,213.0,1,Not Hispanic or Latino,White,Female,65-74,60.0,Application denied
+1,1145000.0,47,1315000.0,440.0,1,Not Hispanic or Latino,Asian,Male,45-54,88.0,Loan originated
+1,475000.0,>60%,695000.0,118.0,1,Not Hispanic or Latino,Asian,Female,>74,67.503,Application denied
+1,605000.0,43,765000.0,196.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,155000.0,50%-60%,195000.0,43.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,25-34,107.6923,Loan originated
+1,485000.0,48,675000.0,91.0,1,Not Hispanic or Latino,Asian,Female,45-54,72.836,Loan originated
+1,655000.0,20%-<30%,775000.0,344.0,1,Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,645000.0,49,715000.0,120.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,405000.0,30%-<36%,805000.0,157.0,1,Not Hispanic or Latino,Asian,Male,45-54,50.5,Loan originated
+1,255000.0,30%-<36%,435000.0,91.0,1,Not Hispanic or Latino,White,Female,45-54,57.471,Loan originated
+1,885000.0,41,1205000.0,216.0,1,Not Hispanic or Latino,Asian,Female,35-44,73.75,Loan originated
+1,945000.0,40,995000.0,334.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,95.0,Loan originated
+1,535000.0,49,665000.0,136.0,1,Not Hispanic or Latino,Asian,Male,25-34,79.824,Loan originated
+1,595000.0,45,855000.0,142.0,1,Not Hispanic or Latino,White,Male,25-34,70.0,Loan originated
+1,755000.0,20%-<30%,2305000.0,394.0,1,Not Hispanic or Latino,Asian,Female,25-34,32.61,Application denied
+1,495000.0,42,525000.0,107.0,1,Not Hispanic or Latino,White,Male,25-34,97.889,Loan originated
+1,205000.0,20%-<30%,255000.0,114.0,1,Not Hispanic or Latino,White,Male,65-74,80.0,Loan originated
+1,155000.0,20%-<30%,715000.0,108.0,1,Not Hispanic or Latino,Asian,Female,55-64,22.0,Loan originated
+1,345000.0,41,465000.0,96.0,1,Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,945000.0,41,1175000.0,243.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,405000.0,45,505000.0,97.0,1,Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,525000.0,39,655000.0,130.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,365000.0,48,435000.0,75.0,1,Not Hispanic or Latino,Asian,Female,35-44,83.0,Loan originated
+1,455000.0,49,655000.0,89.0,1,Not Hispanic or Latino,Asian,Male,25-34,69.23,Loan originated
+1,785000.0,48,985000.0,272.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,635000.0,36,995000.0,187.0,1,Not Hispanic or Latino,White,Female,35-44,63.589,Loan originated
+1,335000.0,49,485000.0,81.0,1,Not Hispanic or Latino,White,Female,>74,68.75,Loan originated
+1,775000.0,40,965000.0,217.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,885000.0,38,1105000.0,331.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,295000.0,43,305000.0,70.0,1,Hispanic or Latino,White,Male,25-34,101.939,Loan originated
+1,475000.0,47,505000.0,88.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,325000.0,30%-<36%,415000.0,153.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,345000.0,49,455000.0,176.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,735000.0,41,915000.0,168.0,1,Not Hispanic or Latino,Asian,Male,45-54,96.34,Application denied
+1,605000.0,48,765000.0,119.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,515000.0,<20%,645000.0,1587.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,695000.0,36,775000.0,202.0,1,Hispanic or Latino,White,Male,35-44,89.968,Loan originated
+1,445000.0,20%-<30%,465000.0,190.0,1,Not Hispanic or Latino,Asian,Female,25-34,95.0,Loan originated
+1,915000.0,20%-<30%,1145000.0,643.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,365000.0,42,705000.0,89.0,1,Not Hispanic or Latino,White,Male,25-34,52.163,Loan originated
+1,615000.0,40,775000.0,182.0,1,Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,675000.0,48,745000.0,181.0,1,Not Hispanic or Latino,Asian,Female,35-44,90.0,Loan originated
+1,765000.0,49,1025000.0,195.0,1,Not Hispanic or Latino,White,Female,<25,74.39,Loan originated
+1,1005000.0,43,2955000.0,542.0,1,Not Hispanic or Latino,Asian,Female,55-64,34.0,Loan originated
+1,605000.0,48,765000.0,122.0,1,Hispanic or Latino,White,Male,35-44,99.7368,Loan originated
+1,225000.0,37,235000.0,56.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,<25,96.0,Loan originated
+1,515000.0,43,575000.0,122.0,1,Hispanic or Latino,White,Female,35-44,89.99,Loan originated
+1,205000.0,43,575000.0,189.0,1,Not Hispanic or Latino,White,Male,>74,34.783,Loan originated
+1,465000.0,46,585000.0,314.0,1,Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,515000.0,38,575000.0,135.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,89.97,Loan originated
+1,645000.0,41,835000.0,163.0,1,Hispanic or Latino,White,Male,45-54,77.11,Application denied
+1,455000.0,39,1405000.0,140.0,1,Hispanic or Latino,White,Male,45-54,32.143,Loan originated
+1,395000.0,45,465000.0,94.0,1,Hispanic or Latino,White,Male,45-54,85.0,Application denied
+1,655000.0,30%-<36%,725000.0,250.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,425000.0,30%-<36%,455000.0,130.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,395000.0,48,485000.0,96.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,695000.0,47,925000.0,181.0,1,Not Hispanic or Latino,Asian,Female,45-54,75.0,Loan originated
+1,545000.0,46,605000.0,166.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,155000.0,49,535000.0,43.0,1,Hispanic or Latino,White,Male,>74,28.972,Loan originated
+1,165000.0,30%-<36%,415000.0,60.0,1,Not Hispanic or Latino,White,Female,65-74,39.759,Loan originated
+1,945000.0,50%-60%,995000.0,205.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Application denied
+1,385000.0,48,465000.0,101.0,1,Hispanic or Latino,White,Male,35-44,103.92,Loan originated
+1,705000.0,44,795000.0,158.0,1,Not Hispanic or Latino,White,Male,35-44,88.608,Application denied
+1,955000.0,46,1015000.0,218.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,805000.0,20%-<30%,1005000.0,357.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,635000.0,49,795000.0,127.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,485000.0,47,655000.0,168.0,1,Not Hispanic or Latino,White,Male,65-74,90.0,Application denied
+1,515000.0,39,605000.0,216.0,1,Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,295000.0,30%-<36%,365000.0,75.0,1,Not Hispanic or Latino,White,Male,<25,80.0,Loan originated
+1,535000.0,40,565000.0,150.0,1,Not Hispanic or Latino,Asian,Male,35-44,94.643,Loan originated
+1,715000.0,50%-60%,1425000.0,579.0,1,Not Hispanic or Latino,White,Male,65-74,50.0,Loan originated
+1,295000.0,38,795000.0,108.0,1,Not Hispanic or Latino,White,Male,45-54,37.1,Loan originated
+1,445000.0,45,555000.0,135.0,1,Not Hispanic or Latino,Asian,Female,55-64,80.0,Loan originated
+1,375000.0,45,435000.0,82.0,1,Hispanic or Latino,White,Male,25-34,87.209,Loan originated
+1,695000.0,41,875000.0,269.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,345000.0,47,825000.0,24.0,1,Not Hispanic or Latino,White,Female,45-54,42.169,Loan originated
+1,405000.0,20%-<30%,455000.0,212.0,1,Not Hispanic or Latino,Asian,Female,45-54,89.778,Loan originated
+1,255000.0,20%-<30%,455000.0,165.0,1,Not Hispanic or Latino,White,Female,55-64,55.56,Loan originated
+1,865000.0,30%-<36%,1075000.0,289.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,295000.0,40,335000.0,84.0,1,Hispanic or Latino,2 or more minority races,Male,35-44,90.0,Loan originated
+1,285000.0,30%-<36%,295000.0,133.0,1,Not Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,475000.0,41,675000.0,211.0,1,Not Hispanic or Latino,Asian,Male,>74,70.0,Application denied
+1,635000.0,49,1225000.0,144.0,1,Not Hispanic or Latino,Asian,Female,45-54,51.639,Loan originated
+1,715000.0,40,845000.0,206.0,1,Not Hispanic or Latino,Asian,Male,45-54,85.0,Loan originated
+1,235000.0,20%-<30%,375000.0,120.0,1,Not Hispanic or Latino,White,Male,35-44,62.06,Application denied
+1,725000.0,38,765000.0,260.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,365000.0,45,385000.0,77.0,1,Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,325000.0,30%-<36%,345000.0,90.0,1,Not Hispanic or Latino,Asian,Female,55-64,95.0,Loan originated
+1,265000.0,40,405000.0,94.0,1,Not Hispanic or Latino,Asian,Male,45-54,71.727,Loan originated
+1,375000.0,42,385000.0,93.0,1,Hispanic or Latino,White,Male,35-44,100.0,Application denied
+1,205000.0,47,225000.0,57.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,455000.0,42,475000.0,137.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,515000.0,>60%,635000.0,79.0,1,Hispanic or Latino,White,Male,35-44,81.27,Application denied
+1,285000.0,37,295000.0,82.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,435000.0,48,455000.0,114.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,35-44,95.0,Loan originated
+1,845000.0,41,1775000.0,112.0,1,Not Hispanic or Latino,White,Female,55-64,47.324,Loan originated
+1,655000.0,37,685000.0,225.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,98.0,Loan originated
+1,565000.0,49,575000.0,119.0,1,Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,55-64,97.0,Loan originated
+1,785000.0,49,1115000.0,156.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,70.0,Loan originated
+1,425000.0,20%-<30%,525000.0,141.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,465000.0,20%-<30%,565000.0,160.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Female,45-54,82.163,Loan originated
+1,585000.0,30%-<36%,885000.0,195.0,1,Not Hispanic or Latino,Asian,Female,25-34,66.006,Loan originated
+1,695000.0,46,815000.0,209.0,1,Not Hispanic or Latino,Asian,Male,45-54,86.0,Application denied
+1,685000.0,49,855000.0,146.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,365000.0,42,405000.0,99.0,1,Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,805000.0,47,985000.0,175.0,1,Hispanic or Latino,White,Male,45-54,81.218,Application denied
+1,585000.0,30%-<36%,725000.0,412.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,405000.0,48,435000.0,147.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,805000.0,41,1205000.0,193.0,1,Not Hispanic or Latino,White,Male,35-44,66.66,Loan originated
+1,685000.0,20%-<30%,865000.0,406.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,325000.0,30%-<36%,345000.0,101.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,725000.0,36,925000.0,230.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,895000.0,42,1005000.0,200.0,1,Not Hispanic or Latino,Asian,Male,35-44,89.99,Loan originated
+1,665000.0,30%-<36%,885000.0,298.0,1,Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,455000.0,30%-<36%,1905000.0,203.0,1,Not Hispanic or Latino,White,Male,45-54,23.731,Loan originated
+1,365000.0,45,375000.0,110.0,1,Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,305000.0,40,1415000.0,140.0,1,Not Hispanic or Latino,Asian,Male,<25,21.198,Loan originated
+1,825000.0,46,1225000.0,269.0,1,Not Hispanic or Latino,White,Male,45-54,67.35,Loan originated
+1,1125000.0,41,1605000.0,1104.0,1,Hispanic or Latino,White,Male,45-54,70.0,Loan originated
+1,225000.0,40,275000.0,66.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,65-74,80.0,Loan originated
+1,1005000.0,30%-<36%,1265000.0,480.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,515000.0,49,605000.0,115.0,1,Not Hispanic or Latino,Asian,Female,35-44,85.0,Loan originated
+1,635000.0,49,1135000.0,148.0,1,Not Hispanic or Latino,White,Female,55-64,56.102,Loan originated
+1,445000.0,45,585000.0,95.0,1,Not Hispanic or Latino,Asian,Male,25-34,76.726,Loan originated
+1,545000.0,36,775000.0,325.0,1,Not Hispanic or Latino,Asian,Female,55-64,70.0,Loan originated
+1,225000.0,44,245000.0,68.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,155000.0,40,835000.0,124.0,1,Not Hispanic or Latino,Asian,Male,35-44,97.006,Loan originated
+1,465000.0,20%-<30%,815000.0,269.0,1,Not Hispanic or Latino,White,Male,55-64,57.055,Loan originated
+1,365000.0,48,455000.0,80.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,745000.0,42,935000.0,182.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,425000.0,<20%,565000.0,1481.0,1,Not Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,565000.0,46,705000.0,241.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,1145000.0,40,1535000.0,270.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,735000.0,30%-<36%,975000.0,213.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,45000.0,30%-<36%,95000.0,73.0,1,Hispanic or Latino,White,Male,25-34,47.37,Loan originated
+1,495000.0,41,615000.0,176.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,615000.0,49,655000.0,169.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,95.0,Loan originated
+1,405000.0,50%-60%,515000.0,81.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,375000.0,41,395000.0,79.0,1,Not Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,265000.0,37,335000.0,87.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,1005000.0,<20%,1125000.0,683.0,1,Not Hispanic or Latino,White,Male,35-44,89.84,Loan originated
+1,275000.0,48,375000.0,55.0,1,Not Hispanic or Latino,White,Male,55-64,72.973,Loan originated
+1,555000.0,37,575000.0,156.0,1,Not Hispanic or Latino,Asian,Female,35-44,97.0,Loan originated
+1,175000.0,50%-60%,225000.0,50.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,305000.0,30%-<36%,875000.0,102.0,1,Not Hispanic or Latino,Asian,Female,35-44,34.286,Loan originated
+1,115000.0,20%-<30%,225000.0,72.0,1,Not Hispanic or Latino,White,Female,>74,50.0,Loan originated
+1,495000.0,49,695000.0,355.0,1,Not Hispanic or Latino,White,Female,25-34,71.014,Loan originated
+1,1015000.0,43,1265000.0,268.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,655000.0,49,725000.0,136.0,1,Not Hispanic or Latino,Asian,Male,55-64,90.0,Loan originated
+1,155000.0,42,395000.0,58.0,1,Hispanic or Latino,White,Female,55-64,71.899,Loan originated
+1,505000.0,46,625000.0,116.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,1005000.0,42,1255000.0,351.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,555000.0,46,695000.0,127.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,465000.0,45,585000.0,105.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,585000.0,44,685000.0,143.0,1,Not Hispanic or Latino,Black or African American,Male,45-54,85.0,Loan originated
+1,725000.0,48,765000.0,203.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,185000.0,42,505000.0,57.0,1,Not Hispanic or Latino,White,Male,35-44,36.039,Loan originated
+1,265000.0,45,515000.0,70.0,1,Hispanic or Latino,White,Female,<25,100.676,Loan originated
+1,575000.0,47,725000.0,170.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,385000.0,38,405000.0,194.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,295000.0,30%-<36%,475000.0,227.0,1,Not Hispanic or Latino,White,Female,55-64,62.105,Loan originated
+1,205000.0,20%-<30%,1205000.0,138.0,1,Not Hispanic or Latino,Asian,Male,25-34,16.667,Loan originated
+1,1015000.0,44,1375000.0,240.0,1,Not Hispanic or Latino,Asian,Male,25-34,84.0,Loan originated
+1,605000.0,20%-<30%,765000.0,390.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,465000.0,40,785000.0,215.0,1,Not Hispanic or Latino,White,Female,45-54,60.0,Loan originated
+1,635000.0,48,675000.0,169.0,1,Hispanic or Latino,White,Female,45-54,95.014,Loan originated
+1,355000.0,37,435000.0,119.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,575000.0,>60%,735000.0,21.0,1,Not Hispanic or Latino,White,Female,45-54,79.041,Application denied
+1,755000.0,20%-<30%,1355000.0,312.0,1,Not Hispanic or Latino,White,Male,45-54,55.56,Loan originated
+1,755000.0,41,935000.0,179.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,75000.0,41,115000.0,48.0,1,Not Hispanic or Latino,White,Female,>74,63.64,Loan originated
+1,505000.0,30%-<36%,555000.0,276.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,555000.0,36,935000.0,18.0,1,Not Hispanic or Latino,Asian,Male,35-44,60.0,Loan originated
+1,375000.0,49,475000.0,152.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,625000.0,46,775000.0,215.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,465000.0,37,585000.0,320.0,1,Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,505000.0,>60%,905000.0,46.0,1,Hispanic or Latino,Asian,Female,55-64,55.556,Application denied
+1,405000.0,46,505000.0,81.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,295000.0,20%-<30%,495000.0,147.0,1,Not Hispanic or Latino,White,Male,45-54,60.0,Loan originated
+1,325000.0,<20%,465000.0,304.0,1,Not Hispanic or Latino,White,Female,25-34,70.0,Loan originated
+1,1095000.0,40,1375000.0,283.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,285000.0,46,365000.0,87.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,405000.0,46,505000.0,110.0,1,Not Hispanic or Latino,White,Female,25-34,79.99,Loan originated
+1,605000.0,48,1105000.0,130.0,1,Not Hispanic or Latino,White,Male,65-74,54.545,Loan originated
+1,345000.0,50%-60%,435000.0,63.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,105000.0,49,675000.0,34.0,1,Not Hispanic or Latino,White,Male,>74,14.82,Loan originated
+1,265000.0,<20%,375000.0,1677.0,1,Hispanic or Latino,White,Female,45-54,70.0,Loan originated
+1,695000.0,45,875000.0,230.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,495000.0,30%-<36%,515000.0,177.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,35-44,94.995,Loan originated
+1,405000.0,20%-<30%,435000.0,155.0,1,Not Hispanic or Latino,White,Male,25-34,93.023,Loan originated
+1,505000.0,>60%,975000.0,51.0,1,Not Hispanic or Latino,Asian,Male,35-44,51.11,Application denied
+1,165000.0,39,225000.0,55.0,1,Not Hispanic or Latino,White,Male,65-74,71.7,Loan originated
+1,465000.0,37,575000.0,146.0,1,Not Hispanic or Latino,Asian,Female,55-64,80.0,Application denied
+1,815000.0,30%-<36%,1415000.0,250.0,1,Not Hispanic or Latino,Asian,Male,55-64,57.447,Loan originated
+1,605000.0,46,645000.0,124.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,115000.0,20%-<30%,125000.0,287.0,1,Not Hispanic or Latino,White,Male,55-64,91.69,Loan originated
+1,315000.0,20%-<30%,555000.0,131.0,1,Not Hispanic or Latino,White,Female,45-54,56.757,Loan originated
+1,255000.0,20%-<30%,285000.0,120.0,1,Not Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,405000.0,38,1465000.0,182.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,27.397,Loan originated
+1,385000.0,48,535000.0,82.0,1,Hispanic or Latino,White,Male,25-34,72.0,Loan originated
+1,265000.0,49,475000.0,54.0,1,Not Hispanic or Latino,White,Female,65-74,55.319,Loan originated
+1,745000.0,46,935000.0,288.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,275000.0,48,455000.0,143.0,1,Not Hispanic or Latino,White,Male,35-44,60.0,Loan originated
+1,465000.0,47,585000.0,113.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,1605000.0,48,2005000.0,1150.0,1,Not Hispanic or Latino,White,Male,<25,80.0,Loan originated
+1,925000.0,41,1155000.0,558.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,255000.0,30%-<36%,505000.0,137.0,1,Not Hispanic or Latino,White,Male,55-64,50.0,Loan originated
+1,525000.0,42,875000.0,408.0,1,Not Hispanic or Latino,White,Male,45-54,59.77,Loan originated
+1,325000.0,40,345000.0,131.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,95.0,Application denied
+1,755000.0,30%-<36%,1295000.0,250.0,1,Not Hispanic or Latino,White,Female,35-44,57.839,Loan originated
+1,765000.0,<20%,785000.0,780.0,1,Not Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,305000.0,39,595000.0,92.0,1,Hispanic or Latino,White,Male,45-54,50.847,Loan originated
+1,435000.0,20%-<30%,485000.0,197.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,1125000.0,38,1255000.0,346.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,105000.0,48,435000.0,77.0,1,Not Hispanic or Latino,White,Female,55-64,24.0,Loan originated
+1,685000.0,46,725000.0,150.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,1145000.0,47,1355000.0,243.0,1,Not Hispanic or Latino,White,Male,35-44,84.858,Loan originated
+1,1145000.0,40,1435000.0,274.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,535000.0,49,835000.0,115.0,1,Not Hispanic or Latino,White,Male,45-54,64.072,Loan originated
+1,455000.0,20%-<30%,505000.0,301.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,415000.0,48,435000.0,85.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,1145000.0,42,1305000.0,302.0,1,Not Hispanic or Latino,Asian,Male,25-34,88.38,Loan originated
+1,765000.0,30%-<36%,1025000.0,424.0,1,Not Hispanic or Latino,Asian,Female,25-34,75.0,Loan originated
+1,765000.0,41,1135000.0,210.0,1,Not Hispanic or Latino,Asian,Male,35-44,67.832,Loan originated
+1,565000.0,37,805000.0,546.0,1,Not Hispanic or Latino,Asian,Male,55-64,70.0,Loan originated
+1,1315000.0,>60%,1735000.0,163.0,1,Hispanic or Latino,White,Male,25-34,75.867,Application denied
+1,405000.0,40,705000.0,115.0,1,Not Hispanic or Latino,Asian,Female,55-64,57.143,Loan originated
+1,565000.0,47,755000.0,263.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,925000.0,45,1065000.0,229.0,1,Not Hispanic or Latino,White,Male,35-44,87.262,Loan originated
+1,405000.0,30%-<36%,435000.0,136.0,1,Hispanic or Latino,White,Male,<25,95.0,Loan originated
+1,295000.0,47,335000.0,71.0,1,Hispanic or Latino,Asian,Female,35-44,91.5,Loan originated
+1,1005000.0,50%-60%,1325000.0,181.0,1,Not Hispanic or Latino,Asian,Female,25-34,75.758,Loan originated
+1,635000.0,48,845000.0,127.0,1,Not Hispanic or Latino,Asian,Female,35-44,75.0,Loan originated
+1,495000.0,43,575000.0,120.0,1,Not Hispanic or Latino,White,Female,25-34,85.965,Loan originated
+1,565000.0,>60%,625000.0,122.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Application denied
+1,405000.0,41,455000.0,128.0,1,Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,305000.0,30%-<36%,705000.0,100.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,<25,42.857,Application denied
+1,935000.0,20%-<30%,1385000.0,424.0,1,Not Hispanic or Latino,Asian,Female,25-34,70.0,Loan originated
+1,255000.0,>60%,935000.0,36.0,1,Not Hispanic or Latino,Asian,Male,35-44,26.88,Application denied
+1,605000.0,46,755000.0,176.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,585000.0,20%-<30%,785000.0,430.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,145000.0,30%-<36%,1125000.0,88.0,1,Not Hispanic or Latino,White,Male,55-64,12.74,Loan originated
+1,395000.0,41,565000.0,119.0,1,Not Hispanic or Latino,White,Female,65-74,70.0,Loan originated
+1,555000.0,46,745000.0,156.0,1,Not Hispanic or Latino,Asian,Female,65-74,75.0,Loan originated
+1,475000.0,30%-<36%,595000.0,266.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,455000.0,41,455000.0,161.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,100.0,Loan originated
+1,185000.0,30%-<36%,205000.0,147.0,1,Not Hispanic or Latino,White,Male,35-44,90.48,Loan originated
+1,515000.0,49,535000.0,218.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,205000.0,46,235000.0,138.0,1,Not Hispanic or Latino,White,Male,>74,90.26,Loan originated
+1,675000.0,49,855000.0,128.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,78.363,Loan originated
+1,615000.0,38,765000.0,169.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,435000.0,43,445000.0,100.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,1055000.0,49,2805000.0,345.0,1,Not Hispanic or Latino,Asian,Male,35-44,37.5,Loan originated
+1,285000.0,30%-<36%,575000.0,170.0,1,Not Hispanic or Latino,Asian,Male,45-54,50.0,Loan originated
+1,605000.0,20%-<30%,765000.0,230.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,335000.0,47,485000.0,90.0,1,Hispanic or Latino,White,Male,55-64,70.0,Loan originated
+1,475000.0,38,505000.0,158.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,175000.0,30%-<36%,425000.0,168.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,45-54,40.476,Loan originated
+1,745000.0,49,785000.0,245.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,675000.0,42,905000.0,173.0,1,Not Hispanic or Latino,White,Female,45-54,75.0,Loan originated
+1,745000.0,45,925000.0,247.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,695000.0,41,725000.0,180.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,515000.0,30%-<36%,645000.0,180.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,185000.0,41,205000.0,117.0,1,Hispanic or Latino,White,Male,55-64,90.0,Loan originated
+1,825000.0,47,875000.0,479.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,535000.0,>60%,765000.0,160.0,1,Not Hispanic or Latino,Asian,Male,25-34,69.86,Loan originated
+1,155000.0,47,525000.0,40.0,1,Hispanic or Latino,White,Female,45-54,28.846,Loan originated
+1,575000.0,40,645000.0,138.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,305000.0,49,375000.0,86.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,25-34,80.0,Loan originated
+1,615000.0,40,655000.0,177.0,1,Hispanic or Latino,White,Female,>74,94.275,Loan originated
+1,685000.0,30%-<36%,805000.0,249.0,1,Not Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,835000.0,36,1185000.0,227.0,1,Not Hispanic or Latino,Asian,Male,25-34,70.389,Loan originated
+1,515000.0,44,535000.0,135.0,1,Not Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,1065000.0,49,1355000.0,219.0,1,Not Hispanic or Latino,White,Female,55-64,78.229,Loan originated
+1,605000.0,48,905000.0,126.0,1,Not Hispanic or Latino,Asian,Female,25-34,66.67,Loan originated
+1,395000.0,30%-<36%,505000.0,310.0,1,Not Hispanic or Latino,White,Male,35-44,78.4,Loan originated
+1,305000.0,30%-<36%,605000.0,207.0,1,Not Hispanic or Latino,Asian,Male,55-64,50.0,Loan originated
+1,445000.0,48,555000.0,115.0,1,Not Hispanic or Latino,Asian,Female,25-34,100.0,Loan originated
+1,545000.0,30%-<36%,865000.0,276.0,1,Not Hispanic or Latino,White,Male,35-44,62.601,Loan originated
+1,925000.0,49,1055000.0,190.0,1,Not Hispanic or Latino,Asian,Male,35-44,87.59,Loan originated
+1,905000.0,43,1125000.0,228.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,485000.0,49,515000.0,114.0,1,Hispanic or Latino,White,Female,<25,95.0,Loan originated
+1,395000.0,>60%,495000.0,38.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Application denied
+1,465000.0,43,585000.0,284.0,1,Not Hispanic or Latino,White,Female,>74,80.0,Loan originated
+1,475000.0,49,945000.0,106.0,1,Not Hispanic or Latino,Asian,Male,25-34,50.0,Loan originated
+1,415000.0,<20%,525000.0,372.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,635000.0,49,665000.0,176.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,345000.0,44,485000.0,93.0,1,Not Hispanic or Latino,Asian,Male,25-34,70.0,Application denied
+1,585000.0,48,735000.0,142.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,375000.0,20%-<30%,475000.0,337.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,425000.0,45,525000.0,114.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,515000.0,45,735000.0,126.0,1,Not Hispanic or Latino,White,Female,>74,70.0,Loan originated
+1,365000.0,49,835000.0,91.0,1,Not Hispanic or Latino,White,Male,35-44,43.114,Loan originated
+1,475000.0,41,525000.0,123.0,1,Not Hispanic or Latino,White,Female,35-44,89.981,Loan originated
+1,1025000.0,42,1825000.0,245.0,1,Not Hispanic or Latino,Asian,Male,35-44,56.092,Loan originated
+1,495000.0,<20%,585000.0,1647.0,1,Not Hispanic or Latino,White,Male,55-64,85.0,Application denied
+1,585000.0,48,835000.0,168.0,1,Not Hispanic or Latino,Asian,Female,55-64,70.0,Loan originated
+1,705000.0,46,1195000.0,190.0,1,Hispanic or Latino,White,Male,25-34,58.382,Loan originated
+1,445000.0,50%-60%,475000.0,82.0,1,Not Hispanic or Latino,White,Female,65-74,95.0,Loan originated
+1,515000.0,43,645000.0,152.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,355000.0,40,445000.0,83.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,25-34,80.0,Loan originated
+1,505000.0,41,675000.0,204.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,555000.0,41,1425000.0,135.0,1,Not Hispanic or Latino,Asian,Male,55-64,38.596,Loan originated
+1,765000.0,48,955000.0,266.0,1,Not Hispanic or Latino,White,Male,65-74,80.0,Loan originated
+1,75000.0,36,255000.0,43.0,1,Not Hispanic or Latino,White,Female,65-74,28.76,Loan originated
+1,995000.0,37,1235000.0,260.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,175000.0,<20%,955000.0,280.0,1,Not Hispanic or Latino,White,Male,45-54,19.0,Loan originated
+1,925000.0,20%-<30%,1315000.0,505.0,1,Not Hispanic or Latino,White,Female,35-44,69.962,Loan originated
+1,985000.0,48,1225000.0,208.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,435000.0,40,465000.0,106.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,315000.0,20%-<30%,395000.0,180.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,435000.0,20%-<30%,885000.0,299.0,1,Not Hispanic or Latino,Asian,Female,35-44,48.864,Loan originated
+1,315000.0,30%-<36%,715000.0,109.0,1,Not Hispanic or Latino,Asian,Female,45-54,43.912,Loan originated
+1,385000.0,44,405000.0,88.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,625000.0,20%-<30%,1825000.0,293.0,1,Not Hispanic or Latino,Asian,Male,55-64,34.247,Loan originated
+1,665000.0,45,785000.0,173.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,85.0,Loan originated
+1,255000.0,48,265000.0,63.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,275000.0,36,345000.0,153.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,585000.0,41,735000.0,170.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,555000.0,42,575000.0,125.0,1,Not Hispanic or Latino,Asian,Male,25-34,97.0,Loan originated
+1,565000.0,43,625000.0,150.0,1,Not Hispanic or Latino,White,Female,65-74,90.0,Loan originated
+1,405000.0,49,1305000.0,105.0,1,Not Hispanic or Latino,Asian,Male,25-34,31.0,Loan originated
+1,315000.0,39,385000.0,76.0,1,Hispanic or Latino,White,Female,35-44,82.789,Loan originated
+1,455000.0,<20%,605000.0,297.0,1,Not Hispanic or Latino,White,Female,65-74,74.38,Application denied
+1,215000.0,20%-<30%,855000.0,290.0,1,Not Hispanic or Latino,White,Male,45-54,24.706,Loan originated
+1,15000.0,50%-60%,285000.0,182.0,1,Hispanic or Latino,White,Male,55-64,100.0,Loan originated
+1,605000.0,>60%,705000.0,0.0,1,Not Hispanic or Latino,Asian,Female,25-34,86.0,Application denied
+1,435000.0,42,465000.0,116.0,1,Not Hispanic or Latino,White,Male,55-64,92.903,Loan originated
+1,595000.0,37,745000.0,173.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,495000.0,<20%,615000.0,330.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,635000.0,49,855000.0,199.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,685000.0,>60%,1185000.0,55.0,1,Not Hispanic or Latino,Asian,Female,35-44,58.143,Application denied
+1,395000.0,44,415000.0,95.0,1,Not Hispanic or Latino,White,Female,45-54,97.0,Loan originated
+1,1005000.0,30%-<36%,1135000.0,393.0,1,Not Hispanic or Latino,White,Male,35-44,88.496,Loan originated
+1,425000.0,44,445000.0,125.0,1,Not Hispanic or Latino,Asian,Male,65-74,95.0,Loan originated
+1,515000.0,40,545000.0,124.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,645000.0,48,715000.0,127.0,1,Not Hispanic or Latino,Asian,Male,25-34,89.99,Loan originated
+1,665000.0,44,885000.0,177.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,355000.0,41,515000.0,95.0,1,Not Hispanic or Latino,White,Female,45-54,70.0,Loan originated
+1,185000.0,30%-<36%,465000.0,55.0,1,Hispanic or Latino,White,Female,25-34,39.13,Loan originated
+1,385000.0,48,405000.0,96.0,1,Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,535000.0,41,675000.0,161.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,105000.0,20%-<30%,685000.0,76.0,1,Not Hispanic or Latino,White,Female,55-64,14.6,Application denied
+1,995000.0,30%-<36%,1245000.0,270.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,795000.0,30%-<36%,995000.0,298.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,245000.0,44,315000.0,164.0,1,Not Hispanic or Latino,Asian,Male,55-64,100.0,Loan originated
+1,425000.0,49,525000.0,125.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,885000.0,45,1105000.0,216.0,1,Hispanic or Latino,White,Female,35-44,80.0,Application denied
+1,425000.0,49,465000.0,69.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,90.0,Loan originated
+1,435000.0,20%-<30%,545000.0,166.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,145000.0,20%-<30%,185000.0,64.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,355000.0,45,855000.0,93.0,1,Not Hispanic or Latino,White,Female,55-64,40.745,Loan originated
+1,765000.0,48,995000.0,188.0,1,Not Hispanic or Latino,Asian,Male,45-54,76.53,Loan originated
+1,695000.0,40,875000.0,234.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,1145000.0,30%-<36%,1595000.0,305.0,1,Not Hispanic or Latino,White,Female,25-34,71.857,Loan originated
+1,185000.0,38,495000.0,84.0,1,Not Hispanic or Latino,White,Female,65-74,36.057,Loan originated
+1,645000.0,48,675000.0,262.0,1,Hispanic or Latino,White,Male,55-64,95.0,Application denied
+1,195000.0,43,225000.0,98.0,1,Hispanic or Latino,White,Female,45-54,90.34,Application denied
+1,715000.0,48,845000.0,159.0,1,Not Hispanic or Latino,White,Male,35-44,84.524,Loan originated
+1,265000.0,30%-<36%,295000.0,91.0,1,Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,155000.0,30%-<36%,215000.0,120.0,1,Hispanic or Latino,White,Male,55-64,71.43,Loan originated
+1,535000.0,>60%,815000.0,120.0,1,Hispanic or Latino,White,Female,45-54,65.0,Application denied
+1,255000.0,42,1205000.0,74.0,1,Hispanic or Latino,White,Female,65-74,20.833,Application denied
+1,545000.0,38,575000.0,152.0,1,Not Hispanic or Latino,Asian,Male,<25,95.0,Loan originated
+1,465000.0,40,665000.0,250.0,1,Not Hispanic or Latino,Asian,Male,35-44,69.697,Loan originated
+1,785000.0,49,835000.0,171.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,545000.0,47,685000.0,233.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,80.0,Loan originated
+1,165000.0,37,205000.0,46.0,1,Hispanic or Latino,White,Female,<25,80.0,Loan originated
+1,955000.0,40,1265000.0,342.0,1,Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,495000.0,30%-<36%,795000.0,171.0,1,Not Hispanic or Latino,White,Female,45-54,62.121,Loan originated
+1,625000.0,44,785000.0,142.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,395000.0,44,445000.0,90.0,1,Hispanic or Latino,White,Male,25-34,91.59,Loan originated
+1,505000.0,43,795000.0,140.0,1,Not Hispanic or Latino,Asian,Female,35-44,93.3,Loan originated
+1,225000.0,44,235000.0,119.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,101.94,Loan originated
+1,835000.0,20%-<30%,1115000.0,437.0,1,Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,415000.0,44,435000.0,107.0,1,Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,485000.0,20%-<30%,605000.0,190.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,585000.0,46,605000.0,191.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,97.0,Loan originated
+1,185000.0,30%-<36%,215000.0,35.0,1,Hispanic or Latino,White,Female,<25,101.0,Loan originated
+1,895000.0,30%-<36%,1375000.0,257.0,1,Not Hispanic or Latino,Asian,Male,35-44,65.0,Loan originated
+1,455000.0,20%-<30%,775000.0,165.0,1,Not Hispanic or Latino,White,Male,35-44,58.32,Loan originated
+1,315000.0,46,1015000.0,95.0,1,Not Hispanic or Latino,White,Female,>74,30.693,Loan originated
+1,565000.0,48,585000.0,132.0,1,Not Hispanic or Latino,White,Female,35-44,100.0,Loan originated
+1,745000.0,44,935000.0,162.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,205000.0,30%-<36%,235000.0,106.0,1,Not Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,805000.0,50%-60%,1005000.0,181.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Application denied
+1,595000.0,41,795000.0,153.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,505000.0,38,745000.0,165.0,1,Not Hispanic or Latino,Asian,Male,25-34,68.0,Loan originated
+1,245000.0,30%-<36%,255000.0,100.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,255000.0,30%-<36%,265000.0,130.0,1,Not Hispanic or Latino,White,Male,25-34,93.851,Loan originated
+1,1045000.0,40,1305000.0,261.0,1,Hispanic or Latino,White,Female,<25,80.0,Loan originated
+1,315000.0,20%-<30%,385000.0,138.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,125000.0,47,865000.0,64.0,1,Not Hispanic or Latino,Asian,Female,55-64,14.454,Loan originated
+1,445000.0,41,1045000.0,127.0,1,Not Hispanic or Latino,Asian,Male,25-34,42.772,Loan originated
+1,765000.0,30%-<36%,3795000.0,351.0,1,Not Hispanic or Latino,Asian,Female,35-44,20.2,Loan originated
+1,455000.0,49,535000.0,109.0,1,Not Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,555000.0,20%-<30%,755000.0,345.0,1,Not Hispanic or Latino,White,Male,25-34,73.475,Loan originated
+1,605000.0,43,1535000.0,199.0,1,Not Hispanic or Latino,White,Female,35-44,39.164,Loan originated
+1,565000.0,41,715000.0,150.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,535000.0,36,555000.0,151.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,635000.0,46,1075000.0,146.0,1,Not Hispanic or Latino,White,Female,35-44,70.0,Loan originated
+1,245000.0,37,275000.0,76.0,1,Hispanic or Latino,White,Female,<25,90.0,Loan originated
+1,645000.0,20%-<30%,1845000.0,295.0,1,Not Hispanic or Latino,White,Male,55-64,34.783,Loan originated
+1,385000.0,49,415000.0,77.0,1,Hispanic or Latino,White,Male,45-54,95.0,Application denied
+1,745000.0,42,1075000.0,216.0,1,Not Hispanic or Latino,White,Female,55-64,68.837,Loan originated
+1,635000.0,48,795000.0,165.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,765000.0,40,955000.0,187.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,645000.0,39,1295000.0,194.0,1,Not Hispanic or Latino,Asian,Male,35-44,49.612,Loan originated
+1,525000.0,20%-<30%,585000.0,379.0,1,Not Hispanic or Latino,Black or African American,Female,65-74,90.0,Loan originated
+1,425000.0,40,525000.0,98.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,1105000.0,20%-<30%,1385000.0,468.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,305000.0,43,1015000.0,210.0,1,Not Hispanic or Latino,Asian,Male,55-64,29.56,Loan originated
+1,445000.0,48,565000.0,167.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,295000.0,38,345000.0,85.0,1,Hispanic or Latino,White,Male,35-44,87.64,Loan originated
+1,225000.0,49,335000.0,63.0,1,Not Hispanic or Latino,White,Female,>74,66.56,Loan originated
+1,595000.0,>60%,625000.0,71.0,1,Not Hispanic or Latino,Asian,Female,25-34,95.0,Application denied
+1,425000.0,45,475000.0,99.0,1,Hispanic or Latino,White,Male,35-44,89.99,Loan originated
+1,385000.0,48,435000.0,81.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,90.0,Loan originated
+1,655000.0,49,1105000.0,161.0,1,Not Hispanic or Latino,White,Female,45-54,59.556,Loan originated
+1,545000.0,30%-<36%,685000.0,184.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,425000.0,45,625000.0,105.0,1,Not Hispanic or Latino,White,Male,25-34,68.0,Loan originated
+1,525000.0,49,655000.0,104.0,1,Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,165000.0,47,305000.0,44.0,1,Not Hispanic or Latino,White,Female,65-74,53.0,Loan originated
+1,185000.0,44,345000.0,50.0,1,Not Hispanic or Latino,White,Male,25-34,51.443,Loan originated
+1,405000.0,39,505000.0,151.0,1,Not Hispanic or Latino,White,Male,65-74,80.0,Loan originated
+1,715000.0,43,1105000.0,150.0,1,Not Hispanic or Latino,Asian,Male,35-44,65.0,Loan originated
+1,1125000.0,43,1185000.0,310.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,375000.0,49,535000.0,93.0,1,Hispanic or Latino,White,Male,65-74,70.0,Loan originated
+1,445000.0,20%-<30%,1135000.0,347.0,1,Not Hispanic or Latino,White,Male,55-64,39.434,Loan originated
+1,575000.0,49,615000.0,158.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,465000.0,46,575000.0,134.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,405000.0,42,455000.0,87.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,90.0,Loan originated
+1,365000.0,45,715000.0,89.0,1,Hispanic or Latino,White,Female,55-64,52.0,Loan originated
+1,1145000.0,43,1915000.0,262.0,1,Not Hispanic or Latino,Asian,Male,35-44,60.0,Loan originated
+1,595000.0,40,745000.0,152.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,515000.0,42,685000.0,256.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,525000.0,30%-<36%,655000.0,209.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,845000.0,48,1065000.0,176.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,425000.0,39,575000.0,149.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Application denied
+1,245000.0,48,375000.0,62.0,1,Hispanic or Latino,White,Female,45-54,65.684,Loan originated
+1,375000.0,30%-<36%,565000.0,130.0,1,Not Hispanic or Latino,Asian,Female,45-54,66.071,Loan originated
+1,215000.0,49,455000.0,54.0,1,Hispanic or Latino,White,Female,>74,47.04,Loan originated
+1,215000.0,44,225000.0,86.0,1,Not Hispanic or Latino,White,Female,25-34,93.0,Loan originated
+1,395000.0,38,495000.0,120.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,55000.0,42,315000.0,23.0,1,Not Hispanic or Latino,White,Male,<25,102.487,Loan originated
+1,485000.0,30%-<36%,605000.0,180.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,835000.0,36,875000.0,339.0,1,Not Hispanic or Latino,Asian,Female,45-54,95.0,Loan originated
+1,595000.0,<20%,745000.0,1311.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,495000.0,36,555000.0,143.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,1005000.0,>60%,2105000.0,166.0,1,Not Hispanic or Latino,Asian,Female,45-54,47.61,Application denied
+1,825000.0,49,1025000.0,213.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,1125000.0,20%-<30%,1495000.0,723.0,1,Not Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,1025000.0,43,1135000.0,563.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,89.99,Loan originated
+1,375000.0,20%-<30%,625000.0,177.0,1,Not Hispanic or Latino,Asian,Male,35-44,60.0,Loan originated
+1,585000.0,46,815000.0,135.0,1,Not Hispanic or Latino,Asian,Male,25-34,72.0,Loan originated
+1,705000.0,46,1415000.0,150.0,1,Not Hispanic or Latino,Asian,Male,25-34,49.645,Loan originated
+1,505000.0,49,635000.0,137.0,1,Not Hispanic or Latino,White,Female,>74,80.0,Loan originated
+1,355000.0,40,605000.0,96.0,1,Not Hispanic or Latino,White,Male,55-64,58.74,Loan originated
+1,445000.0,42,505000.0,117.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,395000.0,45,495000.0,251.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,425000.0,50%-60%,455000.0,79.0,1,Hispanic or Latino,White,Female,55-64,95.0,Application denied
+1,285000.0,49,365000.0,70.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,495000.0,30%-<36%,615000.0,126.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,605000.0,44,675000.0,140.0,1,Not Hispanic or Latino,Asian,Female,25-34,90.0,Loan originated
+1,955000.0,42,1185000.0,334.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,475000.0,45,625000.0,118.0,1,Not Hispanic or Latino,White,Female,35-44,76.032,Loan originated
+1,1085000.0,<20%,1355000.0,994.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,405000.0,44,1705000.0,123.0,1,Not Hispanic or Latino,White,Male,55-64,24.0,Loan originated
+1,665000.0,47,885000.0,136.0,1,Not Hispanic or Latino,White,Male,35-44,75.0,Application denied
+1,915000.0,20%-<30%,1315000.0,333.0,1,Not Hispanic or Latino,White,Female,45-54,69.582,Loan originated
+1,285000.0,37,475000.0,102.0,1,Hispanic or Latino,White,Male,25-34,62.22,Loan originated
+1,305000.0,>60%,625000.0,129.0,1,Not Hispanic or Latino,Asian,Male,45-54,48.39,Application denied
+1,515000.0,44,635000.0,190.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,825000.0,42,1175000.0,191.0,1,Not Hispanic or Latino,White,Female,35-44,70.0,Loan originated
+1,765000.0,37,1095000.0,250.0,1,Not Hispanic or Latino,Asian,Male,25-34,70.46,Loan originated
+1,435000.0,37,585000.0,146.0,1,Not Hispanic or Latino,Asian,Male,45-54,75.0,Loan originated
+1,955000.0,44,1195000.0,205.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,1005000.0,36,1255000.0,282.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,80.0,Loan originated
+1,425000.0,20%-<30%,665000.0,192.0,1,Not Hispanic or Latino,White,Male,45-54,65.0,Loan originated
+1,645000.0,48,685000.0,153.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,765000.0,49,3555000.0,262.0,1,Not Hispanic or Latino,White,Male,65-74,21.593,Loan originated
+1,445000.0,49,465000.0,99.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,655000.0,40,1205000.0,158.0,1,Not Hispanic or Latino,Asian,Male,25-34,54.167,Loan originated
+1,35000.0,43,365000.0,24.0,1,Hispanic or Latino,White,Male,55-64,102.028,Loan originated
+1,635000.0,42,655000.0,130.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,97.0,Loan originated
+1,765000.0,49,965000.0,182.0,1,Not Hispanic or Latino,White,Male,35-44,79.435,Loan originated
+1,695000.0,43,875000.0,180.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Application denied
+1,885000.0,42,1105000.0,253.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,695000.0,48,775000.0,214.0,1,Not Hispanic or Latino,Asian,Female,35-44,90.0,Loan originated
+1,755000.0,42,775000.0,173.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,715000.0,50%-60%,845000.0,324.0,1,Not Hispanic or Latino,Asian,Female,25-34,84.902,Application denied
+1,545000.0,48,815000.0,127.0,1,Not Hispanic or Latino,Asian,Male,45-54,66.434,Loan originated
+1,405000.0,20%-<30%,425000.0,190.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,100.0,Application denied
+1,195000.0,<20%,215000.0,130.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,415000.0,49,465000.0,119.0,1,Not Hispanic or Latino,White,Female,>74,89.9,Loan originated
+1,495000.0,20%-<30%,625000.0,269.0,1,Hispanic or Latino,White,Male,45-54,79.993,Loan originated
+1,625000.0,40,645000.0,166.0,1,Not Hispanic or Latino,White,Male,55-64,96.987,Loan originated
+1,435000.0,47,545000.0,135.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,635000.0,44,685000.0,180.0,1,Not Hispanic or Latino,Asian,Male,35-44,92.0,Loan originated
+1,485000.0,39,515000.0,114.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,435000.0,41,955000.0,317.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,45.26,Loan originated
+1,205000.0,49,495000.0,111.0,1,Not Hispanic or Latino,White,Male,25-34,41.884,Loan originated
+1,405000.0,20%-<30%,1375000.0,286.0,1,Not Hispanic or Latino,Asian,Male,55-64,29.091,Loan originated
+1,495000.0,50%-60%,525000.0,106.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,95.0,Loan originated
+1,635000.0,30%-<36%,795000.0,230.0,1,Not Hispanic or Latino,Asian,Female,55-64,80.0,Loan originated
+1,1105000.0,44,1385000.0,242.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,705000.0,37,1055000.0,216.0,1,Not Hispanic or Latino,White,Female,45-54,66.95,Loan originated
+1,395000.0,43,695000.0,107.0,1,Not Hispanic or Latino,Asian,Male,45-54,57.0,Loan originated
+1,795000.0,41,1065000.0,199.0,1,Not Hispanic or Latino,White,Male,55-64,75.0,Loan originated
+1,105000.0,46,205000.0,49.0,1,Not Hispanic or Latino,Asian,Male,35-44,50.0,Loan originated
+1,275000.0,43,735000.0,90.0,1,Not Hispanic or Latino,Asian,Male,<25,98.122,Loan originated
+1,1075000.0,50%-60%,1345000.0,231.0,1,Not Hispanic or Latino,White,Male,45-54,79.926,Application denied
+1,155000.0,47,625000.0,95.0,1,Not Hispanic or Latino,White,Female,65-74,24.0,Loan originated
+1,1005000.0,48,1405000.0,210.0,1,Not Hispanic or Latino,Asian,Female,35-44,71.17,Loan originated
+1,405000.0,44,415000.0,96.0,1,Hispanic or Latino,White,Female,35-44,97.0,Loan originated
+1,575000.0,46,605000.0,125.0,1,Not Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,495000.0,49,585000.0,148.0,1,Not Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,365000.0,37,465000.0,101.0,1,Not Hispanic or Latino,White,Male,65-74,80.0,Loan originated
+1,525000.0,39,705000.0,200.0,1,Not Hispanic or Latino,White,Female,>74,75.0,Loan originated
+1,1005000.0,42,1135000.0,292.0,1,Not Hispanic or Latino,White,Male,35-44,89.049,Loan originated
+1,385000.0,47,415000.0,92.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,45-54,93.0,Loan originated
+1,265000.0,49,275000.0,79.0,1,Hispanic or Latino,White,Female,25-34,97.0,Loan originated
+1,305000.0,20%-<30%,525000.0,147.0,1,Not Hispanic or Latino,White,Male,55-64,57.471,Loan originated
+1,805000.0,20%-<30%,1005000.0,290.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,805000.0,40,1005000.0,218.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,45-54,80.0,Loan originated
+1,425000.0,43,725000.0,98.0,1,Not Hispanic or Latino,Black or African American,Female,65-74,58.578,Loan originated
+1,375000.0,48,595000.0,91.0,1,Not Hispanic or Latino,White,Male,35-44,63.814,Loan originated
+1,645000.0,20%-<30%,865000.0,222.0,1,Not Hispanic or Latino,Asian,Male,45-54,75.0,Loan originated
+1,765000.0,30%-<36%,1125000.0,231.0,1,Hispanic or Latino,Asian,Male,25-34,68.111,Loan originated
+1,195000.0,20%-<30%,265000.0,193.0,1,Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,465000.0,47,515000.0,97.0,1,Not Hispanic or Latino,White,Male,25-34,90.613,Loan originated
+1,585000.0,44,725000.0,144.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,435000.0,45,465000.0,232.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Female,65-74,95.0,Loan originated
+1,355000.0,46,445000.0,133.0,1,Not Hispanic or Latino,Asian,Male,25-34,79.545,Loan originated
+1,445000.0,47,695000.0,141.0,1,Hispanic or Latino,Asian,Male,45-54,63.768,Loan originated
+1,605000.0,30%-<36%,805000.0,488.0,1,Not Hispanic or Latino,White,Female,25-34,75.0,Loan originated
+1,495000.0,37,585000.0,137.0,1,Not Hispanic or Latino,White,Female,25-34,84.1,Loan originated
+1,535000.0,48,835000.0,222.0,1,Not Hispanic or Latino,White,Male,25-34,64.072,Loan originated
+1,445000.0,30%-<36%,555000.0,160.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,675000.0,44,705000.0,319.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,415000.0,49,495000.0,89.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,105.0,Loan originated
+1,455000.0,<20%,535000.0,521.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Female,65-74,85.0,Loan originated
+1,485000.0,47,515000.0,100.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,425000.0,46,825000.0,100.0,1,Not Hispanic or Latino,White,Male,55-64,52.0,Loan originated
+1,495000.0,48,505000.0,136.0,1,Not Hispanic or Latino,Asian,Female,55-64,100.0,Loan originated
+1,805000.0,39,1105000.0,199.0,1,Not Hispanic or Latino,Asian,Male,35-44,72.727,Loan originated
+1,85000.0,48,115000.0,109.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,655000.0,39,715000.0,157.0,1,Not Hispanic or Latino,White,Female,35-44,91.329,Loan originated
+1,755000.0,49,795000.0,189.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,185000.0,38,555000.0,83.0,1,Not Hispanic or Latino,White,Female,65-74,32.727,Loan originated
+1,965000.0,30%-<36%,1205000.0,300.0,1,Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,325000.0,41,475000.0,115.0,1,Not Hispanic or Latino,Asian,Male,<25,70.0,Loan originated
+1,565000.0,49,715000.0,134.0,1,Hispanic or Latino,White,Female,35-44,100.0,Loan originated
+1,355000.0,43,705000.0,217.0,1,Not Hispanic or Latino,Asian,Female,25-34,50.0,Loan originated
+1,195000.0,38,245000.0,83.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,715000.0,36,1045000.0,286.0,1,Hispanic or Latino,White,Female,35-44,68.75,Loan originated
+1,805000.0,47,1105000.0,307.0,1,Not Hispanic or Latino,Asian,Male,35-44,72.727,Loan originated
+1,1025000.0,48,1285000.0,209.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,375000.0,30%-<36%,845000.0,119.0,1,Not Hispanic or Latino,White,Female,65-74,43.98,Loan originated
+1,505000.0,39,525000.0,109.0,1,Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,525000.0,20%-<30%,655000.0,258.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,515000.0,<20%,645000.0,501.0,1,Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,155000.0,45,205000.0,97.0,1,Not Hispanic or Latino,White,Female,65-74,75.96,Loan originated
+1,635000.0,42,795000.0,154.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,165000.0,41,195000.0,86.0,1,Hispanic or Latino,White,Female,45-54,84.99,Loan originated
+1,505000.0,37,665000.0,133.0,1,Hispanic or Latino,White,Female,35-44,75.188,Loan originated
+1,505000.0,43,635000.0,183.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,615000.0,30%-<36%,765000.0,175.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,515000.0,>60%,515000.0,64.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,101.75,Application denied
+1,565000.0,48,595000.0,161.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,485000.0,43,605000.0,117.0,1,Not Hispanic or Latino,Asian,Female,25-34,79.999,Loan originated
+1,645000.0,46,815000.0,181.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,905000.0,39,1205000.0,247.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,365000.0,47,455000.0,119.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,655000.0,45,1345000.0,150.0,1,Not Hispanic or Latino,White,Female,35-44,49.0,Loan originated
+1,335000.0,49,425000.0,86.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,535000.0,47,595000.0,114.0,1,Not Hispanic or Latino,Asian,Female,35-44,90.0,Loan originated
+1,1005000.0,44,1285000.0,193.0,1,Not Hispanic or Latino,Asian,Male,35-44,78.13,Loan originated
+1,405000.0,41,455000.0,154.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,335000.0,45,345000.0,75.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,595000.0,42,745000.0,170.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,585000.0,30%-<36%,985000.0,226.0,1,Not Hispanic or Latino,White,Male,25-34,59.184,Loan originated
+1,535000.0,44,555000.0,117.0,1,Not Hispanic or Latino,White,Female,35-44,100.0,Loan originated
+1,355000.0,>60%,375000.0,60.0,1,Hispanic or Latino,White,Male,35-44,95.0,Application denied
+1,855000.0,42,1075000.0,209.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,355000.0,20%-<30%,685000.0,155.0,1,Not Hispanic or Latino,Asian,Male,35-44,53.0,Loan originated
+1,315000.0,46,395000.0,84.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,525000.0,40,655000.0,159.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,305000.0,38,385000.0,98.0,1,Not Hispanic or Latino,White,Female,35-44,79.221,Loan originated
+1,75000.0,37,105000.0,46.0,1,Hispanic or Latino,White,Male,>74,75.0,Loan originated
+1,605000.0,45,765000.0,131.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,355000.0,46,385000.0,77.0,1,Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,755000.0,30%-<36%,2485000.0,273.0,1,Not Hispanic or Latino,White,Male,25-34,30.242,Loan originated
+1,655000.0,<20%,775000.0,413.0,1,Not Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,365000.0,37,455000.0,98.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,115000.0,20%-<30%,365000.0,51.0,1,Not Hispanic or Latino,White,Female,65-74,30.14,Loan originated
+1,505000.0,44,755000.0,132.0,1,Not Hispanic or Latino,White,Female,55-64,73.333,Loan originated
+1,275000.0,40,325000.0,76.0,1,Not Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,505000.0,30%-<36%,1255000.0,272.0,1,Not Hispanic or Latino,White,Female,55-64,40.0,Loan originated
+1,1015000.0,47,1265000.0,203.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,305000.0,48,325000.0,83.0,1,Not Hispanic or Latino,White,Female,65-74,95.0,Loan originated
+1,1065000.0,39,1335000.0,250.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,345000.0,46,575000.0,120.0,1,Not Hispanic or Latino,White,Male,25-34,60.0,Loan originated
+1,345000.0,45,505000.0,166.0,1,Not Hispanic or Latino,Asian,Female,35-44,68.0,Loan originated
+1,135000.0,30%-<36%,855000.0,97.0,1,Hispanic or Latino,White,Female,65-74,16.18,Loan originated
+1,445000.0,48,495000.0,94.0,1,Not Hispanic or Latino,Asian,Female,45-54,89.899,Loan originated
+1,525000.0,43,655000.0,223.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,385000.0,30%-<36%,485000.0,178.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,295000.0,47,555000.0,90.0,1,Hispanic or Latino,White,Male,35-44,53.827,Loan originated
+1,575000.0,20%-<30%,715000.0,265.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,205000.0,49,895000.0,67.0,1,Hispanic or Latino,White,Male,65-74,22.346,Loan originated
+1,385000.0,49,405000.0,87.0,1,Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,545000.0,20%-<30%,585000.0,193.0,1,Not Hispanic or Latino,White,Male,35-44,93.13,Loan originated
+1,655000.0,<20%,1005000.0,472.0,1,Not Hispanic or Latino,Asian,Male,35-44,65.0,Loan originated
+1,1025000.0,44,1635000.0,225.0,1,Not Hispanic or Latino,Asian,Female,35-44,62.691,Loan originated
+1,385000.0,44,455000.0,128.0,1,Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,1145000.0,47,1215000.0,274.0,1,Not Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,765000.0,20%-<30%,1075000.0,246.0,1,Not Hispanic or Latino,Asian,Female,35-44,71.64,Loan originated
+1,405000.0,48,425000.0,177.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,425000.0,45,565000.0,128.0,1,Not Hispanic or Latino,Asian,Male,25-34,74.99987,Loan originated
+1,605000.0,48,675000.0,138.0,1,Not Hispanic or Latino,Asian,Male,35-44,90.0,Loan originated
+1,765000.0,43,965000.0,260.0,1,Not Hispanic or Latino,Asian,Male,35-44,79.849,Loan originated
+1,425000.0,49,575000.0,127.0,1,Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,515000.0,30%-<36%,725000.0,177.0,1,Not Hispanic or Latino,White,Male,35-44,70.0,Loan originated
+1,455000.0,42,975000.0,115.0,1,Not Hispanic or Latino,White,Male,25-34,46.907,Loan originated
+1,645000.0,43,755000.0,231.0,1,Hispanic or Latino,White,Female,45-54,85.0,Loan originated
+1,305000.0,40,325000.0,73.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,465000.0,37,485000.0,119.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Application denied
+1,855000.0,49,955000.0,167.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,755000.0,38,1025000.0,298.0,1,Not Hispanic or Latino,Asian,Male,35-44,73.05,Application denied
+1,275000.0,30%-<36%,305000.0,213.0,1,Not Hispanic or Latino,White,Male,<25,90.0,Loan originated
+1,1105000.0,30%-<36%,1935000.0,352.0,1,Not Hispanic or Latino,White,Female,45-54,57.0,Loan originated
+1,195000.0,>60%,385000.0,41.0,1,Not Hispanic or Latino,White,Female,55-64,51.436,Loan originated
+1,775000.0,36,975000.0,217.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,655000.0,<20%,875000.0,458.0,1,Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,565000.0,47,625000.0,140.0,1,Not Hispanic or Latino,Asian,Male,35-44,89.99,Loan originated
+1,585000.0,30%-<36%,655000.0,192.0,1,Not Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,765000.0,39,1055000.0,222.0,1,Not Hispanic or Latino,Asian,Male,25-34,72.99,Loan originated
+1,1095000.0,30%-<36%,1225000.0,354.0,1,Not Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,425000.0,48,445000.0,157.0,1,Not Hispanic or Latino,White,Female,65-74,95.0,Loan originated
+1,85000.0,50%-60%,135000.0,33.0,1,Hispanic or Latino,White,Male,<25,63.769,Application denied
+1,845000.0,46,1055000.0,176.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,635000.0,42,855000.0,193.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,495000.0,49,625000.0,130.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,275000.0,45,295000.0,96.0,1,Not Hispanic or Latino,White,Female,45-54,92.46,Application denied
+1,755000.0,47,1005000.0,207.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,765000.0,45,1195000.0,237.0,1,Not Hispanic or Latino,White,Male,45-54,64.412,Loan originated
+1,565000.0,30%-<36%,715000.0,133.0,1,Not Hispanic or Latino,Asian,Male,35-44,79.01,Loan originated
+1,775000.0,48,815000.0,150.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,1105000.0,30%-<36%,1305000.0,301.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Loan originated
+1,115000.0,30%-<36%,355000.0,77.0,1,Not Hispanic or Latino,White,Female,25-34,32.168,Loan originated
+1,1065000.0,20%-<30%,1335000.0,475.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,505000.0,49,525000.0,120.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,525000.0,30%-<36%,715000.0,165.0,1,Not Hispanic or Latino,White,Female,35-44,73.472,Loan originated
+1,575000.0,48,775000.0,120.0,1,Hispanic or Latino,White,Male,35-44,73.548,Loan originated
+1,1065000.0,20%-<30%,1335000.0,456.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,785000.0,42,1095000.0,194.0,1,Not Hispanic or Latino,White,Male,45-54,71.23,Loan originated
+1,155000.0,47,265000.0,51.0,1,Not Hispanic or Latino,White,Male,65-74,58.491,Loan originated
+1,725000.0,49,975000.0,13.0,1,Not Hispanic or Latino,Asian,Female,35-44,74.46,Loan originated
+1,505000.0,49,795000.0,210.0,1,Hispanic or Latino,White,Female,>74,63.727,Loan originated
+1,625000.0,>60%,825000.0,167.0,1,Not Hispanic or Latino,Asian,Male,65-74,74.94,Application denied
+1,425000.0,47,525000.0,120.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,275000.0,47,295000.0,61.0,1,Hispanic or Latino,White,Female,35-44,94.068,Loan originated
+1,295000.0,37,895000.0,135.0,1,Not Hispanic or Latino,White,Male,35-44,32.584,Loan originated
+1,615000.0,47,775000.0,147.0,1,Not Hispanic or Latino,White,Female,45-54,99.48,Loan originated
+1,255000.0,30%-<36%,855000.0,122.0,1,Not Hispanic or Latino,White,Male,25-34,29.825,Loan originated
+1,515000.0,45,645000.0,116.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,615000.0,41,645000.0,151.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,995000.0,47,1475000.0,228.0,1,Hispanic or Latino,White,Male,25-34,70.0,Loan originated
+1,485000.0,<20%,2685000.0,3865.0,1,Not Hispanic or Latino,White,Male,35-44,18.103,Loan originated
+1,555000.0,48,585000.0,108.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,185000.0,40,505000.0,65.0,1,Not Hispanic or Latino,Black or African American,Male,65-74,37.0,Loan originated
+1,305000.0,43,375000.0,74.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,455000.0,45,1065000.0,107.0,1,Hispanic or Latino,White,Male,35-44,42.37,Loan originated
+1,295000.0,50%-60%,425000.0,74.0,1,Not Hispanic or Latino,Asian,Female,25-34,70.0,Loan originated
+1,675000.0,30%-<36%,1025000.0,210.0,1,Not Hispanic or Latino,White,Female,55-64,65.85,Loan originated
+1,385000.0,37,395000.0,135.0,1,Hispanic or Latino,White,Male,45-54,97.0,Loan originated
+1,555000.0,30%-<36%,865000.0,181.0,1,Not Hispanic or Latino,Asian,Female,25-34,63.953,Loan originated
+1,925000.0,<20%,1855000.0,647.0,1,Not Hispanic or Latino,White,Male,45-54,50.0,Loan originated
+1,815000.0,42,845000.0,250.0,1,Not Hispanic or Latino,Asian,Male,35-44,96.56,Application denied
+1,475000.0,40,555000.0,110.0,1,Not Hispanic or Latino,Asian,Male,45-54,85.0,Loan originated
+1,745000.0,47,1075000.0,372.0,1,Not Hispanic or Latino,Asian,Male,<25,70.0,Loan originated
+1,335000.0,30%-<36%,355000.0,106.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,45-54,95.0,Loan originated
+1,605000.0,45,675000.0,184.0,1,Not Hispanic or Latino,Black or African American,Female,55-64,90.0,Loan originated
+1,285000.0,49,485000.0,203.0,1,Not Hispanic or Latino,White,Male,>74,58.805,Loan originated
+1,215000.0,46,315000.0,47.0,1,Not Hispanic or Latino,White,Male,65-74,70.0,Loan originated
+1,415000.0,30%-<36%,715000.0,190.0,1,Not Hispanic or Latino,Asian,Female,35-44,57.75,Loan originated
+1,545000.0,44,605000.0,142.0,1,Not Hispanic or Latino,White,Male,55-64,90.0,Loan originated
+1,975000.0,30%-<36%,1355000.0,300.0,1,Not Hispanic or Latino,White,Male,35-44,72.22,Loan originated
+1,445000.0,49,495000.0,90.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,465000.0,20%-<30%,585000.0,209.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,995000.0,48,1175000.0,201.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Loan originated
+1,745000.0,46,735000.0,206.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Application denied
+1,945000.0,38,1055000.0,535.0,1,Not Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,655000.0,49,925000.0,143.0,1,Hispanic or Latino,White,Male,35-44,70.315,Loan originated
+1,315000.0,49,855000.0,91.0,1,Not Hispanic or Latino,White,Female,55-64,37.063,Loan originated
+1,385000.0,45,475000.0,80.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,255000.0,20%-<30%,605000.0,138.0,1,Not Hispanic or Latino,White,Female,45-54,41.667,Loan originated
+1,365000.0,37,465000.0,112.0,1,Hispanic or Latino,White,Male,35-44,80.0,Application denied
+1,295000.0,41,555000.0,82.0,1,Hispanic or Latino,White,Female,35-44,52.653,Loan originated
+1,605000.0,47,855000.0,156.0,1,Not Hispanic or Latino,Asian,Male,35-44,69.849,Loan originated
+1,675000.0,45,915000.0,248.0,1,Not Hispanic or Latino,White,Female,55-64,74.51,Loan originated
+1,585000.0,49,805000.0,147.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,275000.0,48,285000.0,61.0,1,Not Hispanic or Latino,White,Male,45-54,97.0,Loan originated
+1,835000.0,30%-<36%,1435000.0,272.0,1,Not Hispanic or Latino,Asian,Female,25-34,58.33,Loan originated
+1,275000.0,36,285000.0,83.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,1055000.0,20%-<30%,1995000.0,459.0,1,Not Hispanic or Latino,White,Male,55-64,52.632,Loan originated
+1,335000.0,30%-<36%,355000.0,124.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,245000.0,<20%,615000.0,177.0,1,Not Hispanic or Latino,White,Female,65-74,39.181,Loan originated
+1,145000.0,43,185000.0,136.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,255000.0,30%-<36%,855000.0,161.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,45-54,29.825,Loan originated
+1,945000.0,30%-<36%,1175000.0,344.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,365000.0,41,535000.0,87.0,1,Not Hispanic or Latino,White,Female,35-44,67.29,Loan originated
+1,965000.0,43,1215000.0,298.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,715000.0,41,755000.0,198.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,385000.0,30%-<36%,475000.0,122.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,725000.0,37,765000.0,218.0,1,Not Hispanic or Latino,Asian,Male,35-44,94.89,Loan originated
+1,405000.0,41,905000.0,113.0,1,Not Hispanic or Latino,White,Male,45-54,44.199,Loan originated
+1,445000.0,45,555000.0,87.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,195000.0,40,375000.0,61.0,1,Not Hispanic or Latino,Asian,Female,45-54,92.933,Loan originated
+1,505000.0,30%-<36%,625000.0,149.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,505000.0,41,595000.0,135.0,1,Not Hispanic or Latino,Asian,Male,35-44,85.0,Loan originated
+1,375000.0,20%-<30%,465000.0,135.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,655000.0,39,815000.0,221.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,385000.0,44,455000.0,140.0,1,Not Hispanic or Latino,White,Male,35-44,83.516,Loan originated
+1,195000.0,49,645000.0,54.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,45-54,30.296,Loan originated
+1,315000.0,30%-<36%,395000.0,103.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,185000.0,39,335000.0,100.0,1,Hispanic or Latino,Asian,Female,55-64,55.0,Loan originated
+1,765000.0,37,955000.0,239.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,725000.0,42,905000.0,169.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,285000.0,20%-<30%,505000.0,100.0,1,Not Hispanic or Latino,White,Female,65-74,57.388,Loan originated
+1,345000.0,47,425000.0,87.0,1,Hispanic or Latino,White,Male,<25,80.0,Loan originated
+1,585000.0,47,615000.0,126.0,1,Not Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,315000.0,30%-<36%,395000.0,101.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,745000.0,41,935000.0,194.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,625000.0,40,785000.0,391.0,1,Not Hispanic or Latino,Asian,Male,<25,80.0,Loan originated
+1,745000.0,30%-<36%,935000.0,554.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,205000.0,40,315000.0,187.0,1,Not Hispanic or Latino,White,Male,55-64,66.28,Application denied
+1,405000.0,48,905000.0,102.0,1,Not Hispanic or Latino,White,Female,>74,44.872,Application denied
+1,1045000.0,43,1105000.0,274.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,605000.0,30%-<36%,955000.0,225.0,1,Hispanic or Latino,White,Female,35-44,62.827,Application denied
+1,415000.0,49,555000.0,106.0,1,Not Hispanic or Latino,White,Male,45-54,75.0,Application denied
+1,465000.0,44,475000.0,112.0,1,Not Hispanic or Latino,White,Female,55-64,97.0,Loan originated
+1,415000.0,41,515000.0,124.0,1,Not Hispanic or Latino,White,Male,35-44,100.0,Loan originated
+1,585000.0,49,735000.0,126.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,115000.0,20%-<30%,135000.0,86.0,1,Hispanic or Latino,White,Female,55-64,90.0,Application denied
+1,975000.0,46,1085000.0,205.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,90.0,Loan originated
+1,385000.0,30%-<36%,435000.0,184.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,245000.0,30%-<36%,675000.0,157.0,1,Not Hispanic or Latino,White,Male,45-54,35.821,Loan originated
+1,315000.0,20%-<30%,535000.0,275.0,1,Not Hispanic or Latino,White,Male,65-74,60.0,Loan originated
+1,895000.0,39,1285000.0,292.0,1,Not Hispanic or Latino,White,Male,25-34,70.0,Loan originated
+1,565000.0,49,705000.0,134.0,1,Not Hispanic or Latino,White,Male,65-74,80.0,Loan originated
+1,395000.0,48,405000.0,93.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,885000.0,42,1105000.0,474.0,1,Hispanic or Latino,White,Male,35-44,80.0,Application denied
+1,365000.0,48,455000.0,70.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,1035000.0,47,1585000.0,371.0,1,Not Hispanic or Latino,Asian,Female,45-54,65.18987,Loan originated
+1,395000.0,20%-<30%,485000.0,115.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,805000.0,40,1635000.0,249.0,1,Not Hispanic or Latino,White,Male,55-64,48.93,Loan originated
+1,1015000.0,44,1135000.0,314.0,1,Not Hispanic or Latino,Asian,Female,25-34,90.0,Loan originated
+1,415000.0,49,435000.0,92.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,<25,97.0,Loan originated
+1,275000.0,49,315000.0,57.0,1,Hispanic or Latino,White,Male,55-64,93.5,Loan originated
+1,665000.0,30%-<36%,915000.0,177.0,1,Not Hispanic or Latino,Asian,Male,25-34,72.704,Loan originated
+1,405000.0,>60%,485000.0,83.0,1,Not Hispanic or Latino,White,Female,35-44,85.0,Application denied
+1,1115000.0,49,1395000.0,234.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,255000.0,42,315000.0,70.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,1145000.0,49,1255000.0,271.0,1,Not Hispanic or Latino,White,Female,35-44,91.986,Loan originated
+1,1075000.0,44,1135000.0,309.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,715000.0,30%-<36%,955000.0,290.0,1,Not Hispanic or Latino,White,Male,65-74,75.0,Loan originated
+1,375000.0,30%-<36%,485000.0,116.0,1,Hispanic or Latino,White,Male,35-44,78.125,Application denied
+1,755000.0,42,945000.0,212.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,475000.0,47,1125000.0,114.0,1,Hispanic or Latino,White,Female,35-44,42.22,Loan originated
+1,895000.0,43,1115000.0,349.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,685000.0,40,865000.0,171.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,955000.0,<20%,1195000.0,643.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,385000.0,49,415000.0,76.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,825000.0,30%-<36%,1175000.0,335.0,1,Not Hispanic or Latino,Asian,Male,35-44,70.0,Loan originated
+1,425000.0,41,505000.0,112.0,1,Not Hispanic or Latino,White,Male,25-34,84.4,Loan originated
+1,495000.0,30%-<36%,545000.0,142.0,1,Not Hispanic or Latino,Asian,Male,25-34,90.0,Loan originated
+1,805000.0,49,895000.0,218.0,1,Not Hispanic or Latino,White,Male,35-44,90.674,Loan originated
+1,625000.0,42,665000.0,139.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,605000.0,<20%,755000.0,859.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,505000.0,30%-<36%,635000.0,281.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,665000.0,48,705000.0,136.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,595000.0,>60%,625000.0,50.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Application denied
+1,325000.0,43,405000.0,94.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,635000.0,30%-<36%,785000.0,200.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,445000.0,37,555000.0,114.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,595000.0,39,745000.0,156.0,1,Hispanic or Latino,White,Female,25-34,79.36,Loan originated
+1,585000.0,30%-<36%,735000.0,191.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,175000.0,43,575000.0,70.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,35-44,31.292,Loan originated
+1,265000.0,39,325000.0,83.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,80.0,Loan originated
+1,515000.0,43,535000.0,127.0,1,Not Hispanic or Latino,Asian,Female,25-34,97.0,Loan originated
+1,375000.0,41,445000.0,96.0,1,Not Hispanic or Latino,White,Female,55-64,85.977,Loan originated
+1,185000.0,20%-<30%,195000.0,109.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,855000.0,43,955000.0,194.0,1,Not Hispanic or Latino,Asian,Male,35-44,89.99,Loan originated
+1,1075000.0,42,1205000.0,263.0,1,Not Hispanic or Latino,Asian,Female,35-44,89.917,Loan originated
+1,545000.0,39,685000.0,189.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,445000.0,30%-<36%,695000.0,156.0,1,Not Hispanic or Latino,Asian,Female,45-54,65.0,Loan originated
+1,295000.0,42,375000.0,82.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,1005000.0,50%-60%,2105000.0,152.0,1,Not Hispanic or Latino,White,Female,65-74,47.619,Loan originated
+1,665000.0,30%-<36%,835000.0,211.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,1005000.0,30%-<36%,1665000.0,225.0,1,Not Hispanic or Latino,Asian,Male,45-54,60.083,Loan originated
+1,915000.0,40,985000.0,224.0,1,Not Hispanic or Latino,Asian,Male,35-44,94.0,Loan originated
+1,315000.0,45,495000.0,219.0,1,Not Hispanic or Latino,White,Male,35-44,64.286,Loan originated
+1,495000.0,46,735000.0,147.0,1,Hispanic or Latino,White,Male,25-34,67.838,Loan originated
+1,485000.0,48,635000.0,116.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,475000.0,49,495000.0,92.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,205000.0,30%-<36%,645000.0,126.0,1,Not Hispanic or Latino,White,Female,55-64,30.888,Loan originated
+1,725000.0,40,805000.0,195.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,35-44,90.0,Loan originated
+1,605000.0,39,755000.0,166.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,1145000.0,46,1455000.0,325.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,265000.0,>60%,315000.0,59.0,1,Not Hispanic or Latino,Black or African American,Female,55-64,83.861,Application denied
+1,305000.0,38,505000.0,102.0,1,Not Hispanic or Latino,White,Female,35-44,60.0,Loan originated
+1,725000.0,48,855000.0,180.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Loan originated
+1,305000.0,43,475000.0,91.0,1,Not Hispanic or Latino,White,Male,35-44,62.63,Loan originated
+1,1145000.0,37,1445000.0,460.0,1,Not Hispanic or Latino,White,Male,45-54,79.752,Loan originated
+1,155000.0,38,165000.0,84.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,385000.0,<20%,475000.0,360.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,375000.0,48,665000.0,112.0,1,Not Hispanic or Latino,White,Male,25-34,56.22,Loan originated
+1,885000.0,30%-<36%,1105000.0,240.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,415000.0,36,605000.0,128.0,1,Not Hispanic or Latino,White,Female,35-44,68.333,Loan originated
+1,755000.0,41,885000.0,265.0,1,Not Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,355000.0,49,445000.0,73.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,1055000.0,41,1405000.0,307.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,355000.0,43,505000.0,94.0,1,Not Hispanic or Latino,Asian,Female,25-34,70.0,Loan originated
+1,455000.0,30%-<36%,505000.0,284.0,1,Not Hispanic or Latino,Asian,Male,45-54,89.99,Loan originated
+1,485000.0,20%-<30%,915000.0,178.0,1,Not Hispanic or Latino,White,Male,45-54,52.97,Loan originated
+1,255000.0,40,755000.0,72.0,1,Hispanic or Latino,White,Male,35-44,33.33,Loan originated
+1,455000.0,20%-<30%,755000.0,146.0,1,Not Hispanic or Latino,White,Male,35-44,59.603,Loan originated
+1,1005000.0,38,1285000.0,329.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Application denied
+1,645000.0,40,865000.0,156.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,585000.0,40,725000.0,166.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,675000.0,30%-<36%,905000.0,248.0,1,Not Hispanic or Latino,Asian,Male,45-54,74.99997,Loan originated
+1,555000.0,44,695000.0,207.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,615000.0,41,895000.0,196.0,1,Not Hispanic or Latino,White,Male,35-44,69.0,Loan originated
+1,495000.0,30%-<36%,615000.0,241.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,655000.0,20%-<30%,725000.0,497.0,1,Hispanic or Latino,White,Male,65-74,90.0,Loan originated
+1,415000.0,44,445000.0,111.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,215000.0,49,225000.0,57.0,1,Hispanic or Latino,White,Female,<25,97.0,Loan originated
+1,655000.0,46,875000.0,177.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,145000.0,43,155000.0,70.0,1,Not Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,635000.0,45,1255000.0,221.0,1,Not Hispanic or Latino,White,Female,35-44,50.4,Loan originated
+1,645000.0,44,815000.0,143.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,155000.0,39,155000.0,70.0,1,Not Hispanic or Latino,Asian,Female,35-44,97.0,Loan originated
+1,325000.0,43,355000.0,130.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,665000.0,39,885000.0,166.0,1,Not Hispanic or Latino,Asian,Female,55-64,75.0,Loan originated
+1,125000.0,49,485000.0,82.0,1,Not Hispanic or Latino,White,Male,55-64,25.0,Loan originated
+1,345000.0,44,385000.0,99.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,295000.0,43,315000.0,117.0,1,Hispanic or Latino,White,Male,35-44,93.33,Application denied
+1,465000.0,44,575000.0,108.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,525000.0,30%-<36%,655000.0,165.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,415000.0,49,665000.0,83.0,1,Not Hispanic or Latino,Asian,Female,25-34,62.406,Loan originated
+1,405000.0,41,805000.0,109.0,1,Not Hispanic or Latino,White,Female,25-34,50.0,Loan originated
+1,445000.0,40,745000.0,123.0,1,Not Hispanic or Latino,Asian,Male,25-34,59.94,Loan originated
+1,475000.0,30%-<36%,595000.0,128.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,505000.0,20%-<30%,705000.0,186.0,1,Not Hispanic or Latino,White,Male,65-74,71.429,Loan originated
+1,345000.0,49,425000.0,89.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,745000.0,49,1015000.0,150.0,1,Not Hispanic or Latino,Asian,Female,25-34,73.103,Loan originated
+1,475000.0,42,875000.0,213.0,1,Hispanic or Latino,White,Male,55-64,53.978,Loan originated
+1,415000.0,30%-<36%,935000.0,141.0,1,Not Hispanic or Latino,Asian,Male,25-34,44.09,Loan originated
+1,605000.0,48,675000.0,123.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,525000.0,44,705000.0,134.0,1,Not Hispanic or Latino,White,Male,25-34,74.0,Loan originated
+1,675000.0,>60%,705000.0,108.0,1,Not Hispanic or Latino,Asian,Female,35-44,95.0,Application denied
+1,585000.0,30%-<36%,685000.0,212.0,1,Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,335000.0,20%-<30%,935000.0,193.0,1,Not Hispanic or Latino,White,Female,65-74,35.829,Loan originated
+1,625000.0,48,695000.0,156.0,1,Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,555000.0,42,695000.0,127.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,755000.0,45,935000.0,230.0,1,Hispanic or Latino,White,Male,35-44,80.0,Application denied
+1,835000.0,30%-<36%,1045000.0,246.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,25-34,80.0,Loan originated
+1,575000.0,42,1065000.0,150.0,1,Not Hispanic or Latino,Asian,Male,35-44,54.0,Loan originated
+1,445000.0,40,475000.0,113.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Application denied
+1,545000.0,44,565000.0,147.0,1,Not Hispanic or Latino,White,Male,45-54,96.46,Loan originated
+1,405000.0,20%-<30%,565000.0,188.0,1,Not Hispanic or Latino,White,Male,35-44,71.75,Loan originated
+1,515000.0,36,645000.0,145.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,1135000.0,44,1855000.0,257.0,1,Not Hispanic or Latino,White,Male,25-34,60.94,Loan originated
+1,425000.0,>60%,1265000.0,31.0,1,Not Hispanic or Latino,White,Female,45-54,33.597,Loan originated
+1,245000.0,50%-60%,325000.0,50.0,1,Hispanic or Latino,White,Male,35-44,73.85,Loan originated
+1,635000.0,45,975000.0,129.0,1,Not Hispanic or Latino,White,Female,35-44,64.781,Loan originated
+1,235000.0,48,285000.0,63.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Application denied
+1,465000.0,45,475000.0,134.0,1,Hispanic or Latino,White,Male,25-34,100.0,Loan originated
+1,465000.0,50%-60%,615000.0,149.0,1,Hispanic or Latino,White,Male,35-44,76.0,Loan originated
+1,565000.0,49,595000.0,135.0,1,Hispanic or Latino,White,Female,35-44,94.758,Loan originated
+1,485000.0,44,505000.0,144.0,1,Hispanic or Latino,White,Female,25-34,97.0,Loan originated
+1,585000.0,42,985000.0,408.0,1,Not Hispanic or Latino,White,Female,25-34,60.0,Loan originated
+1,595000.0,50%-60%,625000.0,125.0,1,Not Hispanic or Latino,White,Female,35-44,96.0,Application denied
+1,435000.0,38,455000.0,140.0,1,Not Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,315000.0,48,365000.0,106.0,1,Not Hispanic or Latino,Asian,Female,25-34,86.111,Loan originated
+1,685000.0,49,725000.0,137.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,325000.0,49,345000.0,78.0,1,Hispanic or Latino,White,Female,35-44,94.253,Loan originated
+1,1125000.0,49,1185000.0,218.0,1,Not Hispanic or Latino,Asian,Male,45-54,94.999,Loan originated
+1,265000.0,30%-<36%,325000.0,113.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,80.0,Loan originated
+1,445000.0,43,485000.0,205.0,1,Not Hispanic or Latino,White,Female,55-64,92.92,Loan originated
+1,1045000.0,40,1225000.0,269.0,1,Not Hispanic or Latino,Asian,Male,25-34,84.998,Loan originated
+1,245000.0,<20%,445000.0,145.0,1,Not Hispanic or Latino,White,Male,35-44,54.917,Loan originated
+1,95000.0,42,105000.0,66.0,1,Not Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,315000.0,38,915000.0,150.0,1,Not Hispanic or Latino,White,Male,65-74,34.066,Loan originated
+1,675000.0,46,755000.0,217.0,1,Not Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,215000.0,42,245000.0,79.0,1,Not Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,295000.0,37,335000.0,123.0,1,Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,195000.0,<20%,545000.0,268.0,1,Not Hispanic or Latino,White,Female,65-74,35.186,Loan originated
+1,945000.0,47,995000.0,255.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,535000.0,38,635000.0,172.0,1,Not Hispanic or Latino,White,Male,35-44,84.144,Loan originated
+1,605000.0,20%-<30%,1075000.0,390.0,1,Not Hispanic or Latino,Asian,Female,35-44,55.814,Loan originated
+1,605000.0,37,715000.0,169.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Loan originated
+1,525000.0,44,575000.0,145.0,1,Not Hispanic or Latino,White,Female,35-44,92.0,Loan originated
+1,525000.0,42,745000.0,212.0,1,Not Hispanic or Latino,Asian,Female,45-54,70.0,Loan originated
+1,365000.0,45,455000.0,100.0,1,Not Hispanic or Latino,White,Male,25-34,80.889,Loan originated
+1,645000.0,43,815000.0,165.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,345000.0,30%-<36%,435000.0,134.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,295000.0,44,305000.0,72.0,1,Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,35-44,97.0,Loan originated
+1,5000.0,<20%,295000.0,93.0,1,Hispanic or Latino,White,Male,25-34,3.0,Loan originated
+1,215000.0,46,385000.0,73.0,1,Hispanic or Latino,White,Female,25-34,55.263,Loan originated
+1,355000.0,42,1285000.0,151.0,1,Not Hispanic or Latino,White,Male,45-54,27.626,Loan originated
+1,1045000.0,41,1305000.0,244.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,265000.0,49,785000.0,148.0,1,Not Hispanic or Latino,Asian,Male,45-54,34.27,Loan originated
+1,555000.0,43,575000.0,134.0,1,Not Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,115000.0,30%-<36%,115000.0,74.0,1,Not Hispanic or Latino,White,Female,65-74,97.44,Application denied
+1,485000.0,30%-<36%,515000.0,149.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,515000.0,49,695000.0,109.0,1,Hispanic or Latino,White,Male,55-64,74.101,Loan originated
+1,55000.0,38,375000.0,36.0,1,Hispanic or Latino,White,Female,45-54,13.784,Loan originated
+1,595000.0,43,1155000.0,184.0,1,Hispanic or Latino,White,Male,55-64,51.627,Loan originated
+1,105000.0,46,445000.0,40.0,1,Not Hispanic or Latino,White,Female,65-74,22.237,Loan originated
+1,165000.0,46,235000.0,76.0,1,Hispanic or Latino,White,Female,35-44,66.95,Application denied
+1,885000.0,48,1105000.0,171.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,455000.0,30%-<36%,565000.0,266.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,765000.0,47,855000.0,395.0,1,Not Hispanic or Latino,White,Male,<25,89.412,Loan originated
+1,615000.0,46,1195000.0,329.0,1,Not Hispanic or Latino,White,Male,25-34,51.246,Loan originated
+1,545000.0,44,795000.0,237.0,1,Not Hispanic or Latino,Asian,Male,25-34,68.861,Loan originated
+1,685000.0,45,765000.0,171.0,1,Hispanic or Latino,White,Female,25-34,89.99,Loan originated
+1,745000.0,47,765000.0,142.0,1,Hispanic or Latino,White,Male,25-34,97.0,Application denied
+1,505000.0,20%-<30%,625000.0,225.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,505000.0,49,555000.0,152.0,1,Not Hispanic or Latino,White,Female,25-34,92.0,Loan originated
+1,765000.0,48,825000.0,154.0,1,Not Hispanic or Latino,White,Male,35-44,93.0,Loan originated
+1,375000.0,30%-<36%,395000.0,124.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,765000.0,45,1295000.0,185.0,1,Not Hispanic or Latino,Asian,Male,25-34,58.95,Loan originated
+1,605000.0,36,1775000.0,193.0,1,Not Hispanic or Latino,White,Female,65-74,33.759,Loan originated
+1,445000.0,39,465000.0,114.0,1,Not Hispanic or Latino,Asian,Male,55-64,95.0,Loan originated
+1,485000.0,45,1085000.0,127.0,1,Not Hispanic or Latino,Asian,Female,25-34,44.444,Loan originated
+1,205000.0,30%-<36%,495000.0,142.0,1,Not Hispanic or Latino,White,Male,25-34,41.84,Loan originated
+1,605000.0,30%-<36%,755000.0,262.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,525000.0,49,935000.0,103.0,1,Not Hispanic or Latino,Asian,Male,45-54,56.47,Loan originated
+1,745000.0,48,995000.0,240.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,405000.0,42,425000.0,99.0,1,Hispanic or Latino,White,Female,25-34,94.824,Application denied
+1,955000.0,48,1285000.0,183.0,1,Not Hispanic or Latino,Asian,Female,25-34,73.93,Loan originated
+1,625000.0,43,785000.0,185.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Female,25-34,80.0,Loan originated
+1,495000.0,30%-<36%,755000.0,170.0,1,Not Hispanic or Latino,Asian,Male,25-34,64.901,Loan originated
+1,55000.0,<20%,65000.0,79.0,1,Not Hispanic or Latino,White,Female,<25,75.0,Application denied
+1,655000.0,41,1075000.0,148.0,1,Not Hispanic or Latino,Asian,Female,45-54,60.748,Loan originated
+1,455000.0,46,485000.0,124.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,625000.0,36,655000.0,215.0,1,Not Hispanic or Latino,White,Male,<25,95.0,Loan originated
+1,765000.0,43,915000.0,185.0,1,Not Hispanic or Latino,Asian,Male,45-54,84.066,Loan originated
+1,295000.0,49,395000.0,116.0,1,Hispanic or Latino,White,Male,65-74,75.0,Loan originated
+1,685000.0,49,1185000.0,250.0,1,Not Hispanic or Latino,White,Female,65-74,57.64,Loan originated
+1,595000.0,38,625000.0,218.0,1,Not Hispanic or Latino,Asian,Male,25-34,94.88,Loan originated
+1,1005000.0,49,1855000.0,240.0,1,Not Hispanic or Latino,White,Female,>74,54.05,Application denied
+1,415000.0,50%-60%,695000.0,92.0,1,Not Hispanic or Latino,Asian,Female,35-44,60.159,Loan originated
+1,765000.0,45,975000.0,234.0,1,Not Hispanic or Latino,White,Female,25-34,79.0,Loan originated
+1,145000.0,20%-<30%,825000.0,90.0,1,Hispanic or Latino,White,Male,25-34,17.82,Loan originated
+1,305000.0,30%-<36%,505000.0,134.0,1,Not Hispanic or Latino,White,Female,55-64,60.0,Loan originated
+1,425000.0,44,525000.0,111.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,355000.0,44,435000.0,103.0,1,Not Hispanic or Latino,White,Female,35-44,100.0,Loan originated
+1,255000.0,42,265000.0,77.0,1,Hispanic or Latino,Black or African American,Female,25-34,97.0,Application denied
+1,665000.0,30%-<36%,705000.0,284.0,1,Hispanic or Latino,Black or African American,Male,35-44,95.0,Loan originated
+1,995000.0,44,1325000.0,251.0,1,Not Hispanic or Latino,Asian,Male,45-54,75.0,Loan originated
+1,325000.0,43,335000.0,109.0,1,Not Hispanic or Latino,White,Female,45-54,97.0,Loan originated
+1,585000.0,20%-<30%,835000.0,360.0,1,Not Hispanic or Latino,Asian,Female,35-44,70.0,Loan originated
+1,765000.0,41,1175000.0,303.0,1,Not Hispanic or Latino,White,Male,35-44,65.539,Loan originated
+1,545000.0,47,695000.0,116.0,1,Not Hispanic or Latino,Asian,Male,25-34,78.556,Loan originated
+1,335000.0,30%-<36%,495000.0,190.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,35-44,68.0,Loan originated
+1,485000.0,45,605000.0,110.0,1,Not Hispanic or Latino,Black or African American,Male,45-54,80.0,Loan originated
+1,245000.0,47,305000.0,50.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,855000.0,48,905000.0,191.0,1,Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,585000.0,37,655000.0,161.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,635000.0,46,705000.0,160.0,1,Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,505000.0,48,775000.0,110.0,1,Not Hispanic or Latino,Black or African American,Female,55-64,80.0,Loan originated
+1,855000.0,30%-<36%,1675000.0,325.0,1,Not Hispanic or Latino,White,Female,45-54,50.746,Loan originated
+1,625000.0,49,775000.0,129.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,745000.0,30%-<36%,785000.0,232.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,835000.0,30%-<36%,925000.0,282.0,1,Not Hispanic or Latino,Asian,Male,35-44,89.99,Loan originated
+1,325000.0,20%-<30%,525000.0,152.0,1,Not Hispanic or Latino,White,Female,35-44,61.9,Loan originated
+1,305000.0,20%-<30%,855000.0,136.0,1,Not Hispanic or Latino,White,Female,45-54,35.294,Loan originated
+1,225000.0,43,335000.0,63.0,1,Not Hispanic or Latino,Asian,Female,<25,65.0,Loan originated
+1,185000.0,46,285000.0,46.0,1,Hispanic or Latino,White,Female,45-54,100.93,Loan originated
+1,555000.0,30%-<36%,615000.0,180.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,665000.0,48,705000.0,185.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,625000.0,>60%,835000.0,87.0,1,Not Hispanic or Latino,White,Male,55-64,75.0,Application denied
+1,365000.0,49,615000.0,82.0,1,Not Hispanic or Latino,Asian,Female,45-54,59.0,Loan originated
+1,735000.0,30%-<36%,815000.0,398.0,1,Hispanic or Latino,White,Male,45-54,90.0,Loan originated
+1,445000.0,39,495000.0,171.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,90.0,Loan originated
+1,405000.0,36,435000.0,123.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,405000.0,49,765000.0,82.0,1,Hispanic or Latino,White,Male,35-44,52.288,Loan originated
+1,745000.0,46,785000.0,204.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,985000.0,42,1095000.0,232.0,1,Not Hispanic or Latino,Asian,Female,25-34,90.0,Loan originated
+1,355000.0,42,675000.0,106.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Female,55-64,52.0,Loan originated
+1,495000.0,<20%,585000.0,1275.0,1,Not Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,285000.0,30%-<36%,425000.0,99.0,1,Hispanic or Latino,White,Male,45-54,67.059,Loan originated
+1,745000.0,49,935000.0,142.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,405000.0,45,505000.0,112.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,195000.0,44,205000.0,47.0,1,Hispanic or Latino,White,Female,<25,97.0,Loan originated
+1,615000.0,41,685000.0,156.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,515000.0,41,735000.0,347.0,1,Not Hispanic or Latino,White,Female,45-54,70.0,Loan originated
+1,645000.0,41,835000.0,150.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,505000.0,38,525000.0,190.0,1,Not Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,705000.0,30%-<36%,955000.0,280.0,1,Not Hispanic or Latino,Black or African American,Female,55-64,73.735,Loan originated
+1,645000.0,49,685000.0,253.0,1,Not Hispanic or Latino,White,Male,<25,95.0,Loan originated
+1,675000.0,30%-<36%,845000.0,183.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,225000.0,47,305000.0,54.0,1,Hispanic or Latino,White,Female,65-74,75.0,Loan originated
+1,355000.0,49,505000.0,87.0,1,Not Hispanic or Latino,White,Female,25-34,71.0,Loan originated
+1,1145000.0,49,1425000.0,243.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,295000.0,30%-<36%,325000.0,135.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,755000.0,39,1235000.0,254.0,1,Not Hispanic or Latino,Asian,Male,25-34,60.877,Loan originated
+1,505000.0,41,725000.0,134.0,1,Hispanic or Latino,White,Male,45-54,70.0,Loan originated
+1,305000.0,46,1255000.0,142.0,1,Not Hispanic or Latino,Asian,Male,<25,24.0,Loan originated
+1,405000.0,45,515000.0,99.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,715000.0,39,755000.0,169.0,1,Not Hispanic or Latino,Asian,Male,35-44,94.667,Loan originated
+1,165000.0,<20%,205000.0,93.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,365000.0,45,445000.0,115.0,1,Hispanic or Latino,White,Male,45-54,102.0,Application denied
+1,755000.0,30%-<36%,1335000.0,274.0,1,Not Hispanic or Latino,Asian,Female,<25,56.391,Loan originated
+1,535000.0,46,735000.0,121.0,1,Not Hispanic or Latino,Asian,Male,55-64,72.75,Loan originated
+1,465000.0,37,465000.0,132.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,35-44,100.0,Loan originated
+1,505000.0,49,595000.0,142.0,1,Not Hispanic or Latino,White,Female,25-34,85.0,Loan originated
+1,455000.0,48,655000.0,234.0,1,Not Hispanic or Latino,White,Male,45-54,69.231,Loan originated
+1,315000.0,<20%,625000.0,200.0,1,Hispanic or Latino,Black or African American,Male,25-34,51.613,Application denied
+1,645000.0,49,675000.0,151.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,255000.0,38,275000.0,81.0,1,Not Hispanic or Latino,White,Male,25-34,94.606,Loan originated
+1,575000.0,38,605000.0,138.0,1,Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,485000.0,20%-<30%,605000.0,235.0,1,Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,445000.0,37,575000.0,153.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,105000.0,37,715000.0,77.0,1,Not Hispanic or Latino,White,Female,25-34,13.986,Loan originated
+1,435000.0,42,455000.0,102.0,1,Not Hispanic or Latino,White,Female,45-54,102.582,Loan originated
+1,1045000.0,39,1235000.0,296.0,1,Not Hispanic or Latino,White,Female,25-34,85.0,Loan originated
+1,435000.0,45,485000.0,121.0,1,Not Hispanic or Latino,Black or African American,Female,55-64,89.69,Application denied
+1,515000.0,42,545000.0,338.0,1,Hispanic or Latino,White,Male,>74,95.0,Loan originated
+1,285000.0,30%-<36%,645000.0,154.0,1,Not Hispanic or Latino,Asian,Female,25-34,43.20988,Loan originated
+1,765000.0,20%-<30%,1525000.0,833.0,1,Not Hispanic or Latino,White,Male,45-54,50.461,Loan originated
+1,355000.0,49,445000.0,94.0,1,Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,685000.0,20%-<30%,865000.0,348.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,435000.0,20%-<30%,545000.0,177.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,735000.0,49,815000.0,144.0,1,Hispanic or Latino,White,Male,55-64,90.0,Loan originated
+1,665000.0,48,835000.0,170.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,415000.0,20%-<30%,465000.0,713.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,335000.0,47,375000.0,96.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,155000.0,30%-<36%,195000.0,120.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,435000.0,45,455000.0,92.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,765000.0,45,825000.0,200.0,1,Not Hispanic or Latino,Asian,Female,35-44,93.36,Loan originated
+1,1005000.0,44,1255000.0,246.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,925000.0,<20%,1155000.0,1305.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,375000.0,43,395000.0,116.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,585000.0,46,685000.0,241.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Loan originated
+1,655000.0,30%-<36%,735000.0,192.0,1,Not Hispanic or Latino,Asian,Male,25-34,89.99,Loan originated
+1,415000.0,50%-60%,525000.0,97.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Application denied
+1,355000.0,39,1005000.0,141.0,1,Not Hispanic or Latino,Asian,Female,35-44,35.0,Loan originated
+1,395000.0,38,595000.0,101.0,1,Not Hispanic or Latino,Asian,Male,25-34,67.0,Loan originated
+1,525000.0,20%-<30%,925000.0,176.0,1,Not Hispanic or Latino,White,Female,25-34,56.522,Loan originated
+1,655000.0,20%-<30%,695000.0,233.0,1,Not Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,485000.0,49,605000.0,105.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,325000.0,44,725000.0,82.0,1,Not Hispanic or Latino,White,Male,35-44,44.46,Loan originated
+1,495000.0,48,515000.0,98.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,25-34,97.0,Loan originated
+1,795000.0,37,835000.0,179.0,1,Hispanic or Latino,White,Male,45-54,97.994,Loan originated
+1,195000.0,49,215000.0,98.0,1,Hispanic or Latino,White,Female,25-34,86.808,Loan originated
+1,185000.0,30%-<36%,235000.0,108.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Female,35-44,80.0,Loan originated
+1,755000.0,46,885000.0,205.0,1,Not Hispanic or Latino,White,Female,55-64,85.0,Loan originated
+1,155000.0,47,485000.0,46.0,1,Hispanic or Latino,White,Male,55-64,31.25,Loan originated
+1,365000.0,49,385000.0,74.0,1,Hispanic or Latino,White,Female,<25,95.0,Loan originated
+1,385000.0,45,585000.0,201.0,1,Not Hispanic or Latino,Asian,Female,35-44,65.517,Loan originated
+1,615000.0,36,765000.0,220.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,355000.0,44,805000.0,98.0,1,Not Hispanic or Latino,Asian,Male,45-54,43.479,Loan originated
+1,285000.0,20%-<30%,355000.0,147.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,695000.0,43,815000.0,239.0,1,Not Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,305000.0,45,385000.0,71.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Application denied
+1,905000.0,42,1305000.0,235.0,1,Not Hispanic or Latino,Asian,Male,35-44,70.0,Loan originated
+1,175000.0,48,225000.0,55.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,685000.0,45,725000.0,197.0,1,Not Hispanic or Latino,Asian,Male,45-54,95.0,Loan originated
+1,475000.0,44,795000.0,120.0,1,Not Hispanic or Latino,Asian,Female,55-64,60.0,Loan originated
+1,325000.0,50%-60%,465000.0,89.0,1,Hispanic or Latino,White,Male,45-54,70.0,Loan originated
+1,655000.0,43,735000.0,162.0,1,Not Hispanic or Latino,Asian,Male,25-34,90.0,Loan originated
+1,625000.0,20%-<30%,1025000.0,274.0,1,Not Hispanic or Latino,White,Male,35-44,60.751,Loan originated
+1,615000.0,30%-<36%,825000.0,185.0,1,Not Hispanic or Latino,White,Female,55-64,75.0,Loan originated
+1,405000.0,30%-<36%,1215000.0,205.0,1,Not Hispanic or Latino,Asian,Male,45-54,33.058,Loan originated
+1,565000.0,20%-<30%,715000.0,340.0,1,Not Hispanic or Latino,2 or more minority races,Female,45-54,80.0,Loan originated
+1,405000.0,38,425000.0,140.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,25-34,95.0,Loan originated
+1,645000.0,48,695000.0,131.0,1,Not Hispanic or Latino,White,Male,35-44,92.086,Loan originated
+1,545000.0,43,675000.0,132.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,185000.0,41,285000.0,146.0,1,Not Hispanic or Latino,White,Female,>74,65.0,Loan originated
+1,465000.0,47,575000.0,102.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,465000.0,43,585000.0,159.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,705000.0,43,705000.0,198.0,1,Not Hispanic or Latino,Asian,Female,35-44,100.0,Loan originated
+1,595000.0,<20%,665000.0,616.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,755000.0,39,945000.0,190.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,595000.0,20%-<30%,635000.0,280.0,1,Not Hispanic or Latino,Asian,Male,45-54,95.0,Loan originated
+1,605000.0,46,1155000.0,229.0,1,Not Hispanic or Latino,White,Male,55-64,52.174,Loan originated
+1,405000.0,46,515000.0,206.0,1,Not Hispanic or Latino,White,Female,55-64,78.049,Loan originated
+1,335000.0,36,415000.0,118.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,275000.0,36,385000.0,91.0,1,Not Hispanic or Latino,White,Male,55-64,72.03,Loan originated
+1,455000.0,46,1475000.0,156.0,1,Not Hispanic or Latino,White,Male,55-64,30.51,Loan originated
+1,425000.0,<20%,525000.0,256.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,475000.0,20%-<30%,505000.0,257.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,765000.0,41,1015000.0,200.0,1,Not Hispanic or Latino,White,Male,35-44,75.665,Loan originated
+1,295000.0,44,305000.0,65.0,1,Hispanic or Latino,White,Female,25-34,100.0,Loan originated
+1,535000.0,30%-<36%,625000.0,155.0,1,Not Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,575000.0,49,635000.0,139.0,1,Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,505000.0,41,635000.0,176.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,1075000.0,43,1335000.0,377.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,925000.0,43,1155000.0,209.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,605000.0,45,805000.0,142.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,485000.0,30%-<36%,605000.0,194.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,755000.0,44,805000.0,176.0,1,Hispanic or Latino,2 or more minority races,Male,35-44,94.087,Loan originated
+1,505000.0,30%-<36%,625000.0,447.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,355000.0,30%-<36%,375000.0,191.0,1,Not Hispanic or Latino,Asian,Female,25-34,95.0,Loan originated
+1,375000.0,42,675000.0,99.0,1,Not Hispanic or Latino,Asian,Female,>74,55.55,Loan originated
+1,445000.0,44,465000.0,118.0,1,Hispanic or Latino,White,Male,25-34,100.0,Loan originated
+1,475000.0,49,805000.0,110.0,1,Not Hispanic or Latino,Asian,Female,45-54,59.03,Loan originated
+1,575000.0,42,645000.0,186.0,1,Not Hispanic or Latino,Asian,Male,<25,90.0,Loan originated
+1,605000.0,49,805000.0,189.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,605000.0,40,715000.0,188.0,1,Not Hispanic or Latino,Asian,Female,25-34,85.0,Loan originated
+1,655000.0,46,1185000.0,145.0,1,Not Hispanic or Latino,Asian,Male,25-34,54.992,Loan originated
+1,535000.0,48,665000.0,103.0,1,Not Hispanic or Latino,Asian,Male,65-74,80.0,Loan originated
+1,335000.0,49,345000.0,76.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Male,35-44,95.0,Loan originated
+1,665000.0,48,735000.0,157.0,1,Not Hispanic or Latino,White,Male,45-54,90.0,Loan originated
+1,245000.0,49,835000.0,106.0,1,Not Hispanic or Latino,White,Female,35-44,29.483,Loan originated
+1,735000.0,36,825000.0,342.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,955000.0,30%-<36%,1285000.0,463.0,1,Not Hispanic or Latino,White,Male,45-54,74.219,Loan originated
+1,345000.0,47,505000.0,91.0,1,Not Hispanic or Latino,White,Female,55-64,69.0,Loan originated
+1,425000.0,39,445000.0,213.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,615000.0,39,875000.0,186.0,1,Not Hispanic or Latino,Asian,Female,35-44,70.0,Loan originated
+1,375000.0,49,395000.0,85.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,545000.0,37,685000.0,222.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,145000.0,48,185000.0,46.0,1,Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,1115000.0,49,1725000.0,246.0,1,Not Hispanic or Latino,Asian,Female,35-44,65.0,Loan originated
+1,595000.0,48,665000.0,135.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,515000.0,37,565000.0,146.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,335000.0,49,375000.0,112.0,1,Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,655000.0,47,815000.0,141.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,715000.0,30%-<36%,785000.0,211.0,1,Not Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,1105000.0,42,1475000.0,251.0,1,Not Hispanic or Latino,Asian,Female,45-54,75.0,Loan originated
+1,535000.0,49,1025000.0,104.0,1,Not Hispanic or Latino,White,Female,25-34,52.0,Loan originated
+1,605000.0,42,925000.0,159.0,1,Not Hispanic or Latino,White,Male,45-54,65.0,Loan originated
+1,535000.0,30%-<36%,595000.0,360.0,1,Not Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,665000.0,42,835000.0,214.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,275000.0,30%-<36%,345000.0,132.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,405000.0,49,535000.0,102.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,385000.0,40,585000.0,123.0,1,Not Hispanic or Latino,White,Male,55-64,65.0,Loan originated
+1,505000.0,40,575000.0,133.0,1,Not Hispanic or Latino,Asian,Female,45-54,87.336,Loan originated
+1,615000.0,20%-<30%,765000.0,210.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,295000.0,45,305000.0,78.0,1,Hispanic or Latino,White,Female,45-54,94.498,Loan originated
+1,385000.0,40,635000.0,122.0,1,Not Hispanic or Latino,White,Male,55-64,60.63,Loan originated
+1,555000.0,44,925000.0,140.0,1,Not Hispanic or Latino,Asian,Female,45-54,59.46,Loan originated
+1,415000.0,49,485000.0,88.0,1,Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,725000.0,48,905000.0,196.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,585000.0,37,725000.0,140.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,275000.0,46,475000.0,66.0,1,Not Hispanic or Latino,White,Female,65-74,57.895,Loan originated
+1,925000.0,47,975000.0,319.0,1,Not Hispanic or Latino,Asian,Female,35-44,95.0,Loan originated
+1,395000.0,44,495000.0,166.0,1,Not Hispanic or Latino,White,Female,>74,80.0,Loan originated
+1,635000.0,30%-<36%,905000.0,201.0,1,Not Hispanic or Latino,Asian,Female,35-44,70.0,Loan originated
+1,355000.0,45,595000.0,79.0,1,Not Hispanic or Latino,White,Female,65-74,60.0,Loan originated
+1,365000.0,36,465000.0,110.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,245000.0,46,415000.0,77.0,1,Hispanic or Latino,White,Female,25-34,97.847,Application denied
+1,385000.0,48,415000.0,74.0,1,Not Hispanic or Latino,White,Male,35-44,93.0,Loan originated
+1,545000.0,49,665000.0,112.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,102.65,Loan originated
+1,405000.0,30%-<36%,425000.0,217.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Application denied
+1,645000.0,44,675000.0,150.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,635000.0,44,715000.0,157.0,1,Hispanic or Latino,White,Female,55-64,90.0,Loan originated
+1,765000.0,49,895000.0,158.0,1,Hispanic or Latino,White,Male,55-64,85.648,Loan originated
+1,665000.0,48,895000.0,146.0,1,Not Hispanic or Latino,Asian,Male,25-34,74.72,Loan originated
+1,285000.0,36,355000.0,72.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,1085000.0,36,1355000.0,402.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,535000.0,47,675000.0,133.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,665000.0,47,765000.0,197.0,1,Not Hispanic or Latino,Asian,Female,45-54,86.942,Loan originated
+1,235000.0,49,285000.0,158.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,1125000.0,44,1425000.0,242.0,1,Not Hispanic or Latino,Asian,Male,35-44,78.84,Loan originated
+1,825000.0,50%-60%,915000.0,243.0,1,Not Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,335000.0,48,355000.0,76.0,1,Hispanic or Latino,White,Male,25-34,95.0,Application denied
+1,605000.0,30%-<36%,755000.0,193.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,375000.0,36,475000.0,104.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,665000.0,50%-60%,705000.0,427.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Application denied
+1,385000.0,49,405000.0,77.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,1085000.0,41,1205000.0,299.0,1,Not Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,385000.0,49,405000.0,86.0,1,Not Hispanic or Latino,White,Female,55-64,97.0,Loan originated
+1,1055000.0,45,1715000.0,265.0,1,Not Hispanic or Latino,Asian,Male,45-54,61.25,Loan originated
+1,495000.0,46,745000.0,104.0,1,Not Hispanic or Latino,White,Male,55-64,67.0,Loan originated
+1,415000.0,40,425000.0,110.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,97.0,Loan originated
+1,725000.0,40,765000.0,194.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,515000.0,20%-<30%,565000.0,201.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,89.99,Loan originated
+1,975000.0,38,1225000.0,356.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,695000.0,38,725000.0,330.0,1,Not Hispanic or Latino,White,Male,35-44,95.861,Loan originated
+1,585000.0,49,735000.0,140.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,605000.0,45,935000.0,231.0,1,Hispanic or Latino,White,Female,55-64,65.0,Loan originated
+1,1125000.0,44,1405000.0,230.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,55000.0,30%-<36%,55000.0,61.0,1,Not Hispanic or Latino,White,Male,65-74,86.21,Loan originated
+1,755000.0,44,1265000.0,196.0,1,Not Hispanic or Latino,Asian,Male,25-34,60.0,Loan originated
+1,705000.0,30%-<36%,1535000.0,228.0,1,Not Hispanic or Latino,White,Female,55-64,45.98,Loan originated
+1,385000.0,20%-<30%,405000.0,152.0,1,Not Hispanic or Latino,2 or more minority races,Female,55-64,100.0,Loan originated
+1,435000.0,46,685000.0,128.0,1,Not Hispanic or Latino,White,Female,65-74,63.504,Loan originated
+1,395000.0,48,865000.0,98.0,1,Not Hispanic or Latino,Asian,Female,25-34,46.0,Loan originated
+1,295000.0,37,375000.0,108.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,285000.0,49,435000.0,64.0,1,Not Hispanic or Latino,White,Female,55-64,65.38,Loan originated
+1,405000.0,41,515000.0,123.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,405000.0,41,475000.0,95.0,1,Not Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,605000.0,20%-<30%,765000.0,261.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,725000.0,40,965000.0,183.0,1,Not Hispanic or Latino,Asian,Female,35-44,75.0,Loan originated
+1,615000.0,30%-<36%,765000.0,168.0,1,Hispanic or Latino,White,Female,25-34,79.47,Loan originated
+1,475000.0,47,715000.0,101.0,1,Not Hispanic or Latino,Asian,Male,45-54,65.811,Loan originated
+1,425000.0,48,625000.0,105.0,1,Hispanic or Latino,White,Male,35-44,68.0,Loan originated
+1,765000.0,30%-<36%,825000.0,294.0,1,Hispanic or Latino,White,Male,25-34,93.196,Loan originated
+1,885000.0,44,945000.0,274.0,1,Hispanic or Latino,Asian,Male,35-44,93.333,Loan originated
+1,1055000.0,48,1325000.0,251.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,545000.0,30%-<36%,675000.0,186.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,185000.0,41,195000.0,57.0,1,Not Hispanic or Latino,Asian,Female,45-54,98.0,Loan originated
+1,235000.0,38,295000.0,71.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,675000.0,48,1255000.0,228.0,1,Not Hispanic or Latino,White,Female,45-54,54.0,Loan originated
+1,745000.0,40,935000.0,197.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,675000.0,49,845000.0,148.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,645000.0,47,665000.0,133.0,1,Hispanic or Latino,White,Female,45-54,97.0,Loan originated
+1,505000.0,30%-<36%,805000.0,222.0,1,Not Hispanic or Latino,Asian,Male,45-54,62.451,Loan originated
+1,665000.0,38,835000.0,178.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,215000.0,45,255000.0,68.0,1,Hispanic or Latino,White,Male,25-34,83.689,Loan originated
+1,465000.0,30%-<36%,595000.0,140.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,745000.0,49,845000.0,334.0,1,Not Hispanic or Latino,Asian,Male,55-64,89.0,Loan originated
+1,355000.0,42,705000.0,86.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,80.0,Loan originated
+1,555000.0,20%-<30%,995000.0,222.0,1,Not Hispanic or Latino,Asian,Male,25-34,55.39,Application denied
+1,465000.0,43,805000.0,111.0,1,Not Hispanic or Latino,Asian,Female,35-44,57.143,Loan originated
+1,1105000.0,37,1575000.0,528.0,1,Not Hispanic or Latino,Asian,Male,35-44,70.0,Loan originated
+1,285000.0,30%-<36%,365000.0,106.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,325000.0,20%-<30%,405000.0,114.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,1005000.0,39,1295000.0,237.0,1,Not Hispanic or Latino,White,Female,45-54,76.98,Loan originated
+1,405000.0,45,505000.0,123.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,475000.0,30%-<36%,815000.0,164.0,1,Not Hispanic or Latino,White,Male,45-54,58.43,Loan originated
+1,505000.0,45,535000.0,151.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,605000.0,45,675000.0,140.0,1,Not Hispanic or Latino,Asian,Male,25-34,90.0,Loan originated
+1,685000.0,47,765000.0,207.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,845000.0,46,1055000.0,200.0,1,Not Hispanic or Latino,White,Female,55-64,79.999,Loan originated
+1,395000.0,48,535000.0,81.0,1,Not Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,755000.0,38,775000.0,225.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,97.0,Application denied
+1,415000.0,30%-<36%,475000.0,120.0,1,Hispanic or Latino,White,Male,25-34,88.0,Loan originated
+1,955000.0,50%-60%,1005000.0,236.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Application denied
+1,945000.0,49,1855000.0,201.0,1,Not Hispanic or Latino,White,Female,35-44,50.782,Loan originated
+1,765000.0,38,1395000.0,242.0,1,Not Hispanic or Latino,Asian,Male,35-44,55.0,Loan originated
+1,555000.0,38,1335000.0,187.0,1,Not Hispanic or Latino,Asian,Male,45-54,41.199,Loan originated
+1,375000.0,41,475000.0,184.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,255000.0,36,825000.0,83.0,1,Hispanic or Latino,White,Female,25-34,50.0,Loan originated
+1,845000.0,30%-<36%,1205000.0,282.0,1,Not Hispanic or Latino,White,Male,35-44,70.0,Loan originated
+1,475000.0,47,775000.0,124.0,1,Hispanic or Latino,White,Female,35-44,61.29,Loan originated
+1,235000.0,50%-60%,295000.0,62.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,795000.0,30%-<36%,995000.0,287.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,735000.0,48,945000.0,146.0,1,Not Hispanic or Latino,Asian,Male,35-44,77.984,Loan originated
+1,445000.0,44,765000.0,99.0,1,Not Hispanic or Latino,Asian,Female,35-44,57.52,Application denied
+1,505000.0,39,775000.0,140.0,1,Not Hispanic or Latino,Asian,Female,25-34,64.52,Loan originated
+1,505000.0,41,1725000.0,166.0,1,Not Hispanic or Latino,White,Female,45-54,28.986,Loan originated
+1,1055000.0,45,1505000.0,230.0,1,Not Hispanic or Latino,Asian,Male,25-34,70.0,Loan originated
+1,75000.0,20%-<30%,85000.0,77.0,1,Not Hispanic or Latino,White,Female,>74,85.0,Loan originated
+1,485000.0,44,645000.0,120.0,1,Not Hispanic or Latino,White,Female,25-34,75.0,Loan originated
+1,645000.0,49,725000.0,120.0,1,Hispanic or Latino,White,Male,25-34,89.5,Loan originated
+1,395000.0,42,595000.0,113.0,1,Not Hispanic or Latino,White,Male,35-44,66.102,Loan originated
+1,205000.0,30%-<36%,265000.0,79.0,1,Not Hispanic or Latino,White,Female,45-54,77.358,Loan originated
+1,755000.0,20%-<30%,1795000.0,280.0,1,Not Hispanic or Latino,White,Male,45-54,41.899,Loan originated
+1,745000.0,30%-<36%,1145000.0,29.0,1,Not Hispanic or Latino,Asian,Male,35-44,65.0,Loan originated
+1,715000.0,43,755000.0,233.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,525000.0,47,585000.0,110.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,565000.0,38,665000.0,174.0,1,Not Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,465000.0,36,585000.0,120.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,665000.0,42,745000.0,155.0,1,Not Hispanic or Latino,White,Male,45-54,90.0,Loan originated
+1,435000.0,48,455000.0,96.0,1,Hispanic or Latino,White,Female,25-34,97.0,Loan originated
+1,595000.0,41,665000.0,150.0,1,Not Hispanic or Latino,Asian,Female,35-44,90.0,Loan originated
+1,805000.0,40,845000.0,185.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,655000.0,30%-<36%,875000.0,2664.0,1,Not Hispanic or Latino,White,Male,<25,75.0,Loan originated
+1,325000.0,44,425000.0,99.0,1,Not Hispanic or Latino,White,Male,45-54,76.19,Loan originated
+1,455000.0,39,605000.0,213.0,1,Not Hispanic or Latino,White,Female,55-64,75.0,Loan originated
+1,395000.0,20%-<30%,495000.0,187.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,775000.0,46,1035000.0,185.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,515000.0,39,535000.0,168.0,1,Not Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,155000.0,40,205000.0,81.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,315000.0,47,395000.0,82.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,455000.0,38,565000.0,133.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,555000.0,47,695000.0,193.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,365000.0,50%-60%,455000.0,82.0,1,Not Hispanic or Latino,White,Male,<25,80.0,Application denied
+1,415000.0,>60%,565000.0,66.0,1,Not Hispanic or Latino,Asian,Male,45-54,74.0,Application denied
+1,905000.0,41,1125000.0,275.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,215000.0,39,265000.0,76.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,405000.0,43,605000.0,107.0,1,Not Hispanic or Latino,White,Male,25-34,68.0,Loan originated
+1,195000.0,47,245000.0,73.0,1,Not Hispanic or Latino,White,Male,35-44,102.369,Loan originated
+1,705000.0,42,945000.0,402.0,1,Not Hispanic or Latino,White,Male,55-64,75.0,Loan originated
+1,235000.0,39,435000.0,80.0,1,Hispanic or Latino,White,Female,55-64,54.02,Loan originated
+1,455000.0,48,505000.0,98.0,1,Not Hispanic or Latino,Asian,Male,25-34,90.0,Loan originated
+1,305000.0,44,905000.0,131.0,1,Hispanic or Latino,White,Male,55-64,61.11,Application denied
+1,315000.0,41,395000.0,143.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,505000.0,36,725000.0,250.0,1,Not Hispanic or Latino,Asian,Female,45-54,70.0,Loan originated
+1,725000.0,46,905000.0,146.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,945000.0,40,1465000.0,255.0,1,Not Hispanic or Latino,Asian,Male,25-34,65.0,Loan originated
+1,195000.0,20%-<30%,215000.0,106.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,565000.0,30%-<36%,915000.0,272.0,1,Not Hispanic or Latino,Black or African American,Male,45-54,61.538,Loan originated
+1,605000.0,30%-<36%,925000.0,286.0,1,Not Hispanic or Latino,Asian,Male,35-44,64.87,Loan originated
+1,575000.0,42,645000.0,137.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,115000.0,20%-<30%,775000.0,128.0,1,Not Hispanic or Latino,White,Female,45-54,14.839,Loan originated
+1,315000.0,49,415000.0,58.0,1,Hispanic or Latino,White,Male,35-44,76.193,Loan originated
+1,985000.0,>60%,1845000.0,138.0,1,Not Hispanic or Latino,White,Male,35-44,64.62,Loan originated
+1,85000.0,47,95000.0,63.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,<25,95.0,Application denied
+1,525000.0,47,655000.0,149.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,80.0,Loan originated
+1,545000.0,30%-<36%,1005000.0,183.0,1,Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,285000.0,44,485000.0,70.0,1,Not Hispanic or Latino,White,Female,65-74,58.763,Loan originated
+1,685000.0,49,975000.0,171.0,1,Not Hispanic or Latino,White,Female,>74,70.0,Loan originated
+1,415000.0,45,595000.0,88.0,1,Hispanic or Latino,White,Female,45-54,70.0,Loan originated
+1,455000.0,30%-<36%,565000.0,142.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,475000.0,44,505000.0,113.0,1,Not Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,1125000.0,30%-<36%,1495000.0,567.0,1,Not Hispanic or Latino,White,Male,55-64,75.2,Loan originated
+1,475000.0,46,795000.0,98.0,1,Not Hispanic or Latino,Asian,Male,35-44,60.0,Loan originated
+1,455000.0,40,705000.0,122.0,1,Not Hispanic or Latino,Asian,Male,25-34,63.53,Loan originated
+1,525000.0,42,655000.0,271.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,635000.0,30%-<36%,795000.0,211.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,785000.0,42,1045000.0,299.0,1,Not Hispanic or Latino,White,Male,65-74,75.0,Loan originated
+1,395000.0,49,445000.0,79.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,255000.0,45,285000.0,63.0,1,Hispanic or Latino,White,Male,35-44,89.913,Loan originated
+1,265000.0,20%-<30%,335000.0,114.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,345000.0,45,435000.0,93.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,545000.0,30%-<36%,705000.0,172.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Application denied
+1,685000.0,48,1155000.0,162.0,1,Not Hispanic or Latino,Asian,Female,65-74,59.272,Loan originated
+1,575000.0,46,725000.0,220.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,555000.0,49,695000.0,124.0,1,Hispanic or Latino,White,Male,<25,80.0,Loan originated
+1,395000.0,43,495000.0,94.0,1,Not Hispanic or Latino,White,Male,45-54,79.96,Loan originated
+1,305000.0,20%-<30%,595000.0,144.0,1,Not Hispanic or Latino,Asian,Female,45-54,50.42,Loan originated
+1,115000.0,37,725000.0,141.0,1,Not Hispanic or Latino,White,Female,25-34,16.0,Loan originated
+1,645000.0,36,715000.0,173.0,1,Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,415000.0,<20%,765000.0,250.0,1,Not Hispanic or Latino,Asian,Male,25-34,54.605,Loan originated
+1,395000.0,42,545000.0,106.0,1,Hispanic or Latino,White,Female,25-34,72.48,Loan originated
+1,205000.0,20%-<30%,855000.0,230.0,1,Not Hispanic or Latino,White,Male,45-54,23.529,Loan originated
+1,385000.0,47,765000.0,90.0,1,Not Hispanic or Latino,Asian,Female,45-54,90.0,Loan originated
+1,315000.0,37,325000.0,98.0,1,Not Hispanic or Latino,White,Male,35-44,100.0,Loan originated
+1,665000.0,42,695000.0,197.0,1,Not Hispanic or Latino,White,Female,45-54,94.99,Loan originated
+1,205000.0,30%-<36%,905000.0,106.0,1,Not Hispanic or Latino,White,Female,45-54,22.222,Loan originated
+1,635000.0,30%-<36%,635000.0,220.0,1,Not Hispanic or Latino,White,Male,55-64,70.0,Loan originated
+1,525000.0,30%-<36%,655000.0,174.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,955000.0,48,1375000.0,270.0,1,Not Hispanic or Latino,Asian,Male,45-54,70.0,Loan originated
+1,755000.0,38,945000.0,215.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,855000.0,45,1005000.0,196.0,1,Not Hispanic or Latino,White,Female,45-54,85.0,Loan originated
+1,825000.0,40,1175000.0,275.0,1,Not Hispanic or Latino,White,Male,55-64,70.0,Loan originated
+1,305000.0,49,325000.0,78.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,435000.0,30%-<36%,465000.0,154.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,195000.0,44,1485000.0,109.0,1,Not Hispanic or Latino,Asian,Male,25-34,13.11,Application denied
+1,425000.0,40,455000.0,112.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,805000.0,30%-<36%,855000.0,346.0,1,Not Hispanic or Latino,Asian,Male,45-54,95.0,Loan originated
+1,805000.0,46,1005000.0,208.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,765000.0,20%-<30%,955000.0,391.0,1,Not Hispanic or Latino,Asian,Male,<25,80.0,Loan originated
+1,365000.0,43,385000.0,93.0,1,Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,1135000.0,45,1515000.0,266.0,1,Not Hispanic or Latino,Asian,Male,45-54,75.0,Loan originated
+1,435000.0,50%-60%,545000.0,176.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,345000.0,49,575000.0,79.0,1,Not Hispanic or Latino,White,Male,25-34,59.649,Loan originated
+1,215000.0,49,445000.0,48.0,1,Hispanic or Latino,White,Female,25-34,47.73,Loan originated
+1,545000.0,39,675000.0,169.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,565000.0,40,1105000.0,165.0,1,Not Hispanic or Latino,White,Male,45-54,50.723,Loan originated
+1,285000.0,30%-<36%,295000.0,80.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,355000.0,40,445000.0,110.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,80.0,Loan originated
+1,595000.0,50%-60%,625000.0,130.0,1,Not Hispanic or Latino,Asian,Male,45-54,95.0,Application denied
+1,385000.0,36,395000.0,111.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,45-54,100.0,Loan originated
+1,425000.0,43,945000.0,113.0,1,Not Hispanic or Latino,White,Female,45-54,44.974,Loan originated
+1,1145000.0,30%-<36%,1845000.0,880.0,1,Not Hispanic or Latino,White,Male,45-54,89.184,Loan originated
+1,425000.0,48,435000.0,86.0,1,Hispanic or Latino,White,Male,<25,97.0,Loan originated
+1,405000.0,48,505000.0,217.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,505000.0,46,1505000.0,94.0,1,Not Hispanic or Latino,White,Male,55-64,34.0,Loan originated
+1,1105000.0,43,1505000.0,259.0,1,Not Hispanic or Latino,Asian,Male,35-44,73.34,Loan originated
+1,325000.0,43,405000.0,179.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,335000.0,>60%,355000.0,55.0,1,Hispanic or Latino,White,Male,25-34,94.971,Application denied
+1,635000.0,<20%,875000.0,307.0,1,Not Hispanic or Latino,White,Male,35-44,73.276,Loan originated
+1,575000.0,44,645000.0,210.0,1,Not Hispanic or Latino,White,Male,45-54,90.0,Loan originated
+1,295000.0,<20%,355000.0,243.0,1,Not Hispanic or Latino,White,Female,55-64,85.0,Loan originated
+1,1035000.0,48,1095000.0,222.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,255000.0,49,275000.0,48.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,275000.0,43,385000.0,78.0,1,Hispanic or Latino,White,Male,<25,101.818,Loan originated
+1,765000.0,38,1205000.0,243.0,1,Not Hispanic or Latino,Asian,Male,35-44,64.0,Loan originated
+1,575000.0,47,645000.0,171.0,1,Not Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,1095000.0,39,1155000.0,354.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,365000.0,50%-60%,525000.0,75.0,1,Not Hispanic or Latino,White,Male,25-34,70.0,Application denied
+1,885000.0,37,1265000.0,427.0,1,Not Hispanic or Latino,Asian,Male,45-54,70.0,Loan originated
+1,375000.0,37,505000.0,145.0,1,Not Hispanic or Latino,Asian,Female,25-34,75.0,Loan originated
+1,385000.0,39,405000.0,104.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,715000.0,38,795000.0,200.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,89.9,Loan originated
+1,725000.0,43,905000.0,165.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,505000.0,37,535000.0,130.0,1,Hispanic or Latino,White,Female,35-44,94.964,Loan originated
+1,325000.0,47,435000.0,99.0,1,Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,285000.0,44,445000.0,75.0,1,Not Hispanic or Latino,Asian,Female,25-34,62.921,Loan originated
+1,505000.0,20%-<30%,755000.0,180.0,1,Not Hispanic or Latino,Asian,Male,25-34,66.792,Loan originated
+1,225000.0,49,655000.0,55.0,1,Not Hispanic or Latino,White,Female,65-74,34.351,Loan originated
+1,265000.0,48,635000.0,70.0,1,Not Hispanic or Latino,Asian,Female,25-34,41.0,Loan originated
+1,955000.0,46,1305000.0,273.0,1,Not Hispanic or Latino,White,Female,45-54,73.077,Loan originated
+1,635000.0,30%-<36%,795000.0,205.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,795000.0,44,995000.0,210.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,525000.0,40,655000.0,150.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,205000.0,48,255000.0,41.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,215000.0,41,305000.0,134.0,1,Hispanic or Latino,White,Female,55-64,70.0,Loan originated
+1,515000.0,48,545000.0,180.0,1,Not Hispanic or Latino,Asian,Male,45-54,95.0,Loan originated
+1,515000.0,37,575000.0,131.0,1,Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,285000.0,49,785000.0,221.0,1,Not Hispanic or Latino,Asian,Female,55-64,35.9,Loan originated
+1,265000.0,41,585000.0,88.0,1,Not Hispanic or Latino,White,Female,45-54,44.444,Loan originated
+1,575000.0,48,675000.0,157.0,1,Hispanic or Latino,White,Male,55-64,85.0,Loan originated
+1,505000.0,45,635000.0,127.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,805000.0,36,855000.0,293.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,955000.0,42,1195000.0,287.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,255000.0,20%-<30%,1135000.0,200.0,1,Not Hispanic or Latino,White,Male,35-44,22.124,Loan originated
+1,585000.0,49,745000.0,166.0,1,Hispanic or Latino,White,Male,45-54,78.926,Application denied
+1,405000.0,48,605000.0,85.0,1,Not Hispanic or Latino,Asian,Male,<25,66.667,Loan originated
+1,625000.0,48,785000.0,116.0,1,Not Hispanic or Latino,White,Male,35-44,99.108,Loan originated
+1,155000.0,<20%,465000.0,107.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,55-64,32.61,Loan originated
+1,245000.0,37,325000.0,78.0,1,Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,655000.0,42,875000.0,154.0,1,Hispanic or Latino,White,Female,25-34,75.0,Loan originated
+1,515000.0,48,645000.0,101.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,765000.0,42,885000.0,252.0,1,Not Hispanic or Latino,White,Female,45-54,86.441,Loan originated
+1,195000.0,20%-<30%,245000.0,91.0,1,Hispanic or Latino,White,Female,<25,80.0,Loan originated
+1,505000.0,39,505000.0,121.0,1,Not Hispanic or Latino,Asian,Male,25-34,101.75,Loan originated
+1,435000.0,38,445000.0,121.0,1,Not Hispanic or Latino,Asian,Male,35-44,97.0,Application denied
+1,405000.0,43,575000.0,139.0,1,Hispanic or Latino,White,Male,35-44,70.0,Loan originated
+1,485000.0,41,615000.0,150.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,545000.0,50%-60%,705000.0,113.0,1,Not Hispanic or Latino,White,Male,25-34,77.457,Loan originated
+1,165000.0,49,315000.0,58.0,1,Not Hispanic or Latino,White,Female,65-74,102.871,Loan originated
+1,445000.0,40,495000.0,181.0,1,Not Hispanic or Latino,White,Male,55-64,88.889,Loan originated
+1,595000.0,47,745000.0,183.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,535000.0,39,565000.0,163.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,455000.0,49,655000.0,130.0,1,Hispanic or Latino,White,Male,35-44,70.0,Loan originated
+1,495000.0,44,515000.0,120.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,100.0,Loan originated
+1,385000.0,40,635000.0,96.0,1,Hispanic or Latino,White,Female,55-64,60.483,Loan originated
+1,445000.0,40,625000.0,150.0,1,Not Hispanic or Latino,Asian,Female,35-44,71.2,Loan originated
+1,1145000.0,43,4305000.0,364.0,1,Not Hispanic or Latino,Black or African American,Male,45-54,26.74,Loan originated
+1,415000.0,42,995000.0,280.0,1,Not Hispanic or Latino,2 or more minority races,Male,35-44,41.414,Loan originated
+1,385000.0,39,545000.0,105.0,1,Not Hispanic or Latino,Asian,Female,65-74,70.0,Loan originated
+1,255000.0,47,315000.0,64.0,1,Not Hispanic or Latino,White,Male,65-74,80.0,Loan originated
+1,585000.0,41,835000.0,166.0,1,Not Hispanic or Latino,White,Male,35-44,70.0,Loan originated
+1,315000.0,44,645000.0,92.0,1,Not Hispanic or Latino,White,Female,25-34,48.438,Loan originated
+1,1095000.0,43,1155000.0,270.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,325000.0,48,405000.0,62.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,385000.0,>60%,405000.0,60.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Application denied
+1,1005000.0,50%-60%,1255000.0,214.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,80.0,Loan originated
+1,475000.0,43,485000.0,113.0,1,Not Hispanic or Latino,Asian,Male,25-34,97.0,Loan originated
+1,745000.0,50%-60%,925000.0,149.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Application denied
+1,665000.0,45,895000.0,138.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,205000.0,44,355000.0,97.0,1,Hispanic or Latino,White,Female,65-74,57.14,Application denied
+1,505000.0,49,625000.0,114.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,435000.0,41,475000.0,107.0,1,Not Hispanic or Latino,White,Female,25-34,90.526,Loan originated
+1,725000.0,44,845000.0,164.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Loan originated
+1,915000.0,42,1145000.0,200.0,1,Not Hispanic or Latino,Asian,Male,25-34,79.33,Loan originated
+1,1055000.0,38,1315000.0,289.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,715000.0,46,755000.0,160.0,1,Not Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,145000.0,42,295000.0,73.0,1,Not Hispanic or Latino,White,Male,55-64,50.0,Loan originated
+1,585000.0,43,845000.0,135.0,1,Not Hispanic or Latino,Asian,Male,25-34,69.231,Loan originated
+1,305000.0,47,625000.0,96.0,1,Not Hispanic or Latino,Asian,Female,35-44,48.137,Loan originated
+1,125000.0,42,245000.0,45.0,1,Hispanic or Latino,White,Female,35-44,52.65,Loan originated
+1,425000.0,47,525000.0,108.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,405000.0,39,425000.0,105.0,1,Not Hispanic or Latino,White,Female,25-34,98.0,Loan originated
+1,555000.0,49,625000.0,129.0,1,Not Hispanic or Latino,Asian,Female,25-34,90.0,Loan originated
+1,355000.0,20%-<30%,445000.0,124.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,485000.0,<20%,605000.0,411.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,735000.0,49,975000.0,208.0,1,Not Hispanic or Latino,Asian,Male,45-54,75.0,Application denied
+1,425000.0,>60%,465000.0,70.0,1,Not Hispanic or Latino,Asian,Female,35-44,90.0,Application denied
+1,525000.0,49,585000.0,101.0,1,Not Hispanic or Latino,Asian,Male,35-44,90.0,Loan originated
+1,375000.0,49,385000.0,84.0,1,Not Hispanic or Latino,Black or African American,Male,35-44,97.0,Loan originated
+1,865000.0,42,1075000.0,217.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,235000.0,41,235000.0,63.0,1,Not Hispanic or Latino,White,Male,65-74,97.0,Loan originated
+1,245000.0,41,1425000.0,96.0,1,Not Hispanic or Latino,Asian,Female,65-74,17.26,Loan originated
+1,705000.0,20%-<30%,785000.0,298.0,1,Hispanic or Latino,White,Female,45-54,90.0,Application denied
+1,355000.0,49,375000.0,82.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,235000.0,43,995000.0,79.0,1,Not Hispanic or Latino,White,Male,<25,100.0,Loan originated
+1,245000.0,42,375000.0,56.0,1,Not Hispanic or Latino,White,Male,55-64,65.699,Loan originated
+1,635000.0,43,845000.0,268.0,1,Not Hispanic or Latino,White,Female,45-54,75.0,Loan originated
+1,535000.0,39,1035000.0,196.0,1,Not Hispanic or Latino,Asian,Female,45-54,51.456,Loan originated
+1,465000.0,37,765000.0,264.0,1,Not Hispanic or Latino,White,Male,35-44,60.0,Loan originated
+1,515000.0,43,645000.0,123.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,365000.0,47,615000.0,80.0,1,Not Hispanic or Latino,White,Female,35-44,60.0,Loan originated
+1,665000.0,42,705000.0,238.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,435000.0,30%-<36%,685000.0,200.0,1,Not Hispanic or Latino,Asian,Male,35-44,63.71,Loan originated
+1,1045000.0,48,1305000.0,270.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,355000.0,40,415000.0,111.0,1,Not Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,275000.0,30%-<36%,425000.0,482.0,1,Not Hispanic or Latino,White,Male,55-64,64.706,Loan originated
+1,205000.0,>60%,305000.0,23.0,1,Hispanic or Latino,2 or more minority races,Male,55-64,66.67,Application denied
+1,535000.0,48,675000.0,145.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,575000.0,<20%,605000.0,-65.0,1,Not Hispanic or Latino,White,Male,35-44,94.99,Application denied
+1,785000.0,37,875000.0,579.0,1,Not Hispanic or Latino,White,Male,45-54,90.0,Loan originated
+1,565000.0,20%-<30%,755000.0,513.0,1,Not Hispanic or Latino,Black or African American,Female,>74,75.0,Loan originated
+1,355000.0,20%-<30%,475000.0,193.0,1,Hispanic or Latino,Asian,Female,45-54,75.0,Loan originated
+1,1145000.0,39,1495000.0,289.0,1,Not Hispanic or Latino,White,Female,35-44,76.651,Loan originated
+1,285000.0,42,355000.0,82.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,465000.0,46,495000.0,127.0,1,Not Hispanic or Latino,Asian,Male,25-34,98.01,Loan originated
+1,445000.0,48,825000.0,114.0,1,Hispanic or Latino,White,Male,25-34,53.659,Loan originated
+1,165000.0,20%-<30%,715000.0,125.0,1,Not Hispanic or Latino,White,Male,45-54,23.08,Loan originated
+1,635000.0,49,785000.0,134.0,1,Hispanic or Latino,Black or African American,Female,<25,80.0,Loan originated
+1,765000.0,30%-<36%,865000.0,274.0,1,Not Hispanic or Latino,White,Male,35-44,89.0,Loan originated
+1,585000.0,47,695000.0,130.0,1,Not Hispanic or Latino,Asian,Male,45-54,85.0,Loan originated
+1,485000.0,47,535000.0,112.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,90.0,Loan originated
+1,445000.0,49,475000.0,88.0,1,Hispanic or Latino,White,Male,25-34,98.0,Loan originated
+1,505000.0,44,745000.0,162.0,1,Not Hispanic or Latino,White,Female,65-74,67.57,Loan originated
+1,275000.0,36,455000.0,82.0,1,Not Hispanic or Latino,White,Female,>74,60.0,Application denied
+1,195000.0,45,235000.0,99.0,1,Hispanic or Latino,White,Female,25-34,85.0,Application denied
+1,265000.0,48,415000.0,56.0,1,Not Hispanic or Latino,Asian,Female,55-64,64.578,Loan originated
+1,905000.0,46,1385000.0,193.0,1,Hispanic or Latino,White,Male,45-54,64.982,Loan originated
+1,135000.0,42,585000.0,48.0,1,Not Hispanic or Latino,White,Female,65-74,22.75,Loan originated
+1,685000.0,30%-<36%,725000.0,492.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,705000.0,45,885000.0,438.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Male,35-44,80.0,Loan originated
+1,655000.0,49,685000.0,199.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,705000.0,44,775000.0,208.0,1,Not Hispanic or Latino,Asian,Female,35-44,91.0,Loan originated
+1,775000.0,30%-<36%,1595000.0,293.0,1,Not Hispanic or Latino,White,Male,45-54,48.552,Loan originated
+1,205000.0,30%-<36%,295000.0,80.0,1,Hispanic or Latino,White,Male,55-64,68.966,Application denied
+1,405000.0,49,545000.0,91.0,1,Not Hispanic or Latino,Asian,Male,25-34,95.0,Loan originated
+1,715000.0,41,895000.0,173.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,605000.0,43,635000.0,311.0,1,Not Hispanic or Latino,White,Female,>74,95.0,Loan originated
+1,365000.0,45,585000.0,114.0,1,Hispanic or Latino,White,Male,35-44,63.0,Loan originated
+1,925000.0,30%-<36%,1265000.0,265.0,1,Not Hispanic or Latino,Asian,Male,35-44,73.333,Loan originated
+1,475000.0,44,595000.0,110.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,725000.0,37,905000.0,346.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,345000.0,46,425000.0,83.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,305000.0,>60%,385000.0,38.0,1,Not Hispanic or Latino,White,Male,45-54,78.947,Loan originated
+1,35000.0,20%-<30%,125000.0,96.0,1,Not Hispanic or Latino,White,Female,55-64,26.94,Loan originated
+1,705000.0,36,1095000.0,252.0,1,Not Hispanic or Latino,White,Male,55-64,63.927,Loan originated
+1,265000.0,20%-<30%,615000.0,131.0,1,Not Hispanic or Latino,White,Male,65-74,42.757,Loan originated
+1,915000.0,<20%,1145000.0,709.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,345000.0,49,465000.0,75.0,1,Not Hispanic or Latino,Asian,Male,25-34,74.053,Loan originated
+1,695000.0,39,735000.0,178.0,1,Not Hispanic or Latino,Asian,Male,35-44,95.0,Application denied
+1,245000.0,45,415000.0,95.0,1,Hispanic or Latino,White,Female,25-34,59.33,Loan originated
+1,185000.0,20%-<30%,505000.0,68.0,1,Not Hispanic or Latino,White,Male,65-74,37.82,Loan originated
+1,355000.0,44,445000.0,81.0,1,Not Hispanic or Latino,White,Female,65-74,80.0,Loan originated
+1,655000.0,49,775000.0,152.0,1,Not Hispanic or Latino,White,Male,45-54,85.0,Loan originated
+1,545000.0,30%-<36%,685000.0,155.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,985000.0,38,1235000.0,307.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,605000.0,47,805000.0,185.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,815000.0,20%-<30%,1165000.0,383.0,1,Hispanic or Latino,White,Male,25-34,70.095,Loan originated
+1,1075000.0,47,1195000.0,249.0,1,Not Hispanic or Latino,Asian,Male,25-34,90.0,Application denied
+1,525000.0,20%-<30%,1175000.0,237.0,1,Hispanic or Latino,White,Female,25-34,44.445,Loan originated
+1,435000.0,48,1055000.0,121.0,1,Not Hispanic or Latino,Asian,Female,25-34,40.95,Loan originated
+1,395000.0,42,995000.0,120.0,1,Not Hispanic or Latino,White,Male,55-64,39.547,Loan originated
+1,615000.0,40,645000.0,269.0,1,Not Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,505000.0,30%-<36%,535000.0,225.0,1,Not Hispanic or Latino,Asian,Female,35-44,95.0,Loan originated
+1,325000.0,45,615000.0,39.0,1,Not Hispanic or Latino,White,Female,65-74,54.0,Loan originated
+1,345000.0,39,425000.0,101.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,335000.0,30%-<36%,355000.0,105.0,1,Hispanic or Latino,White,Female,65-74,97.0,Loan originated
+1,685000.0,49,855000.0,135.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,255000.0,48,295000.0,67.0,1,Not Hispanic or Latino,White,Male,45-54,86.301,Loan originated
+1,665000.0,45,1105000.0,170.0,1,Not Hispanic or Latino,Asian,Female,45-54,60.0,Loan originated
+1,705000.0,48,875000.0,138.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,1555000.0,49,1955000.0,370.0,1,Not Hispanic or Latino,White,Female,35-44,79.99,Loan originated
+1,765000.0,41,1415000.0,220.0,1,Not Hispanic or Latino,Asian,Male,35-44,55.0,Loan originated
+1,555000.0,38,695000.0,150.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,335000.0,49,375000.0,67.0,1,Not Hispanic or Latino,Asian,Female,35-44,90.0,Loan originated
+1,635000.0,30%-<36%,1285000.0,196.0,1,Not Hispanic or Latino,Asian,Female,25-34,50.0,Loan originated
+1,495000.0,44,555000.0,131.0,1,Not Hispanic or Latino,Asian,Male,35-44,89.99,Loan originated
+1,475000.0,50%-60%,595000.0,95.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,565000.0,42,625000.0,150.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,555000.0,20%-<30%,695000.0,229.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,75000.0,20%-<30%,395000.0,58.0,1,Not Hispanic or Latino,White,Female,65-74,19.108,Loan originated
+1,455000.0,41,545000.0,105.0,1,Not Hispanic or Latino,Asian,Male,25-34,81.97,Loan originated
+1,765000.0,<20%,835000.0,494.0,1,Not Hispanic or Latino,Asian,Male,55-64,92.0,Loan originated
+1,105000.0,20%-<30%,125000.0,63.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,635000.0,41,755000.0,287.0,1,Hispanic or Latino,White,Male,35-44,85.0,Application denied
+1,335000.0,20%-<30%,425000.0,205.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,785000.0,48,975000.0,236.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,715000.0,38,895000.0,228.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,645000.0,>60%,675000.0,105.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,95.558,Application denied
+1,545000.0,47,575000.0,155.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,555000.0,42,735000.0,151.0,1,Hispanic or Latino,White,Female,25-34,75.0,Loan originated
+1,825000.0,30%-<36%,1135000.0,343.0,1,Not Hispanic or Latino,White,Male,45-54,72.91,Loan originated
+1,595000.0,39,735000.0,143.0,1,Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,485000.0,20%-<30%,875000.0,221.0,1,Not Hispanic or Latino,White,Female,35-44,54.858,Loan originated
+1,395000.0,42,495000.0,108.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,565000.0,49,585000.0,96.0,1,Hispanic or Latino,White,Female,25-34,100.0,Loan originated
+1,245000.0,37,625000.0,67.0,1,Hispanic or Latino,White,Female,45-54,39.0,Loan originated
+1,475000.0,30%-<36%,595000.0,248.0,1,Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,605000.0,47,815000.0,140.0,1,Not Hispanic or Latino,Asian,Female,35-44,75.0,Loan originated
+1,755000.0,49,1005000.0,172.0,1,Not Hispanic or Latino,White,Female,45-54,75.0,Loan originated
+1,145000.0,30%-<36%,385000.0,62.0,1,Hispanic or Latino,White,Female,65-74,37.29,Loan originated
+1,765000.0,49,805000.0,280.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,95.0,Loan originated
+1,765000.0,43,885000.0,174.0,1,Not Hispanic or Latino,Asian,Male,35-44,86.42,Loan originated
+1,355000.0,43,505000.0,148.0,1,Not Hispanic or Latino,White,Female,>74,69.901,Loan originated
+1,675000.0,37,835000.0,166.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,405000.0,45,805000.0,127.0,1,Not Hispanic or Latino,White,Male,65-74,49.924,Loan originated
+1,405000.0,20%-<30%,805000.0,157.0,1,Hispanic or Latino,White,Female,45-54,50.0,Loan originated
+1,625000.0,42,835000.0,263.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Application denied
+1,345000.0,42,425000.0,145.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,565000.0,20%-<30%,915000.0,284.0,1,Not Hispanic or Latino,White,Female,55-64,61.538,Loan originated
+1,345000.0,44,425000.0,77.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,705000.0,30%-<36%,1105000.0,219.0,1,Not Hispanic or Latino,White,Male,35-44,63.636,Loan originated
+1,385000.0,50%-60%,585000.0,68.0,1,Hispanic or Latino,White,Male,55-64,65.812,Application denied
+1,575000.0,40,605000.0,159.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,375000.0,30%-<36%,625000.0,280.0,1,Not Hispanic or Latino,White,Male,65-74,60.0,Loan originated
+1,905000.0,44,1275000.0,196.0,1,Not Hispanic or Latino,Asian,Female,25-34,70.866,Loan originated
+1,365000.0,44,385000.0,74.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,395000.0,20%-<30%,695000.0,138.0,1,Hispanic or Latino,White,Male,65-74,56.958,Loan originated
+1,765000.0,36,955000.0,210.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,565000.0,49,705000.0,109.0,1,Hispanic or Latino,White,Female,25-34,100.0,Loan originated
+1,315000.0,41,395000.0,85.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,435000.0,46,555000.0,101.0,1,Not Hispanic or Latino,White,Male,<25,78.412,Loan originated
+1,865000.0,38,1155000.0,207.0,1,Not Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,765000.0,20%-<30%,2655000.0,338.0,1,Not Hispanic or Latino,Asian,Male,65-74,28.79,Loan originated
+1,485000.0,42,545000.0,132.0,1,Hispanic or Latino,White,Male,<25,89.9,Loan originated
+1,275000.0,47,345000.0,65.0,1,Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Female,35-44,80.0,Loan originated
+1,105000.0,20%-<30%,365000.0,87.0,1,Not Hispanic or Latino,White,Female,45-54,27.322,Loan originated
+1,155000.0,46,195000.0,48.0,1,Hispanic or Latino,American Indian or Alaska Native,Male,35-44,80.0,Loan originated
+1,415000.0,44,535000.0,173.0,1,Not Hispanic or Latino,White,Male,>74,80.0,Loan originated
+1,455000.0,30%-<36%,855000.0,165.0,1,Not Hispanic or Latino,White,Male,25-34,53.216,Loan originated
+1,495000.0,41,665000.0,127.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,665000.0,30%-<36%,895000.0,250.0,1,Not Hispanic or Latino,White,Female,45-54,74.607,Loan originated
+1,525000.0,50%-60%,555000.0,137.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,525000.0,30%-<36%,655000.0,173.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,645000.0,30%-<36%,805000.0,217.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,325000.0,36,525000.0,125.0,1,Hispanic or Latino,White,Male,55-64,61.717,Loan originated
+1,645000.0,43,805000.0,217.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Application denied
+1,455000.0,49,555000.0,95.0,1,Not Hispanic or Latino,Asian,Female,25-34,83.64,Application denied
+1,955000.0,30%-<36%,1195000.0,341.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,875000.0,48,3325000.0,256.0,1,Not Hispanic or Latino,White,Male,55-64,27.0,Loan originated
+1,185000.0,46,805000.0,79.0,1,Not Hispanic or Latino,White,Female,45-54,23.0,Loan originated
+1,495000.0,42,695000.0,218.0,1,Not Hispanic or Latino,Asian,Male,45-54,71.231,Loan originated
+1,885000.0,49,1305000.0,180.0,1,Not Hispanic or Latino,Asian,Male,35-44,67.717,Loan originated
+1,305000.0,38,435000.0,96.0,1,Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,825000.0,49,1035000.0,159.0,1,Not Hispanic or Latino,Asian,Female,25-34,79.748,Loan originated
+1,765000.0,44,805000.0,161.0,1,Not Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,555000.0,44,695000.0,140.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,1005000.0,50%-60%,1405000.0,301.0,1,Not Hispanic or Latino,White,Male,>74,71.174,Loan originated
+1,275000.0,49,685000.0,87.0,1,Not Hispanic or Latino,White,Male,>74,39.91,Loan originated
+1,555000.0,42,695000.0,166.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,80.0,Loan originated
+1,645000.0,20%-<30%,805000.0,247.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,275000.0,46,375000.0,84.0,1,Not Hispanic or Latino,White,Male,25-34,73.333,Loan originated
+1,1045000.0,20%-<30%,1395000.0,371.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,455000.0,20%-<30%,795000.0,199.0,1,Not Hispanic or Latino,White,Female,35-44,57.305,Loan originated
+1,585000.0,49,885000.0,162.0,1,Not Hispanic or Latino,White,Female,55-64,65.706,Loan originated
+1,535000.0,30%-<36%,555000.0,186.0,1,Not Hispanic or Latino,Asian,Female,35-44,97.0,Loan originated
+1,505000.0,30%-<36%,625000.0,195.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Female,35-44,80.0,Loan originated
+1,705000.0,49,1205000.0,195.0,1,Not Hispanic or Latino,White,Female,55-64,58.506,Loan originated
+1,275000.0,30%-<36%,575000.0,110.0,1,Not Hispanic or Latino,Asian,Female,25-34,47.826,Loan originated
+1,15000.0,<20%,355000.0,108.0,1,Not Hispanic or Latino,Black or African American,Female,45-54,102.91,Loan originated
+1,595000.0,30%-<36%,745000.0,178.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,755000.0,39,1435000.0,453.0,1,Not Hispanic or Latino,White,Male,25-34,52.448,Loan originated
+1,345000.0,49,675000.0,72.0,1,Not Hispanic or Latino,White,Female,35-44,51.111,Loan originated
+1,375000.0,30%-<36%,625000.0,145.0,1,Not Hispanic or Latino,White,Male,45-54,60.0,Loan originated
+1,595000.0,20%-<30%,745000.0,336.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,595000.0,30%-<36%,755000.0,577.0,1,Hispanic or Latino,White,Male,45-54,78.93,Loan originated
+1,1045000.0,42,1315000.0,294.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,475000.0,50%-60%,525000.0,91.0,1,Hispanic or Latino,White,Male,25-34,90.0,Application denied
+1,925000.0,50%-60%,975000.0,191.0,1,Not Hispanic or Latino,White,Female,45-54,95.0,Application denied
+1,695000.0,38,745000.0,258.0,1,Not Hispanic or Latino,White,Male,55-64,92.246,Loan originated
+1,515000.0,42,605000.0,111.0,1,Not Hispanic or Latino,White,Female,25-34,85.0,Loan originated
+1,265000.0,43,535000.0,80.0,1,Not Hispanic or Latino,White,Female,45-54,49.53,Loan originated
+1,525000.0,36,615000.0,218.0,1,Not Hispanic or Latino,White,Female,<25,85.0,Loan originated
+1,405000.0,44,435000.0,108.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,305000.0,42,385000.0,71.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,745000.0,38,935000.0,210.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,145000.0,30%-<36%,155000.0,159.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,45-54,95.0,Loan originated
+1,205000.0,46,875000.0,60.0,1,Not Hispanic or Latino,White,Male,35-44,22.99,Loan originated
+1,445000.0,44,595000.0,95.0,1,Hispanic or Latino,White,Female,35-44,85.0,Loan originated
+1,1095000.0,30%-<36%,1375000.0,488.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,1005000.0,48,1295000.0,276.0,1,Not Hispanic or Latino,White,Male,65-74,77.683,Loan originated
+1,305000.0,20%-<30%,585000.0,258.0,1,Not Hispanic or Latino,Asian,Male,25-34,51.72,Loan originated
+1,675000.0,44,805000.0,161.0,1,Not Hispanic or Latino,White,Male,45-54,83.75,Loan originated
+1,555000.0,46,705000.0,116.0,1,Not Hispanic or Latino,White,Female,25-34,78.571,Loan originated
+1,665000.0,43,885000.0,193.0,1,Not Hispanic or Latino,Asian,Female,35-44,75.0,Loan originated
+1,335000.0,42,425000.0,89.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,595000.0,47,755000.0,121.0,1,Not Hispanic or Latino,White,Female,35-44,78.808,Loan originated
+1,1005000.0,40,1185000.0,253.0,1,Not Hispanic or Latino,Asian,Male,35-44,85.0,Loan originated
+1,265000.0,42,275000.0,103.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,715000.0,49,755000.0,148.0,1,Hispanic or Latino,White,Male,35-44,95.0,Application denied
+1,755000.0,43,795000.0,183.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,685000.0,40,855000.0,231.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,475000.0,49,555000.0,150.0,1,Not Hispanic or Latino,White,Female,25-34,86.466,Loan originated
+1,565000.0,30%-<36%,975000.0,189.0,1,Not Hispanic or Latino,Asian,Male,45-54,58.0,Loan originated
+1,865000.0,48,1155000.0,211.0,1,Not Hispanic or Latino,White,Male,55-64,86.0,Loan originated
+1,205000.0,37,605000.0,85.0,1,Not Hispanic or Latino,White,Female,>74,33.333,Application denied
+1,95000.0,30%-<36%,175000.0,60.0,1,Not Hispanic or Latino,White,Male,55-64,51.43,Loan originated
+1,575000.0,38,615000.0,191.0,1,Not Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,835000.0,49,925000.0,267.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Male,35-44,90.0,Loan originated
+1,415000.0,37,465000.0,119.0,1,Not Hispanic or Latino,White,Female,55-64,89.978,Loan originated
+1,475000.0,43,495000.0,136.0,1,Not Hispanic or Latino,Asian,Female,55-64,102.91,Loan originated
+1,975000.0,44,1155000.0,236.0,1,Not Hispanic or Latino,Asian,Male,25-34,85.0,Application denied
+1,275000.0,49,465000.0,59.0,1,Not Hispanic or Latino,White,Female,45-54,58.44,Loan originated
+1,335000.0,48,415000.0,65.0,1,Not Hispanic or Latino,Black or African American,Male,25-34,80.0,Loan originated
+1,515000.0,48,645000.0,116.0,1,Not Hispanic or Latino,Asian,Male,25-34,79.969,Loan originated
+1,245000.0,46,335000.0,67.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,445000.0,49,565000.0,92.0,1,Not Hispanic or Latino,Asian,Female,45-54,78.572,Loan originated
+1,1145000.0,48,1605000.0,303.0,1,Not Hispanic or Latino,Asian,Male,45-54,71.864,Loan originated
+1,645000.0,30%-<36%,865000.0,179.0,1,Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,435000.0,42,565000.0,104.0,1,Hispanic or Latino,White,Male,65-74,76.991,Loan originated
+1,255000.0,>60%,955000.0,106.0,1,Not Hispanic or Latino,White,Female,45-54,26.316,Application denied
+1,515000.0,41,575000.0,155.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,995000.0,40,1225000.0,359.0,1,Not Hispanic or Latino,White,Female,35-44,89.99,Application denied
+1,565000.0,49,705000.0,108.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,865000.0,20%-<30%,1155000.0,336.0,1,Not Hispanic or Latino,Asian,Female,25-34,75.0,Loan originated
+1,735000.0,43,795000.0,186.0,1,Hispanic or Latino,White,Male,25-34,92.5,Loan originated
+1,765000.0,36,955000.0,303.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,615000.0,47,655000.0,180.0,1,Not Hispanic or Latino,Asian,Male,35-44,93.0,Loan originated
+1,395000.0,48,445000.0,85.0,1,Not Hispanic or Latino,White,Female,55-64,90.0,Loan originated
+1,655000.0,40,1205000.0,191.0,1,Not Hispanic or Latino,Asian,Male,35-44,55.0,Loan originated
+1,535000.0,39,635000.0,140.0,1,Not Hispanic or Latino,White,Male,45-54,88.0,Loan originated
+1,295000.0,38,295000.0,77.0,1,Hispanic or Latino,White,Male,25-34,97.0,Loan originated
+1,445000.0,47,475000.0,99.0,1,Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,875000.0,49,1315000.0,307.0,1,Not Hispanic or Latino,White,Male,45-54,66.54,Loan originated
+1,605000.0,49,945000.0,122.0,1,Not Hispanic or Latino,White,Male,25-34,63.83,Loan originated
+1,995000.0,42,1605000.0,346.0,1,Not Hispanic or Latino,Asian,Female,35-44,62.315,Loan originated
+1,385000.0,46,495000.0,160.0,1,Hispanic or Latino,White,Male,35-44,79.96,Loan originated
+1,475000.0,38,505000.0,137.0,1,Hispanic or Latino,White,Male,25-34,100.0,Loan originated
+1,565000.0,44,875000.0,163.0,1,Not Hispanic or Latino,White,Female,25-34,64.0,Loan originated
+1,155000.0,20%-<30%,545000.0,130.0,1,Not Hispanic or Latino,White,Male,55-64,27.528,Loan originated
+1,735000.0,45,1055000.0,168.0,1,Not Hispanic or Latino,Asian,Female,45-54,70.0,Loan originated
+1,135000.0,48,555000.0,55.0,1,Not Hispanic or Latino,White,Female,<25,23.423,Loan originated
+1,175000.0,47,215000.0,42.0,1,Not Hispanic or Latino,White,Male,55-64,83.2,Loan originated
+1,815000.0,37,1015000.0,338.0,1,Not Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,605000.0,39,805000.0,140.0,1,Not Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,765000.0,48,845000.0,171.0,1,Not Hispanic or Latino,Asian,Male,35-44,90.0,Loan originated
+1,505000.0,46,535000.0,157.0,1,Hispanic or Latino,White,Female,55-64,98.0,Loan originated
+1,605000.0,20%-<30%,1005000.0,239.0,1,Not Hispanic or Latino,Asian,Female,35-44,60.0,Loan originated
+1,1125000.0,40,1405000.0,397.0,1,Not Hispanic or Latino,White,Female,55-64,80.0,Loan originated
+1,525000.0,49,685000.0,106.0,1,Hispanic or Latino,White,Female,25-34,76.669,Loan originated
+1,435000.0,36,475000.0,160.0,1,Not Hispanic or Latino,White,Female,45-54,91.649,Loan originated
+1,535000.0,40,715000.0,215.0,1,Hispanic or Latino,White,Male,55-64,75.0,Loan originated
+1,645000.0,49,685000.0,129.0,1,Not Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,845000.0,42,1055000.0,235.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,565000.0,44,715000.0,228.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,565000.0,43,805000.0,146.0,1,Hispanic or Latino,White,Female,25-34,69.307,Loan originated
+1,475000.0,44,485000.0,113.0,1,Hispanic or Latino,White,Male,35-44,100.0,Application denied
+1,455000.0,48,485000.0,101.0,1,Hispanic or Latino,White,Male,25-34,96.58,Loan originated
+1,635000.0,47,795000.0,200.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,1065000.0,<20%,1325000.0,627.0,1,Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,485000.0,36,605000.0,141.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,265000.0,49,275000.0,58.0,1,Not Hispanic or Latino,White,Female,25-34,95.0,Loan originated
+1,445000.0,>60%,555000.0,80.0,1,Hispanic or Latino,White,Male,35-44,80.0,Application denied
+1,575000.0,41,605000.0,159.0,1,Not Hispanic or Latino,Asian,Female,25-34,95.04,Loan originated
+1,575000.0,46,635000.0,135.0,1,Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,525000.0,>60%,545000.0,17.0,1,Hispanic or Latino,White,Female,45-54,100.0,Application denied
+1,295000.0,30%-<36%,315000.0,226.0,1,Not Hispanic or Latino,Asian,Female,35-44,95.0,Loan originated
+1,665000.0,>60%,705000.0,72.0,1,Hispanic or Latino,White,Female,45-54,95.0,Application denied
+1,635000.0,38,845000.0,447.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,305000.0,44,315000.0,79.0,1,Not Hispanic or Latino,White,Male,<25,100.0,Loan originated
+1,965000.0,43,1285000.0,221.0,1,Not Hispanic or Latino,Asian,Female,35-44,75.0,Loan originated
+1,435000.0,39,465000.0,123.0,1,Not Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,545000.0,30%-<36%,615000.0,188.0,1,Not Hispanic or Latino,White,Male,65-74,89.984,Loan originated
+1,275000.0,30%-<36%,295000.0,101.0,1,Hispanic or Latino,White,Female,55-64,95.0,Loan originated
+1,215000.0,30%-<36%,225000.0,116.0,1,Not Hispanic or Latino,White,Female,65-74,95.0,Loan originated
+1,265000.0,49,335000.0,54.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,725000.0,44,915000.0,228.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,565000.0,48,705000.0,115.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,765000.0,20%-<30%,965000.0,351.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,205000.0,<20%,715000.0,265.0,1,Not Hispanic or Latino,Asian,Male,35-44,28.035,Loan originated
+1,265000.0,50%-60%,275000.0,120.0,1,Hispanic or Latino,White,Male,25-34,93.39,Application denied
+1,365000.0,43,485000.0,86.0,1,Not Hispanic or Latino,White,Male,35-44,74.962,Loan originated
+1,515000.0,48,865000.0,144.0,1,Not Hispanic or Latino,White,Male,35-44,59.538,Loan originated
+1,365000.0,45,465000.0,172.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,1125000.0,20%-<30%,1405000.0,744.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,475000.0,39,535000.0,131.0,1,Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,445000.0,20%-<30%,555000.0,249.0,1,Hispanic or Latino,White,Male,55-64,80.0,Loan originated
+1,125000.0,43,515000.0,69.0,1,Not Hispanic or Latino,White,Female,55-64,24.855,Loan originated
+1,575000.0,<20%,645000.0,414.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,585000.0,48,905000.0,132.0,1,Not Hispanic or Latino,Asian,Male,35-44,64.59,Loan originated
+1,575000.0,36,865000.0,196.0,1,Not Hispanic or Latino,White,Female,25-34,67.21,Loan originated
+1,125000.0,37,215000.0,51.0,1,Hispanic or Latino,White,Male,65-74,96.226,Application denied
+1,295000.0,<20%,395000.0,527.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,425000.0,<20%,535000.0,380.0,1,Not Hispanic or Latino,Asian,Female,25-34,80.0,Loan originated
+1,235000.0,37,265000.0,63.0,1,Hispanic or Latino,White,Female,35-44,90.0,Loan originated
+1,515000.0,43,555000.0,176.0,1,Hispanic or Latino,Black or African American,Female,55-64,92.744,Loan originated
+1,395000.0,37,575000.0,157.0,1,Not Hispanic or Latino,White,Male,35-44,69.298,Loan originated
+1,605000.0,46,645000.0,133.0,1,Hispanic or Latino,White,Male,<25,95.0,Loan originated
+1,295000.0,44,325000.0,91.0,1,Hispanic or Latino,White,Male,35-44,89.969,Loan originated
+1,455000.0,38,475000.0,142.0,1,Not Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,525000.0,48,655000.0,106.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,385000.0,30%-<36%,425000.0,128.0,1,Not Hispanic or Latino,White,Female,>74,90.0,Loan originated
+1,655000.0,38,765000.0,807.0,1,Hispanic or Latino,White,Female,45-54,85.0,Loan originated
+1,385000.0,38,695000.0,114.0,1,Not Hispanic or Latino,Asian,Male,25-34,55.827,Loan originated
+1,1025000.0,38,1925000.0,298.0,1,Not Hispanic or Latino,Asian,Female,25-34,53.247,Loan originated
+1,105000.0,41,125000.0,73.0,1,Not Hispanic or Latino,White,Male,55-64,81.92,Loan originated
+1,535000.0,20%-<30%,665000.0,434.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,595000.0,>60%,635000.0,79.0,1,Hispanic or Latino,White,Female,45-54,95.0,Application denied
+1,485000.0,43,515000.0,127.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,535000.0,44,735000.0,141.0,1,Hispanic or Latino,Asian,Female,25-34,72.211,Loan originated
+1,505000.0,50%-60%,535000.0,144.0,1,Hispanic or Latino,Asian,Male,35-44,95.0,Loan originated
+1,315000.0,30%-<36%,515000.0,103.0,1,Not Hispanic or Latino,White,Male,55-64,61.165,Loan originated
+1,365000.0,49,565000.0,95.0,1,Not Hispanic or Latino,Asian,Female,25-34,65.0,Loan originated
+1,645000.0,48,805000.0,154.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,335000.0,45,465000.0,83.0,1,Not Hispanic or Latino,White,Female,>74,70.968,Loan originated
+1,215000.0,49,735000.0,63.0,1,Not Hispanic or Latino,White,Male,35-44,28.689,Loan originated
+1,755000.0,49,1005000.0,271.0,1,Not Hispanic or Latino,White,Male,55-64,75.0,Loan originated
+1,485000.0,45,605000.0,123.0,1,Not Hispanic or Latino,Black or African American,Male,>74,80.0,Loan originated
+1,515000.0,42,695000.0,119.0,1,Not Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,365000.0,42,725000.0,100.0,1,Not Hispanic or Latino,White,Male,25-34,49.655,Loan originated
+1,585000.0,49,625000.0,118.0,1,Not Hispanic or Latino,Asian,Female,25-34,94.0,Loan originated
+1,325000.0,43,875000.0,102.0,1,Not Hispanic or Latino,White,Female,55-64,37.143,Loan originated
+1,485000.0,>60%,535000.0,132.0,1,Not Hispanic or Latino,Asian,Male,<25,90.0,Application denied
+1,425000.0,49,585000.0,89.0,1,Not Hispanic or Latino,White,Female,25-34,73.368,Loan originated
+1,885000.0,48,1855000.0,185.0,1,Not Hispanic or Latino,Asian,Female,35-44,47.838,Loan originated
+1,665000.0,48,775000.0,170.0,1,Not Hispanic or Latino,Asian,Female,45-54,85.0,Loan originated
+1,145000.0,30%-<36%,585000.0,84.0,1,Not Hispanic or Latino,White,Female,>74,24.138,Loan originated
+1,765000.0,46,2905000.0,265.0,1,Not Hispanic or Latino,White,Female,35-44,40.916,Loan originated
+1,465000.0,47,585000.0,101.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,985000.0,20%-<30%,1225000.0,407.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,855000.0,36,1555000.0,297.0,1,Not Hispanic or Latino,Asian,Male,35-44,55.06,Application denied
+1,245000.0,45,575000.0,82.0,1,Not Hispanic or Latino,White,Female,65-74,41.772,Loan originated
+1,165000.0,30%-<36%,795000.0,70.0,1,Not Hispanic or Latino,Asian,Male,45-54,21.0,Loan originated
+1,465000.0,50%-60%,545000.0,113.0,1,Hispanic or Latino,White,Female,25-34,85.0,Loan originated
+1,415000.0,49,915000.0,288.0,1,Hispanic or Latino,White,Male,55-64,45.355,Loan originated
+1,545000.0,48,845000.0,113.0,1,Not Hispanic or Latino,White,Female,35-44,64.286,Loan originated
+1,605000.0,46,755000.0,129.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,345000.0,30%-<36%,405000.0,94.0,1,Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,305000.0,47,505000.0,79.0,1,Not Hispanic or Latino,White,Female,35-44,100.0,Loan originated
+1,755000.0,39,845000.0,267.0,1,Not Hispanic or Latino,Black or African American,Female,25-34,90.0,Loan originated
+1,885000.0,47,1105000.0,235.0,1,Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,1005000.0,38,1255000.0,371.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,635000.0,44,1275000.0,168.0,1,Not Hispanic or Latino,Asian,Female,25-34,50.0,Loan originated
+1,875000.0,>60%,1035000.0,321.0,1,Hispanic or Latino,White,Male,45-54,85.0,Application denied
+1,355000.0,20%-<30%,405000.0,165.0,1,Not Hispanic or Latino,White,Male,25-34,89.98,Application denied
+1,155000.0,30%-<36%,555000.0,80.0,1,Not Hispanic or Latino,White,Female,45-54,26.985,Loan originated
+1,1075000.0,44,1335000.0,301.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Loan originated
+1,435000.0,47,645000.0,95.0,1,Not Hispanic or Latino,White,Female,45-54,67.679,Loan originated
+1,465000.0,49,615000.0,106.0,1,Not Hispanic or Latino,Asian,Male,35-44,75.0,Loan originated
+1,805000.0,50%-60%,955000.0,509.0,1,Not Hispanic or Latino,Asian,Female,65-74,85.0,Loan originated
+1,255000.0,36,315000.0,80.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,555000.0,49,2035000.0,158.0,1,Not Hispanic or Latino,White,Male,55-64,27.09,Loan originated
+1,945000.0,42,1185000.0,381.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,515000.0,40,785000.0,129.0,1,Not Hispanic or Latino,Asian,Female,45-54,64.99953,Loan originated
+1,265000.0,<20%,825000.0,270.0,1,Not Hispanic or Latino,White,Female,65-74,31.707,Loan originated
+1,805000.0,30%-<36%,905000.0,342.0,1,Not Hispanic or Latino,White,Female,35-44,89.9,Loan originated
+1,275000.0,30%-<36%,295000.0,86.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,275000.0,20%-<30%,1385000.0,281.0,1,Not Hispanic or Latino,Asian,Male,35-44,20.0,Loan originated
+1,595000.0,48,925000.0,159.0,1,Not Hispanic or Latino,White,Male,55-64,64.46,Loan originated
+1,605000.0,39,775000.0,141.0,1,Not Hispanic or Latino,Asian,Female,25-34,77.419,Loan originated
+1,605000.0,46,685000.0,180.0,1,Not Hispanic or Latino,White,Male,35-44,88.321,Loan originated
+1,305000.0,42,315000.0,69.0,1,Not Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,375000.0,39,395000.0,108.0,1,Not Hispanic or Latino,Asian,Female,25-34,95.0,Loan originated
+1,755000.0,42,945000.0,273.0,1,Not Hispanic or Latino,Asian,Male,55-64,80.0,Application denied
+1,555000.0,30%-<36%,855000.0,218.0,1,Not Hispanic or Latino,White,Female,45-54,64.706,Loan originated
+1,515000.0,36,545000.0,195.0,1,Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,505000.0,48,655000.0,95.0,1,Not Hispanic or Latino,White,Female,45-54,78.0,Loan originated
+1,765000.0,46,965000.0,172.0,1,Not Hispanic or Latino,White,Male,35-44,79.79,Loan originated
+1,135000.0,43,515000.0,45.0,1,Not Hispanic or Latino,White,Female,35-44,94.829,Loan originated
+1,425000.0,30%-<36%,535000.0,271.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,675000.0,20%-<30%,925000.0,300.0,1,Not Hispanic or Latino,White,Female,55-64,72.973,Loan originated
+1,555000.0,48,735000.0,130.0,1,Hispanic or Latino,White,Female,55-64,75.0,Loan originated
+1,405000.0,49,465000.0,80.0,1,Not Hispanic or Latino,Asian,Male,<25,90.17,Loan originated
+1,635000.0,44,715000.0,164.0,1,Not Hispanic or Latino,Asian,Male,25-34,90.0,Loan originated
+1,405000.0,30%-<36%,425000.0,123.0,1,Hispanic or Latino,White,Male,45-54,100.0,Loan originated
+1,305000.0,44,485000.0,105.0,1,Not Hispanic or Latino,Asian,Male,<25,64.439,Loan originated
+1,665000.0,48,855000.0,150.0,1,Not Hispanic or Latino,White,Male,35-44,78.0,Loan originated
+1,765000.0,20%-<30%,1265000.0,263.0,1,Not Hispanic or Latino,White,Male,45-54,60.597,Loan originated
+1,355000.0,>60%,445000.0,83.0,1,Hispanic or Latino,White,Male,35-44,80.0,Application denied
+1,755000.0,46,945000.0,156.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,505000.0,44,565000.0,121.0,1,Not Hispanic or Latino,White,Female,25-34,90.0,Loan originated
+1,515000.0,47,685000.0,154.0,1,Not Hispanic or Latino,Asian,Male,35-44,74.91,Loan originated
+1,545000.0,49,685000.0,114.0,1,Not Hispanic or Latino,Black or African American,Female,55-64,80.0,Loan originated
+1,475000.0,49,525000.0,94.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Loan originated
+1,705000.0,45,885000.0,267.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,415000.0,44,555000.0,268.0,1,Not Hispanic or Latino,Asian,Female,45-54,75.0,Loan originated
+1,205000.0,42,305000.0,60.0,1,Not Hispanic or Latino,Black or African American,Female,35-44,100.0,Loan originated
+1,735000.0,50%-60%,975000.0,149.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Application denied
+1,535000.0,43,825000.0,132.0,1,Not Hispanic or Latino,Asian,Male,<25,65.0,Loan originated
+1,365000.0,41,455000.0,125.0,1,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,Male,35-44,80.0,Loan originated
+1,355000.0,40,445000.0,100.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Application denied
+1,765000.0,43,855000.0,184.0,1,Hispanic or Latino,White,Male,35-44,90.0,Loan originated
+1,265000.0,47,395000.0,51.0,1,Not Hispanic or Latino,White,Female,65-74,66.667,Loan originated
+1,65000.0,<20%,905000.0,168.0,1,Not Hispanic or Latino,White,Male,65-74,6.63,Loan originated
+1,395000.0,37,445000.0,107.0,1,Hispanic or Latino,White,Male,25-34,88.764,Loan originated
+1,635000.0,30%-<36%,795000.0,468.0,1,Not Hispanic or Latino,White,Female,25-34,80.0,Loan originated
+1,275000.0,30%-<36%,285000.0,109.0,1,Not Hispanic or Latino,Black or African American,Male,45-54,94.81,Loan originated
+1,925000.0,49,975000.0,288.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,435000.0,36,515000.0,125.0,1,Not Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,765000.0,49,1025000.0,152.0,1,Not Hispanic or Latino,Asian,Male,35-44,74.509,Loan originated
+1,605000.0,20%-<30%,1105000.0,206.0,1,Not Hispanic or Latino,Asian,Male,35-44,55.0,Loan originated
+1,535000.0,43,715000.0,224.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,195000.0,49,215000.0,50.0,1,Hispanic or Latino,White,Male,65-74,95.0,Loan originated
+1,65000.0,20%-<30%,95000.0,91.0,1,Not Hispanic or Latino,White,Male,45-54,65.15,Loan originated
+1,425000.0,20%-<30%,955000.0,303.0,1,Not Hispanic or Latino,Asian,Male,35-44,45.0,Loan originated
+1,215000.0,49,285000.0,42.0,1,Not Hispanic or Latino,White,Male,35-44,75.0,Loan originated
+1,235000.0,50%-60%,285000.0,124.0,1,Not Hispanic or Latino,Asian,Female,35-44,85.66,Application denied
+1,505000.0,<20%,1195000.0,310.0,1,Not Hispanic or Latino,White,Female,55-64,42.773,Loan originated
+1,555000.0,49,695000.0,110.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,385000.0,40,425000.0,109.0,1,Not Hispanic or Latino,White,Female,55-64,89.41,Loan originated
+1,315000.0,30%-<36%,415000.0,119.0,1,Hispanic or Latino,White,Male,45-54,75.904,Loan originated
+1,25000.0,44,645000.0,140.0,1,Hispanic or Latino,White,Male,55-64,3.5,Loan originated
+1,15000.0,30%-<36%,325000.0,81.0,1,Not Hispanic or Latino,American Indian or Alaska Native,Female,55-64,101.5,Loan originated
+1,305000.0,43,525000.0,71.0,1,Hispanic or Latino,White,Male,35-44,57.143,Loan originated
+1,985000.0,41,1225000.0,249.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,385000.0,42,475000.0,148.0,1,Not Hispanic or Latino,Asian,Male,35-44,80.0,Loan originated
+1,765000.0,38,855000.0,196.0,1,Not Hispanic or Latino,White,Male,25-34,89.99,Loan originated
+1,1005000.0,39,1425000.0,247.0,1,Not Hispanic or Latino,Asian,Female,35-44,69.984,Loan originated
+1,725000.0,39,915000.0,192.0,1,Not Hispanic or Latino,White,Male,<25,80.0,Loan originated
+1,855000.0,44,955000.0,213.0,1,Not Hispanic or Latino,White,Male,45-54,89.9,Loan originated
+1,715000.0,49,745000.0,151.0,1,Hispanic or Latino,White,Female,35-44,95.0,Loan originated
+1,1085000.0,39,1455000.0,288.0,1,Not Hispanic or Latino,White,Female,25-34,75.0,Loan originated
+1,245000.0,49,305000.0,78.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,225000.0,41,235000.0,68.0,1,Not Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,765000.0,30%-<36%,1305000.0,257.0,1,Not Hispanic or Latino,Asian,Female,65-74,59.0,Loan originated
+1,175000.0,30%-<36%,215000.0,104.0,1,Not Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,285000.0,49,295000.0,73.0,1,Not Hispanic or Latino,Black or African American,Male,55-64,95.0,Loan originated
+1,55000.0,<20%,455000.0,81.0,1,Not Hispanic or Latino,White,Female,>74,12.0,Loan originated
+1,705000.0,30%-<36%,1115000.0,218.0,1,Hispanic or Latino,White,Male,35-44,63.063,Loan originated
+1,955000.0,41,1505000.0,356.0,1,Not Hispanic or Latino,White,Female,55-64,63.12,Loan originated
+1,335000.0,50%-60%,375000.0,63.0,1,Not Hispanic or Latino,Asian,Male,45-54,90.0,Application denied
+1,675000.0,41,875000.0,214.0,1,Not Hispanic or Latino,Asian,Female,25-34,77.476,Loan originated
+1,395000.0,<20%,1595000.0,373.0,1,Not Hispanic or Latino,White,Female,55-64,24.76,Loan originated
+1,515000.0,<20%,645000.0,555.0,1,Not Hispanic or Latino,White,Male,35-44,80.0,Loan originated
+1,365000.0,46,515000.0,79.0,1,Hispanic or Latino,White,Male,35-44,69.903,Loan originated
+1,915000.0,47,1225000.0,183.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,955000.0,48,1415000.0,199.0,1,Not Hispanic or Latino,White,Male,35-44,67.544,Loan originated
+1,885000.0,30%-<36%,1105000.0,267.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,445000.0,42,465000.0,100.0,1,Hispanic or Latino,White,Female,65-74,95.0,Loan originated
+1,415000.0,20%-<30%,1115000.0,235.0,1,Not Hispanic or Latino,Asian,Female,25-34,36.673,Loan originated
+1,665000.0,49,695000.0,203.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,235000.0,30%-<36%,295000.0,84.0,1,Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,675000.0,49,835000.0,174.0,1,Hispanic or Latino,White,Male,<25,80.0,Loan originated
+1,765000.0,46,895000.0,188.0,1,Not Hispanic or Latino,Asian,Female,55-64,85.627,Loan originated
+1,165000.0,38,215000.0,63.0,1,Hispanic or Latino,White,Female,55-64,75.0,Loan originated
+1,385000.0,38,525000.0,106.0,1,Not Hispanic or Latino,Asian,Female,55-64,73.077,Loan originated
+1,385000.0,49,415000.0,96.0,1,Hispanic or Latino,White,Male,55-64,95.0,Loan originated
+1,725000.0,49,765000.0,283.0,1,Not Hispanic or Latino,White,Male,45-54,95.0,Loan originated
+1,565000.0,49,765000.0,120.0,1,Not Hispanic or Latino,Asian,Female,35-44,73.74,Loan originated
+1,255000.0,37,315000.0,73.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,285000.0,41,395000.0,92.0,1,Hispanic or Latino,White,Female,35-44,103.0,Application denied
+1,805000.0,37,1495000.0,623.0,1,Not Hispanic or Latino,Asian,Female,25-34,53.52,Loan originated
+1,485000.0,45,505000.0,110.0,1,Hispanic or Latino,White,Male,45-54,99.97,Loan originated
+1,555000.0,38,585000.0,129.0,1,Hispanic or Latino,White,Male,25-34,95.0,Loan originated
+1,315000.0,49,355000.0,170.0,1,Not Hispanic or Latino,Asian,Female,45-54,90.0,Loan originated
+1,615000.0,49,1455000.0,124.0,1,Not Hispanic or Latino,White,Female,55-64,42.414,Loan originated
+1,465000.0,30%-<36%,585000.0,219.0,1,Not Hispanic or Latino,Asian,Female,45-54,80.0,Loan originated
+1,435000.0,45,735000.0,338.0,1,Not Hispanic or Latino,White,Male,55-64,60.0,Loan originated
+1,855000.0,41,1855000.0,725.0,1,Not Hispanic or Latino,White,Male,55-64,45.946,Loan originated
+1,355000.0,43,385000.0,104.0,1,Not Hispanic or Latino,White,Female,45-54,90.0,Loan originated
+1,175000.0,<20%,255000.0,329.0,1,Hispanic or Latino,White,Male,45-54,70.0,Loan originated
+1,705000.0,40,725000.0,214.0,1,Not Hispanic or Latino,White,Male,35-44,97.0,Loan originated
+1,715000.0,41,895000.0,189.0,1,Not Hispanic or Latino,White,Male,45-54,80.0,Application denied
+1,875000.0,41,1005000.0,216.0,1,Not Hispanic or Latino,Asian,Male,35-44,87.0,Loan originated
+1,405000.0,43,575000.0,103.0,1,Not Hispanic or Latino,White,Female,65-74,70.435,Loan originated
+1,395000.0,38,425000.0,114.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,375000.0,37,505000.0,109.0,1,Not Hispanic or Latino,White,Male,25-34,75.0,Loan originated
+1,185000.0,30%-<36%,215000.0,111.0,1,Not Hispanic or Latino,White,Male,45-54,90.0,Loan originated
+1,1055000.0,41,1415000.0,311.0,1,Not Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,405000.0,30%-<36%,615000.0,149.0,1,Hispanic or Latino,White,Male,55-64,65.58,Loan originated
+1,685000.0,43,865000.0,136.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,405000.0,39,485000.0,102.0,1,Not Hispanic or Latino,White,Male,35-44,83.0,Loan originated
+1,385000.0,36,485000.0,379.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,365000.0,37,605000.0,173.0,1,Not Hispanic or Latino,White,Male,55-64,60.0,Loan originated
+1,305000.0,45,325000.0,140.0,1,Hispanic or Latino,White,Male,35-44,95.0,Loan originated
+1,665000.0,20%-<30%,885000.0,348.0,1,Not Hispanic or Latino,Asian,Male,25-34,75.0,Loan originated
+1,905000.0,44,1135000.0,217.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,375000.0,20%-<30%,575000.0,149.0,1,Not Hispanic or Latino,White,Female,55-64,64.987,Loan originated
+1,855000.0,50%-60%,895000.0,170.0,1,Hispanic or Latino,White,Male,35-44,95.0,Application denied
+1,455000.0,40,905000.0,170.0,1,Not Hispanic or Latino,White,Female,55-64,50.0,Loan originated
+1,425000.0,43,495000.0,128.0,1,Hispanic or Latino,White,Female,55-64,85.972,Loan originated
+1,685000.0,48,855000.0,164.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,285000.0,<20%,715000.0,908.0,1,Not Hispanic or Latino,White,Male,35-44,40.0,Loan originated
+1,525000.0,42,655000.0,139.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,845000.0,36,1055000.0,385.0,1,Not Hispanic or Latino,White,Female,35-44,80.0,Loan originated
+1,125000.0,43,215000.0,62.0,1,Not Hispanic or Latino,White,Female,55-64,58.69,Loan originated
+1,535000.0,44,665000.0,116.0,1,Not Hispanic or Latino,Asian,Female,55-64,100.0,Loan originated
+1,435000.0,20%-<30%,455000.0,159.0,1,Not Hispanic or Latino,Asian,Female,55-64,95.0,Loan originated
+1,325000.0,36,435000.0,195.0,1,Not Hispanic or Latino,White,Male,55-64,75.0,Loan originated
+1,925000.0,49,1515000.0,174.0,1,Not Hispanic or Latino,White,Female,25-34,60.82,Loan originated
+1,675000.0,20%-<30%,905000.0,354.0,1,Not Hispanic or Latino,White,Male,65-74,75.0,Loan originated
+1,405000.0,37,1005000.0,153.0,1,Not Hispanic or Latino,Asian,Female,25-34,40.0,Loan originated
+1,445000.0,44,465000.0,116.0,1,Hispanic or Latino,White,Female,45-54,95.0,Loan originated
+1,575000.0,46,605000.0,142.0,1,Not Hispanic or Latino,Asian,Female,45-54,95.0,Loan originated
+1,645000.0,20%-<30%,805000.0,347.0,1,Not Hispanic or Latino,White,Male,25-34,80.0,Loan originated
+1,585000.0,39,725000.0,158.0,1,Not Hispanic or Latino,Asian,Male,45-54,80.0,Loan originated
+1,385000.0,44,485000.0,111.0,1,Not Hispanic or Latino,White,Female,55-64,78.07,Loan originated
+1,295000.0,48,305000.0,77.0,1,Not Hispanic or Latino,White,Female,25-34,97.0,Loan originated
+1,945000.0,20%-<30%,1175000.0,506.0,1,Not Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,615000.0,37,765000.0,166.0,1,Hispanic or Latino,Asian,Female,35-44,80.0,Loan originated
+1,435000.0,48,805000.0,170.0,1,Not Hispanic or Latino,Asian,Female,35-44,54.96,Loan originated
+1,725000.0,30%-<36%,1155000.0,231.0,1,Not Hispanic or Latino,Asian,Female,35-44,63.157,Loan originated
+1,1075000.0,42,1355000.0,260.0,1,Not Hispanic or Latino,Asian,Male,25-34,79.407,Loan originated
+1,805000.0,36,1005000.0,205.0,1,Not Hispanic or Latino,Asian,Male,25-34,80.0,Loan originated
+1,345000.0,39,615000.0,95.0,1,Not Hispanic or Latino,White,Male,45-54,55.502,Loan originated
+1,75000.0,30%-<36%,75000.0,60.0,1,Not Hispanic or Latino,White,Female,55-64,95.0,Application denied
+1,685000.0,45,715000.0,300.0,1,Not Hispanic or Latino,White,Female,55-64,97.0,Loan originated
+1,735000.0,48,775000.0,158.0,1,Hispanic or Latino,American Indian or Alaska Native,Female,35-44,95.0,Loan originated
+1,405000.0,38,515000.0,106.0,1,Hispanic or Latino,White,Female,45-54,80.0,Loan originated
+1,695000.0,40,925000.0,163.0,1,Not Hispanic or Latino,White,Female,35-44,75.0,Loan originated
+1,375000.0,39,445000.0,154.0,1,Not Hispanic or Latino,White,Female,45-54,85.0,Loan originated
+1,905000.0,48,1375000.0,189.0,1,Not Hispanic or Latino,White,Female,55-64,65.455,Loan originated
+1,835000.0,44,925000.0,278.0,1,Not Hispanic or Latino,White,Male,25-34,90.0,Loan originated
+1,715000.0,44,845000.0,149.0,1,Not Hispanic or Latino,White,Male,25-34,85.0,Loan originated
+1,385000.0,30%-<36%,485000.0,131.0,1,Hispanic or Latino,White,Male,45-54,80.0,Loan originated
+1,965000.0,44,1205000.0,389.0,1,Not Hispanic or Latino,Asian,Male,65-74,80.0,Loan originated
+1,705000.0,30%-<36%,1105000.0,252.0,1,Not Hispanic or Latino,White,Male,35-44,62.222,Loan originated
+1,625000.0,45,725000.0,196.0,1,Not Hispanic or Latino,White,Male,35-44,86.2,Loan originated
+1,255000.0,20%-<30%,345000.0,127.0,1,Not Hispanic or Latino,White,Male,45-54,75.0,Loan originated
+1,685000.0,40,805000.0,311.0,1,Not Hispanic or Latino,White,Male,35-44,85.0,Loan originated
+1,175000.0,48,295000.0,59.0,1,Hispanic or Latino,White,Male,35-44,59.0,Loan originated
