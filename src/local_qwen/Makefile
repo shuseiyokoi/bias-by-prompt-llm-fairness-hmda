@@ -17,7 +17,7 @@
 
 LLAMA_SERVER ?= llama-server
 PORT ?= 8080
-CTX ?= 8192
+CTX ?= 100000  # raw-mode prompts run ~82,400 tokens; call_qwen.py uses the same value
 NGL ?= 99
 
 MODELS_DIR := models

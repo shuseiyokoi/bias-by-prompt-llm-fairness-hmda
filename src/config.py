@@ -45,8 +45,8 @@ CLAUDE_MODELS = [
 GEMINI_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-pro"]
 
 QWEN_MODELS = [
-#    "qwen2.5-7b-instruct",
-    "qwen3-8b",
+    "qwen2.5-7b-instruct",  # swapped for qwen3-8b: 128K native context vs qwen3-8b's 32K (needs YaRN to reach raw-mode's ~82K tokens/call)
+#    "qwen3-8b",
 ]
 
 LLAMA_MODELS = [
@@ -55,7 +55,7 @@ LLAMA_MODELS = [
 ]
 
 GEMMA_MODELS = [
-    "gemma-2-9b-it",
+#    "gemma-2-9b-it",  # dropped: hard 8,192-token context limit, cannot fit raw-mode prompts (~82K tokens/call) at any server setting
     "gemma-3-12b-it",
 ]
 

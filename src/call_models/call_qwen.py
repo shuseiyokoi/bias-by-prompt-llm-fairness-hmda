@@ -74,7 +74,7 @@ def start_server(model_name):
             LLAMA_SERVER,
             "-m", server_config["gguf"],
             "--port", str(PORT),
-            "-c", "8192",
+            "-c", "100000",  # raw-mode prompts run ~82,400 tokens; 8192 (old value) only fit summary mode
             "-ngl", "99",
             *server_config["extra_args"],
         ],
