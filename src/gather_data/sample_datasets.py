@@ -18,7 +18,14 @@ import sys
 import pandas as pd
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import PATH_TO_DATA, PATH_TO_SAMPLES, N_SAMPLES, SAMPLE_SIZE, SAMPLE_SEED
+from config import (
+    PATH_TO_DATA,
+    PATH_TO_SAMPLES,
+    N_SAMPLES,
+    SAMPLE_SIZE,
+    SAMPLE_SEED,
+    USE_SUMMARY,
+)
 from summarize_data import build_summary
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "ground_truth"))
@@ -52,9 +59,15 @@ def sample_datasets(n_samples=N_SAMPLES, sample_size=SAMPLE_SIZE, seed=SAMPLE_SE
 
         sample.to_csv(csv_path, index=False)
 
-        summary_text = build_summary(sample).to_string(index=False)
-        with open(txt_path, "w") as f:
-            f.write(summary_text)
+        if USE_SUMMARY:
+            summary_text = build_summary(sample).to_string(index=False)
+            with open(txt_path, "w") as f:
+                f.write(summary_text)
+            summary_name = os.path.basename(txt_path)
+            summary_chars = len(summary_text)
+        else:
+            summary_name = None
+            summary_chars = None
 
         manifest.append(
             {
@@ -62,8 +75,8 @@ def sample_datasets(n_samples=N_SAMPLES, sample_size=SAMPLE_SIZE, seed=SAMPLE_SE
                 "seed": seed + i,
                 "n_rows": sample_size,
                 "csv": os.path.basename(csv_path),
-                "summary": os.path.basename(txt_path),
-                "summary_chars": len(summary_text),
+                "summary": summary_name,
+                "summary_chars": summary_chars,
             }
         )
 
