@@ -35,16 +35,17 @@ SAMPLE_SEED = 42  # base RNG seed; sample i uses SAMPLE_SEED + i
 USE_SUMMARY = False  # True: embed per-sample summary.txt in prompts.
                       # False: embed the sample's raw CSV rows instead.
 
-GPT_MODELS = ["gpt-3.5-turbo", "gpt-4o-mini"]
+# GPT_MODELS = ["gpt-3.5-turbo", "gpt-4o-mini"]
 
-CLAUDE_MODELS = [
-    "claude-haiku-4-5-20251001",
-    "claude-sonnet-4-5-20250929",
-]  # claude-sonnet-4-20250514 gives non json responses
-GEMINI_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-pro"]
+# CLAUDE_MODELS = [
+#     "claude-haiku-4-5-20251001",
+#     "claude-sonnet-4-5-20250929",
+# ]  # claude-sonnet-4-20250514 gives non json responses
+
+# GEMINI_MODELS = ["gemini-2.5-flash-lite", "gemini-2.5-pro"]
 
 QWEN_MODELS = [
-    "qwen2.5-7b-instruct",
+#    "qwen2.5-7b-instruct",
     "qwen3-8b",
 ]
 
