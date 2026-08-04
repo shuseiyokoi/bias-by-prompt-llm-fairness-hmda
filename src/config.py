@@ -32,6 +32,9 @@ N_SAMPLES = 500  # samples per model/prompt setup; scale down via cost estimate
 SAMPLE_SIZE = 2000  # rows (X) per sample; see results/ground_truth/calibration
 SAMPLE_SEED = 42  # base RNG seed; sample i uses SAMPLE_SEED + i
 
+USE_SUMMARY = False  # True: embed per-sample summary.txt in prompts.
+                      # False: embed the sample's raw CSV rows instead.
+
 GPT_MODELS = ["gpt-3.5-turbo", "gpt-4o-mini"]
 
 CLAUDE_MODELS = [

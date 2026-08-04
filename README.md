@@ -118,6 +118,22 @@ was calibrated (`results/ground_truth/calibration_label_rates.csv`) so that
 `bias_any` is true for ~46% of samples — near-maximal label variance — while the
 per-sample summary (~4k tokens) still fits the 8k context of the local models.
 
+### Prompt data mode: summary vs. raw rows
+
+`USE_SUMMARY` in `src/config.py` controls what each sample embeds under the
+`Data:` section of the prompt:
+
+- `USE_SUMMARY = True` — the per-sample aggregate stats table
+  (`sample_{id}_summary.txt`, grouped by race/sex/ethnicity), a few KB.
+- `USE_SUMMARY = False` (**current default**) — the sample's raw
+  `sample_{id}.csv` rows (all `SAMPLE_SIZE` of them) embedded verbatim.
+
+`sample_datasets.py` only writes `_summary.txt` files when `USE_SUMMARY` is
+`True`; the raw CSV is always written either way. Note that raw mode sends a
+much larger prompt than the calibrated ~4k-token summary above, so it may not
+fit the 8k context window of the local models — check `USE_SUMMARY` before
+running `call_qwen.py` or other local-model calls.
+
 ## How to run
 
 ### 1. Set up a virtual environment

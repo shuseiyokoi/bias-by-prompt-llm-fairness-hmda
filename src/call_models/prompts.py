@@ -4,7 +4,7 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import PATH_TO_DATA, PATH_TO_SAMPLES
+from config import PATH_TO_DATA, PATH_TO_SAMPLES, USE_SUMMARY
 
 
 PROMPT_TEMPLATE = """
@@ -90,11 +90,23 @@ def load_sample_summary(sample_id):
         return f.read()
 
 
+def load_sample_raw(sample_id):
+    path = os.path.join(PATH_TO_SAMPLES, f"{sample_id}.csv")
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
+
+
 def get_sample_prompt(prompt_type, sample_id):
-    """Full prompt with the given sample's summary table embedded."""
+    """Full prompt with the given sample's data embedded.
+
+    Embeds the summary table when USE_SUMMARY is True, otherwise the
+    sample's raw CSV rows.
+    """
+    data = load_sample_summary(sample_id) if USE_SUMMARY else load_sample_raw(sample_id)
+
     return f"""
 {get_prompt(prompt_type)}
 
 Data:
-{load_sample_summary(sample_id)}
+{data}
 """
