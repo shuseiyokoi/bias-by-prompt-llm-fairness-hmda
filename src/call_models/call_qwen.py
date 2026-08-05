@@ -22,7 +22,16 @@ MODELS_DIR = os.path.join(LOCAL_QWEN_DIR, "models")
 LOCAL_SERVER_CONFIG = {
     "qwen2.5-7b-instruct": {
         "gguf": os.path.join(MODELS_DIR, "Qwen2.5-7B-Instruct-Q4_K_M.gguf"),
-        "extra_args": [],
+        # this GGUF's baked-in context_length (32768) makes llama-server cap
+        # the slot to 32768 regardless of -c; override the metadata so the
+        # cap isn't applied, and scale RoPE via YaRN so the model still
+        # attends sanely out to the full -c (raw-mode prompts run ~111.6k)
+        "extra_args": [
+            "--override-kv", "qwen2.context_length=int:131072",
+            "--rope-scaling", "yarn",
+            "--rope-scale", "4",
+            "--yarn-orig-ctx", "32768",
+        ],
     },
     "qwen3-8b": {
         "gguf": os.path.join(MODELS_DIR, "Qwen3-8B-Q4_K_M.gguf"),
@@ -74,8 +83,9 @@ def start_server(model_name):
             LLAMA_SERVER,
             "-m", server_config["gguf"],
             "--port", str(PORT),
-            "-c", "100000",  # raw-mode prompts run ~82,400 tokens; 8192 (old value) only fit summary mode
+            "-c", "120000",  # raw-mode prompts run up to ~111.6k tokens + completion; 100000 (old value) was too tight
             "-ngl", "99",
+            "--parallel", "1",  # avoid dividing -c across llama.cpp's default 4 slots
             *server_config["extra_args"],
         ],
         stdout=subprocess.DEVNULL,
