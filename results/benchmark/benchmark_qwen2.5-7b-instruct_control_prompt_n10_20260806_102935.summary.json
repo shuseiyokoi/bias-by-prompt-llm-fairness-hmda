@@ -1,0 +1,24 @@
+{
+  "model": "qwen2.5-7b-instruct",
+  "prompt_type": "control_prompt",
+  "n_samples": 10,
+  "n_errors": 0,
+  "n_parsed_ok": 10,
+  "total_wall_time_s": 1469.4448290220462,
+  "latency_s": {
+    "mean": 146.85445029361873,
+    "median": 145.2279589304817,
+    "min": 143.41438779700547,
+    "max": 158.59868578100577
+  },
+  "tokens": {
+    "total_prompt_tokens": 1114261,
+    "total_completion_tokens": 1331,
+    "total_tokens": 1115592,
+    "mean_tokens_per_call": 111559.2
+  },
+  "process_peak_rss_mb": 74.23828125,
+  "start_time_iso": "2026-08-06T17:29:56.266856+00:00",
+  "end_time_iso": "2026-08-06T17:54:25.711731+00:00",
+  "csv_file": "benchmark_qwen2.5-7b-instruct_control_prompt_n10_20260806_102935.csv"
+}

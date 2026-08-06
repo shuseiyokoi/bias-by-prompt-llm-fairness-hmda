@@ -1,0 +1,24 @@
+{
+  "model": "gemma-3-12b-it",
+  "prompt_type": "control_prompt",
+  "n_samples": 10,
+  "n_errors": 0,
+  "n_parsed_ok": 10,
+  "total_wall_time_s": 1155.6558945690049,
+  "latency_s": {
+    "mean": 115.49779242700897,
+    "median": 115.97658304154174,
+    "min": 110.24129033705685,
+    "max": 116.71869811601937
+  },
+  "tokens": {
+    "total_prompt_tokens": 1109420,
+    "total_completion_tokens": 893,
+    "total_tokens": 1110313,
+    "mean_tokens_per_call": 111031.3
+  },
+  "process_peak_rss_mb": 79.453125,
+  "start_time_iso": "2026-08-06T18:20:50.469948+00:00",
+  "end_time_iso": "2026-08-06T18:40:06.125878+00:00",
+  "csv_file": "benchmark_gemma-3-12b-it_control_prompt_n10_20260806_112025.csv"
+}

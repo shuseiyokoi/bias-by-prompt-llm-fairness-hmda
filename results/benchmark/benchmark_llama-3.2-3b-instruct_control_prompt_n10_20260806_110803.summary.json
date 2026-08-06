@@ -1,0 +1,24 @@
+{
+  "model": "llama-3.2-3b-instruct",
+  "prompt_type": "control_prompt",
+  "n_samples": 10,
+  "n_errors": 0,
+  "n_parsed_ok": 0,
+  "total_wall_time_s": 726.1787181129912,
+  "latency_s": {
+    "mean": 72.58037882950157,
+    "median": 73.2207701090374,
+    "min": 63.702124191913754,
+    "max": 83.11753937706817
+  },
+  "tokens": {
+    "total_prompt_tokens": 823383,
+    "total_completion_tokens": 4995,
+    "total_tokens": 828378,
+    "mean_tokens_per_call": 82837.8
+  },
+  "process_peak_rss_mb": 79.19921875,
+  "start_time_iso": "2026-08-06T18:08:19.037842+00:00",
+  "end_time_iso": "2026-08-06T18:20:25.216596+00:00",
+  "csv_file": "benchmark_llama-3.2-3b-instruct_control_prompt_n10_20260806_110803.csv"
+}
