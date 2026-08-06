@@ -24,7 +24,7 @@ from datetime import datetime, timezone
 from openai import OpenAI
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import ROOT_DIR
+from config import ROOT_DIR, LOCAL_MODELS
 
 from call_qwen import LOCAL_SERVER_CONFIG, BASE_URL, start_server, stop_server
 from prompts import list_sample_ids, get_sample_prompt, USER_STATEMENTS
@@ -169,11 +169,17 @@ def run_benchmark(model_name, prompt_type, n_samples):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Latency/token/memory benchmark for one local llama.cpp model x one prompt type."
+        description="Latency/token/memory benchmark for one or more local llama.cpp models x one prompt type."
     )
-    parser.add_argument("--model", default="qwen2.5-7b-instruct", choices=sorted(LOCAL_SERVER_CONFIG.keys()))
+    parser.add_argument(
+        "--model", nargs="+", default=None, choices=sorted(LOCAL_SERVER_CONFIG.keys()),
+        help="one or more model names to benchmark (default: every model in config.LOCAL_MODELS)",
+    )
     parser.add_argument("--prompt-type", default="control_prompt", choices=sorted(USER_STATEMENTS.keys()))
     parser.add_argument("--n-samples", type=int, default=100)
     args = parser.parse_args()
 
-    run_benchmark(args.model, args.prompt_type, args.n_samples)
+    models = args.model if args.model else LOCAL_MODELS
+    for model_name in models:
+        print(f"\n=== Benchmarking {model_name} | {args.prompt_type} | n={args.n_samples} ===")
+        run_benchmark(model_name, args.prompt_type, args.n_samples)
