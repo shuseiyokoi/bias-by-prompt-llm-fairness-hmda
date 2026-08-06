@@ -1,0 +1,2 @@
+iteration,sample_id,latency_s,prompt_tokens,completion_tokens,total_tokens,parsed_ok,error,timestamp
+0,sample_0000,799.6489471249515,111476,291,111767,True,,2026-08-06T16:39:00.922258+00:00
