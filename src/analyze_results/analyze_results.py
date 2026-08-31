@@ -10,7 +10,15 @@ import matplotlib.ticker as mtick
 from scipy.stats import chi2_contingency, fisher_exact
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import PATH_TO_MODEL_RESULTS, PATH_TO_RESULTS, PROMPT_TYPES
+from config import (
+    PATH_TO_MODEL_RESULTS,
+    PATH_TO_RESULTS,
+    PROMPT_TYPES,
+    IDENTITY_PROMPT_TYPES,
+    all_known_identities,
+    prompt_identity_pairs,
+    prompt_identity_label,
+)
 
 CONCLUSION_ORDER = [
     "YES",
@@ -41,12 +49,20 @@ def safe_name(model_name):
     return model_name.replace("/", "-").replace(":", "-").replace(".", "-")
 
 
+def identity_axis_label(identity_key):
+    return identity_key.replace("_age", " age ").replace("_", " ")
+
+
 def discover_models():
-    """Find model names from results_{prompt_type}_{model}.jsonl files on disk."""
+    """Find model names from results_{prompt_type}[_{identity_key}]_{model}.jsonl
+    files on disk."""
     models = set()
+    prefixes = [
+        f"results_{prompt_identity_label(prompt_type, identity)}_"
+        for prompt_type, identity in prompt_identity_pairs()
+    ]
     for path in Path(PATH_TO_MODEL_RESULTS).glob("results_*.jsonl"):
-        for prompt_type in PROMPT_TYPES:
-            prefix = f"results_{prompt_type}_"
+        for prefix in prefixes:
             if path.name.startswith(prefix):
                 models.add(path.name[len(prefix) : -len(".jsonl")])
                 break
@@ -100,14 +116,21 @@ def load_results(model_names):
 
     Rows whose response is an API error, non-JSON text, or missing a
     conclusion are skipped and counted instead of crashing the load.
+
+    For identity-framed prompt types (config.IDENTITY_PROMPT_TYPES), rows
+    from every identity in config.IDENTITIES are pooled under one "prompt"
+    label so the existing per-prompt plots keep aggregating across all
+    identities; the "identity" column retains which identity each row came
+    from for finer-grained analysis (see identity_breakdown()).
     """
     prompt_labels = [prompt_to_label(p) for p in PROMPT_TYPES]
     rows = []
     skipped = 0
 
     for model_name in model_names:
-        for prompt_type in PROMPT_TYPES:
-            path = Path(PATH_TO_MODEL_RESULTS) / f"results_{prompt_type}_{model_name}.jsonl"
+        for prompt_type, identity in prompt_identity_pairs():
+            label = prompt_identity_label(prompt_type, identity)
+            path = Path(PATH_TO_MODEL_RESULTS) / f"results_{label}_{model_name}.jsonl"
             if not path.exists():
                 continue
 
@@ -129,7 +152,9 @@ def load_results(model_names):
                     rows.append(
                         {
                             "model": model_name,
+                            "prompt_type": prompt_type,
                             "prompt": prompt_to_label(prompt_type),
+                            "identity": identity["key"] if identity else None,
                             "conclusion": normalize_conclusion(response["conclusion"]),
                             "conclusion_raw": str(response["conclusion"]).strip().upper(),
                             "confidence": response.get("confidence"),
@@ -176,15 +201,21 @@ def report_coverage(df):
     return coverage
 
 
-def conclusion_counts(df_model):
+def conclusion_counts(df_model, group_col="prompt"):
     table = (
-        df_model.groupby(["prompt", "conclusion"], observed=False)
+        df_model.groupby([group_col, "conclusion"], observed=False)
         .size()
         .unstack(fill_value=0)
     )
     ordered = [c for c in CONCLUSION_ORDER if c in table.columns]
     ordered += [c for c in table.columns if c not in CONCLUSION_ORDER]
     return table[ordered]
+
+
+def identity_order(table_index):
+    """Known-identity order restricted to the identity keys actually present."""
+    present = set(table_index)
+    return [identity["key"] for identity in all_known_identities() if identity["key"] in present]
 
 
 def colors_for(columns):
@@ -293,6 +324,137 @@ def plot_confidence_by_prompt(df, model_names):
         plt.close(fig)
 
 
+def plot_conclusion_counts_by_identity(df, model_names):
+    """One chart per (model, identity-framed prompt type), x-axis = identity.
+    Companion to plot_conclusion_counts, which pools all identities into a
+    single bar per prompt type."""
+    for model_name in model_names:
+        for prompt_type in IDENTITY_PROMPT_TYPES:
+            df_sub = df[(df["model"] == model_name) & (df["prompt_type"] == prompt_type)]
+            if df_sub.empty:
+                continue
+
+            table = conclusion_counts(df_sub, group_col="identity")
+            table = table.reindex(identity_order(table.index))
+            table.index = [identity_axis_label(k) for k in table.index]
+
+            ax = table.plot(
+                kind="bar",
+                figsize=(max(14, 0.3 * len(table)), 6),
+                color=colors_for(table.columns),
+            )
+
+            ax.set_title(
+                f"Conclusion Counts by Identity — {prompt_to_label(prompt_type)}: "
+                f"{model_name} (n={len(df_sub)})"
+            )
+            ax.set_ylabel("Count")
+            ax.set_xlabel("Identity")
+            plt.xticks(rotation=90, ha="center", fontsize=6)
+            ax.legend(title="Conclusion")
+            plt.tight_layout()
+
+            plt.savefig(
+                f"{PATH_TO_RESULTS}conclusion-count-by-identity-{prompt_type}-{safe_name(model_name)}.png",
+                dpi=300,
+                bbox_inches="tight",
+            )
+            plt.close()
+
+
+def plot_conclusion_percentages_by_identity(df, model_names):
+    """One chart per (model, identity-framed prompt type), x-axis = identity.
+    Companion to plot_conclusion_percentages, which pools all identities into
+    a single bar per prompt type."""
+    for model_name in model_names:
+        for prompt_type in IDENTITY_PROMPT_TYPES:
+            df_sub = df[(df["model"] == model_name) & (df["prompt_type"] == prompt_type)]
+            if df_sub.empty:
+                continue
+
+            table = conclusion_counts(df_sub, group_col="identity")
+            table = table.reindex(identity_order(table.index))
+            percent_table = table.div(table.sum(axis=1), axis=0) * 100
+            percent_table.index = [
+                f"{identity_axis_label(k)} (n={n})" for k, n in zip(table.index, table.sum(axis=1))
+            ]
+
+            ax = percent_table.plot(
+                kind="bar",
+                stacked=True,
+                figsize=(max(14, 0.3 * len(percent_table)), 6),
+                color=colors_for(percent_table.columns),
+            )
+
+            for container in ax.containers:
+                labels = [
+                    f"{bar.get_height():.0f}%" if bar.get_height() >= 8 else ""
+                    for bar in container
+                ]
+                ax.bar_label(container, labels=labels, label_type="center", fontsize=5)
+
+            ax.set_title(
+                f"Conclusion Percentages by Identity — {prompt_to_label(prompt_type)}: "
+                f"{model_name} (n={len(df_sub)})"
+            )
+            ax.set_ylabel("Percentage")
+            ax.set_xlabel("Identity")
+            ax.set_ylim(0, 100)
+            ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+            plt.xticks(rotation=90, ha="center", fontsize=6)
+            ax.legend(title="Conclusion", bbox_to_anchor=(1, 1), loc="upper left")
+            plt.tight_layout()
+
+            plt.savefig(
+                f"{PATH_TO_RESULTS}percentages-by-identity-{prompt_type}-{safe_name(model_name)}.png",
+                dpi=300,
+                bbox_inches="tight",
+            )
+            plt.close()
+
+
+def plot_confidence_by_identity(df, model_names):
+    """One chart per (model, identity-framed prompt type), x-axis = identity.
+    Companion to plot_confidence_by_prompt, which pools all identities into a
+    single box per prompt type."""
+    for model_name in model_names:
+        for prompt_type in IDENTITY_PROMPT_TYPES:
+            df_sub = (
+                df[(df["model"] == model_name) & (df["prompt_type"] == prompt_type)]
+                .dropna(subset=["confidence"])
+                .copy()
+            )
+            if df_sub.empty:
+                continue
+
+            order = identity_order(df_sub["identity"].unique())
+            df_sub["identity_label"] = pd.Categorical(
+                df_sub["identity"].map(identity_axis_label),
+                categories=[identity_axis_label(k) for k in order],
+                ordered=True,
+            )
+
+            fig, ax = plt.subplots(figsize=(max(14, 0.3 * len(order)), 6))
+            df_sub.boxplot(column="confidence", by="identity_label", ax=ax)
+
+            ax.set_title(
+                f"Confidence by Identity — {prompt_to_label(prompt_type)}: "
+                f"{model_name} (n={len(df_sub)})"
+            )
+            ax.set_ylabel("Confidence")
+            ax.set_xlabel("Identity")
+            ax.tick_params(axis="x", rotation=90, labelsize=6)
+            fig.suptitle("")
+            fig.tight_layout()
+
+            fig.savefig(
+                f"{PATH_TO_RESULTS}confidence-by-identity-{prompt_type}-{safe_name(model_name)}.png",
+                dpi=300,
+                bbox_inches="tight",
+            )
+            plt.close(fig)
+
+
 def plot_confidence_by_model_and_conclusion(df):
     df_conf = df.dropna(subset=["confidence"]).copy()
 
@@ -395,6 +557,40 @@ def run_stats_vs_control(df, model_names):
     return stats_df
 
 
+IDENTITY_BY_KEY = {identity["key"]: identity for identity in all_known_identities()}
+
+
+def identity_breakdown(df):
+    """Per (model, prompt_type, identity) yes-rate and mean confidence, for
+    the identity-framed prompt types only. The plots above pool all
+    identities into one aggregate bar per prompt type; this is the
+    supplementary per-identity detail that pooling hides (e.g. whether YES
+    rate differs by race/ethnicity/sex within identity_prompt)."""
+    id_df = df[df["prompt_type"].isin(IDENTITY_PROMPT_TYPES)]
+    if id_df.empty:
+        return pd.DataFrame()
+
+    rows = []
+    for (model, prompt_type, identity_key), g in id_df.groupby(
+        ["model", "prompt_type", "identity"], observed=True
+    ):
+        identity = IDENTITY_BY_KEY.get(identity_key, {})
+        rows.append(
+            {
+                "model": model,
+                "prompt_type": prompt_type,
+                "identity": identity_key,
+                "race": identity.get("race"),
+                "ethnicity": identity.get("ethnicity"),
+                "sex": identity.get("sex"),
+                "n": len(g),
+                "yes_rate": (g["conclusion"] == "YES").mean(),
+                "mean_confidence": g["confidence"].mean(),
+            }
+        )
+    return pd.DataFrame(rows).sort_values(["model", "prompt_type", "identity"])
+
+
 def analyze_results():
     """Run the full analysis: load results, save plots and CSVs to PATH_TO_RESULTS.
 
@@ -419,9 +615,18 @@ def analyze_results():
     plot_confidence_by_prompt(df, model_names)
     plot_confidence_by_model_and_conclusion(df)
 
+    plot_conclusion_counts_by_identity(df, model_names)
+    plot_conclusion_percentages_by_identity(df, model_names)
+    plot_confidence_by_identity(df, model_names)
+
     stats_df = run_stats_vs_control(df, model_names)
     print("\nStats vs control (sorted by Fisher p):")
     print(stats_df.to_string(index=False))
+
+    id_breakdown_df = identity_breakdown(df)
+    if not id_breakdown_df.empty:
+        id_breakdown_df.to_csv(f"{PATH_TO_RESULTS}identity_breakdown.csv", index=False)
+        print(f"\nIdentity breakdown ({len(id_breakdown_df)} rows) saved to identity_breakdown.csv")
 
     print(f"\nPlots and CSVs saved to {PATH_TO_RESULTS}")
     return df, stats_df

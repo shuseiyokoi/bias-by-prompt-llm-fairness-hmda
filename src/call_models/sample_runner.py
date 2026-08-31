@@ -63,21 +63,27 @@ def run_sample_set(
     output_file,
     sample_ids=None,
     sleep_s=1.0,
+    identity=None,
 ):
+    """`identity` (an entry from config.IDENTITIES) is required when
+    prompt_name is one of config.IDENTITY_PROMPT_TYPES; get_sample_prompt
+    raises otherwise."""
     if sample_ids is None:
         sample_ids = list_sample_ids()
+
+    label = f"{prompt_name} | {identity['key']}" if identity else prompt_name
 
     done = completed_sample_ids(output_file)
     pending = [s for s in sample_ids if s not in done]
     if done:
-        print(f"{model_name} | {prompt_name}: resuming, {len(done)} samples already recorded")
+        print(f"{model_name} | {label}: resuming, {len(done)} samples already recorded")
     if not pending:
-        print(f"{model_name} | {prompt_name}: all {len(sample_ids)} samples complete")
+        print(f"{model_name} | {label}: all {len(sample_ids)} samples complete")
         return
 
     for sample_id in pending:
         try:
-            raw_text = send_fn(get_sample_prompt(prompt_name, sample_id))
+            raw_text = send_fn(get_sample_prompt(prompt_name, sample_id, identity))
             parsed_response = parse_json_response(raw_text.strip())
         except Exception as e:
             parsed_response = {"error": str(e)}
@@ -86,13 +92,14 @@ def run_sample_set(
             "sample_id": sample_id,
             "model": model_name,
             "prompt_type": prompt_name,
+            "identity": identity["key"] if identity else None,
             "response": parsed_response,
         }
 
         with open(output_file, "a", encoding="utf-8") as f:
             f.write(json.dumps(result, ensure_ascii=False) + "\n")
 
-        print(f"{model_name} | {prompt_name} | {sample_id}: {parsed_response}")
+        print(f"{model_name} | {label} | {sample_id}: {parsed_response}")
 
         if sleep_s:
             time.sleep(sleep_s)

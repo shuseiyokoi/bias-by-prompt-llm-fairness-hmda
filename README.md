@@ -38,10 +38,8 @@ This project uses publicly available HMDA loan application data.
 
 **Local open-weight models** (served with llama.cpp, OpenAI-compatible API)
 - Qwen2.5-7B-Instruct
-- Qwen3-8B
 - Llama-3.1-8B-Instruct
 - Llama-3.2-3B-Instruct
-- Gemma-2-9B-it
 - Gemma-3-12B-it
 
 Which models and prompt types run is controlled in [`src/config.py`](src/config.py) (`GPT_MODELS`, `CLAUDE_MODELS`, `GEMINI_MODELS`, `QWEN_MODELS`, `LLAMA_MODELS`, `GEMMA_MODELS`, `PROMPT_TYPES`, `NUM_ITERATIONS`).
@@ -117,6 +115,14 @@ female-Latino identity prompts against `bias_latino_female`. `SAMPLE_SIZE=2000`
 was calibrated (`results/ground_truth/calibration_label_rates.csv`) so that
 `bias_any` is true for ~46% of samples — near-maximal label variance — while the
 per-sample summary (~4k tokens) still fits the 8k context of the local models.
+
+A `SAMPLE_SIZE=300` variant was simulated (3 samples, same seeds as production)
+to check whether shrinking rows-per-sample would cut cost: it's ~6.6x cheaper
+per call (~12,465 vs ~82,401 tokens) but produced **zero label variance**
+(`bias_any` 0/3, one sample's regression didn't even converge), which breaks
+the pairwise-flip / accuracy analysis this design depends on — see
+`doc/Identity_Embedding_Run_Report.md` §6. At `N_SAMPLES=3`, raising the
+sample count at `SAMPLE_SIZE=2000` is a better cost lever than shrinking rows.
 
 ### Prompt data mode: summary vs. raw rows
 
@@ -204,7 +210,7 @@ cd src/call_models
 python call_qwen.py
 ```
 
-Each script loops over its models in `config.py` and all `PROMPT_TYPES`, and appends one JSON line per run to `data/call_models/results_{prompt_type}_{model}.jsonl`.
+Each script loops over its models in `config.py` and all `PROMPT_TYPES`, and appends one JSON line per run to `data/call_models/sample_results_{prompt_type}_{model}.jsonl`.
 
 ### 5. Analyze Results
 
@@ -215,7 +221,7 @@ python analyze_results.py
 
 Or interactively with the notebook `src/analyze_results/analyze_results.ipynb`.
 
-Models are auto-discovered from the `results_*.jsonl` files in `data/call_models/`, so this works regardless of which models are active in `config.py`. It prints a coverage table (usable responses per model and prompt — rows that came back as API errors or non-JSON are skipped and counted), then saves to `results/analyze_results/`:
+Models are auto-discovered from the `sample_results_*.jsonl` files in `data/call_models/`, so this works regardless of which models are active in `config.py`. It prints a coverage table (usable responses per model and prompt — rows that came back as API errors or non-JSON are skipped and counted), then saves to `results/analyze_results/`:
 
 - `conclusion-count-by-prompt-{model}.png`
 - `percentages-by-prompt-{model}.png` (with per-bar sample sizes)
