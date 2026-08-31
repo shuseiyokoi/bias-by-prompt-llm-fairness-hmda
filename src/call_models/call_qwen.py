@@ -8,7 +8,14 @@ import urllib.request
 from openai import OpenAI
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from config import PATH_TO_MODEL_RESULTS, LOCAL_QWEN_DIR, LOCAL_MODELS, PROMPT_TYPES
+from config import (
+    PATH_TO_MODEL_RESULTS,
+    LOCAL_QWEN_DIR,
+    LOCAL_MODELS,
+    PROMPT_TYPES,
+    prompt_identity_pairs,
+    prompt_identity_label,
+)
 from prompts import list_sample_ids
 from sample_runner import run_sample_set, completed_sample_ids
 
@@ -124,16 +131,17 @@ def call_qwen(prompt_types=PROMPT_TYPES, sample_ids=None, output_prefix="sample_
     client = OpenAI(base_url=BASE_URL, api_key="local")
 
     for model_name in LOCAL_MODELS:
-        # resume support: skip (model, prompt) pairs whose output file already
-        # covers every sample; run_sample_set fills in partial ones
+        # resume support: skip (model, prompt, identity) pairs whose output
+        # file already covers every sample; run_sample_set fills in partial ones
         pending = []
-        for prompt_type in prompt_types:
-            output_file = f"{PATH_TO_MODEL_RESULTS}{output_prefix}_{prompt_type}_{model_name}.jsonl"
+        for prompt_type, identity in prompt_identity_pairs(prompt_types):
+            label = prompt_identity_label(prompt_type, identity)
+            output_file = f"{PATH_TO_MODEL_RESULTS}{output_prefix}_{label}_{model_name}.jsonl"
             done = completed_sample_ids(output_file)
             if all(s in done for s in sample_ids):
-                print(f"Skipping {model_name} | {prompt_type}: all samples recorded")
+                print(f"Skipping {model_name} | {label}: all samples recorded")
             else:
-                pending.append((prompt_type, output_file))
+                pending.append((prompt_type, identity, label, output_file))
 
         if not pending:
             print(f"Skipping {model_name}: all prompt types complete")
@@ -150,8 +158,8 @@ def call_qwen(prompt_types=PROMPT_TYPES, sample_ids=None, output_prefix="sample_
             return completion.choices[0].message.content
 
         try:
-            for prompt_type, output_file in pending:
-                print(f"\nStarting: {model_name} | {prompt_type}")
+            for prompt_type, identity, label, output_file in pending:
+                print(f"\nStarting: {model_name} | {label}")
                 run_sample_set(
                     send_fn,
                     model_name,
@@ -159,8 +167,9 @@ def call_qwen(prompt_types=PROMPT_TYPES, sample_ids=None, output_prefix="sample_
                     output_file,
                     sample_ids=sample_ids,
                     sleep_s=0,
+                    identity=identity,
                 )
-                print(f"Finished: {model_name} | {prompt_type}")
+                print(f"Finished: {model_name} | {label}")
         finally:
             stop_server(proc)
 
